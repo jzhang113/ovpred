@@ -1,3 +1,13 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $base-font-stack;
+  font-size: 1.8em;
+  color: $base-font-color;
+}
+
 .l-page {
   max-width: $page-max-width;
   margin: 0 auto;
