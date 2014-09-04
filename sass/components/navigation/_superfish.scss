@@ -1,0 +1,283 @@
+
+// You can add these variables to your _base.scss
+$superfish-1-color: #fff;
+$superfish-1-background-color-level-first: transparent;
+$superfish-1-background-color-level-second: #333;
+$superfish-1-background-color-level-third: #444;
+$superfish-1-background-color-level-fourth: #555;
+
+$hover-top: 45px;
+
+// Override see https://www.drupal.org/node/1452072 #5
+.sf-menu li ul { overflow: visible !important; }
+
+
+// Custom overrides
+#block-superfish-1 {
+  .block__title {
+    @include element-invisible;
+  }
+
+  li,
+  a {
+    @include transition(background-color, .3s);
+  }
+}
+
+#block-superfish-1 {
+  font-weight: 400;
+
+  .sf-style-none {
+    float: left;
+    margin: 0;
+    padding: 0;
+    &.sf-navbar {
+      width: 100%;
+      background: $superfish-1-background-color-level-first;
+    }
+    ul {
+      padding-left: 0;
+      &.sf-megamenu li {
+        &.sf-megamenu-wrapper {
+          background: $superfish-1-background-color-level-fourth;
+          li {
+            background: transparent;
+          }
+        }
+      }
+    }
+    a {
+      color: $superfish-1-color;
+      padding: 0.75em 1em;
+      &.sf-with-ul {
+        padding-right: 2.25em;
+      }
+      &:focus {
+        background: $superfish-1-background-color-level-fourth;
+        outline: 0;
+      }
+      &:hover {
+        background: $superfish-1-background-color-level-fourth;
+        outline: 0;
+      }
+      &:active {
+        background: $superfish-1-background-color-level-fourth;
+        outline: 0;
+      }
+    }
+    span {
+      &.nolink {
+        color: $superfish-1-color;
+        padding: 0.75em 1em;
+        &.sf-with-ul {
+          padding-right: 2.25em;
+        }
+        &:hover {
+          background: $superfish-1-background-color-level-fourth;
+          outline: 0;
+        }
+      }
+      &.sf-description {
+        color: $superfish-1-color;
+        display: block;
+        font-size: 0.833em;
+        line-height: 1.5;
+        margin: 5px 0 0 5px;
+        padding: 0;
+      }
+    }
+    &.rtl {
+      span {
+        &.sf-description {
+          margin: 5px 5px 0 0;
+        }
+        &.nolink.sf-with-ul {
+          padding-left: 2.25em;
+          padding-right: 1em;
+        }
+      }
+      a.sf-with-ul {
+        padding-left: 2.25em;
+        padding-right: 1em;
+      }
+    }
+    li {
+      background: $superfish-1-background-color-level-first;
+      li {
+        background: $superfish-1-background-color-level-second;
+        li {
+          background: $superfish-1-background-color-level-third;
+        }
+      }
+      &:hover,
+      &.sfHover {
+        background: $superfish-1-background-color-level-fourth;
+        outline: 0;
+        > ul {
+          top: $hover-top;
+          ul {
+            top: 0;
+          }
+        }
+      }
+    }
+    .sf-sub-indicator {
+      top: .9em;
+      right: 1em;
+
+      &:before {
+        @include icon($fa-var-caret-down);
+        position: relative;
+        top: 1px;
+      }
+    }
+  }
+  div.sf-accordion-toggle {
+    &.sf-style-none a {
+      background: $superfish-1-background-color-level-first;
+      color: $superfish-1-color;
+      padding: 1em;
+      &:before {
+        @include icon($fa-var-bars);
+      }
+      &.sf-expanded {
+        background-color: $superfish-1-background-color-level-fourth;
+        font-weight: bold;
+      }
+    }
+    span {
+      @include element-invisible;
+    }
+  }
+  .sf-menu.sf-style-none {
+    &.rtl {
+      &.sf-accordion li {
+        li {
+          a {
+            padding-left: auto;
+            padding-right: 2em;
+          }
+          li {
+            a {
+              padding-left: auto;
+              padding-right: 3em;
+            }
+            li {
+              a {
+                padding-left: auto;
+                padding-right: 4em;
+              }
+              li {
+                a {
+                  padding-left: auto;
+                  padding-right: 5em;
+                }
+                span.nolink {
+                  padding-left: auto;
+                  padding-right: 5em;
+                }
+              }
+              span.nolink {
+                padding-left: auto;
+                padding-right: 4em;
+              }
+            }
+            span.nolink {
+              padding-left: auto;
+              padding-right: 3em;
+            }
+          }
+          span.nolink {
+            padding-left: auto;
+            padding-right: 2em;
+          }
+        }
+      }
+      ul.sf-megamenu {
+        li.sf-megamenu-wrapper {
+          ol li {
+            &.sf-megamenu-column {
+              float: right;
+            }
+          }
+        }
+      }
+    }
+    &.sf-accordion li {
+      &.sf-expanded {
+        background-color: $superfish-1-background-color-level-fourth;
+        > {
+          a {
+            font-weight: bold;
+          }
+          span.nolink {
+            font-weight: bold;
+          }
+        }
+      }
+      li {
+        a {
+          padding-left: 2em;
+        }
+        li {
+          a {
+            padding-left: 3em;
+          }
+          li {
+            a {
+              padding-left: 4em;
+            }
+            li {
+              a {
+                padding-left: 5em;
+              }
+              span.nolink {
+                padding-left: 5em;
+              }
+            }
+            span.nolink {
+              padding-left: 4em;
+            }
+          }
+          span.nolink {
+            padding-left: 3em;
+          }
+        }
+        span.nolink {
+          padding-left: 2em;
+        }
+      }
+      a.sf-accordion-button {
+        font-weight: bold;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 499;
+      }
+    }
+    ul.sf-megamenu {
+      li.sf-megamenu-wrapper {
+        ol {
+          margin: 0;
+          padding: 0;
+          li {
+            margin: 0;
+            padding: 0;
+            &.sf-megamenu-column {
+              display: inline;
+              float: left;
+            }
+          }
+        }
+        a.menuparent {
+          font-weight: bold;
+        }
+        span.nolink {
+          &.menuparent {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

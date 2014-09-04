@@ -1,0 +1,51 @@
+$bp-is-expanded: 768px;
+
+#block-superfish-1 {
+  @include font-size(1.5);
+  font-weight: $fw-bold;
+
+  .sf-style-none {
+    float: none;
+    @include inline-block;
+  }
+
+  // Full width subs
+  ul ul {
+    width: 100%;
+  }
+
+  // Accordian Styles
+  #superfish-1-toggle {
+    @include inline-block;
+    text-align: center;
+  }
+
+  .sf-expanded > .sf-accordion-button:before {
+    @include icon($fa-var-minus-square);
+  }
+  .sf-accordion-button {
+    line-height: 999px;
+    overflow: hidden;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    padding: 0 !important;
+
+
+    &:before {
+      line-height: normal;
+      display: block;
+      @include icon($fa-var-plus-square);
+      @include font-size(1.7);
+      width: 100%;
+      height: 100%;
+      @include flexbox;
+      @include align-items(center);
+      @include justify-content(center);
+    }
+  }
+
+  .sf-with-ul {
+    padding-left: 40px;
+  }
+}

@@ -8,7 +8,45 @@ body {
   color: $base-font-color;
 }
 
+.site-name {
+  @include font-size(2.2);
+}
+
 .l-page {
+  margin: 0 auto;
+}
+.l-header {
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 1em 0;
+  @include font-smoothing;
+  @include box-shadow(0px -60px 80px -30px rgba(0,0,0,.3) inset);
+
+  a {
+    color: #fff;
+  }
+}
+.l-region--navigation {
+  @include pie-clearfix;
+}
+.l-breadcrumb {
+  background-color: #199F86;
+  padding: 1em 0;
+  color: #fff;
+  @include text-shadow(1px 1px 0px rgba(0,0,0,.1));
+
+  a {
+    color: #fff;
+  }
+}
+
+.l-main {
+  padding: 1em 0;
+}
+
+.l-container {
   max-width: $page-max-width;
   margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
 }

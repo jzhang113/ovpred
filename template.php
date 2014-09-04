@@ -12,6 +12,7 @@
 function ovpred_breadcrumb(&$variables) {
   $output = '';
   if (!empty($variables['breadcrumb'])) {
+    $variables['breadcrumb'][] = drupal_get_title();
     $output = '<div id="breadcrumb" class="breadcrumb-container clearfix"><h2 class="element-invisible">You are here</h2><ul class="breadcrumb">';
     $switch = array('odd' => 'even', 'even' => 'odd');
     $zebra = 'even';
