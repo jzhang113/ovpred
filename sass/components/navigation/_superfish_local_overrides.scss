@@ -2,16 +2,15 @@ $bp-is-expanded: 768px;
 
 #block-superfish-1 {
   @include font-size(1.5);
-  font-weight: $fw-bold;
+  font-weight: $fw-semi-bold;
 
   .sf-style-none {
     float: none;
     @include inline-block;
   }
 
-  // Full width subs
-  ul ul {
-    width: 100%;
+  .sf-depth-1 > a {
+    text-transform: uppercase;
   }
 
   // Accordian Styles
