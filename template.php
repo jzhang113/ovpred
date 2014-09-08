@@ -35,3 +35,16 @@ function ovpred_breadcrumb(&$variables) {
     return $output;
   }
 }
+
+/**
+ * Implements theme_preprocess_node().
+ */
+function ovpred_preprocess_node(&$variables) {
+  // Set a $feature variable to use in templates.
+  if($variables['view_mode'] == 'feature') {
+    $variables['feature'] = TRUE;
+  }
+  else {
+    $variables['feature'] = FALSE;
+  }
+}
