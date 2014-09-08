@@ -25,7 +25,6 @@ body {
 
 .l-main {
   padding: 1em 0;
-  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -33,4 +32,5 @@ body {
   margin: 0 auto;
   padding-left: 1em;
   padding-right: 1em;
+  max-width: $page-max-width;
 }
