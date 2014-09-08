@@ -72,6 +72,7 @@
 ?>
 <div class="l-page">
   <header class="l-header" role="banner">
+    <div class="dark-grid-overlay"></div>
     <div class="nav-bar">
       <div class="l-branding">
         <?php if ($logo): ?>
@@ -93,9 +94,10 @@
         <?php print render($page['branding']); ?>
       </div>
 
-      <?php print render($page['header']); ?>
       <?php print render($page['navigation']); ?>
     </div>
+
+    <?php print render($page['header']); ?>
   </header>
 
   <?php if ($breadcrumb): ?>

@@ -16,6 +16,14 @@ img, video {
   src: url("../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.0.0") format("embedded-opentype"), url("../fonts/fontawesome/fontawesome-webfont.woff?v=4.0.0") format("woff"), url("../fonts/fontawesome/fontawesome-webfont.ttf?v=4.0.0") format("truetype"), url("../fonts/fontawesome/fontawesome-webfont.svg?v=4.0.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_flexslider\.scss}line{font-family:\000031}}
+.flexslider {
+  border: none;
+  -moz-box-shadow: initial;
+  -webkit-box-shadow: initial;
+  box-shadow: initial;
+  background: transparent; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
   max-width: 100%;
@@ -72,6 +80,59 @@ a {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/_admin\.scss}line{font-family:\000031}}
 .tabs--primary {
   margin: 1em 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\000032}}
+.front .view-display-id-featured_primary_block {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em 0 2em; }
+  @media (min-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\000037}}
+    .front .view-display-id-featured_primary_block .field--name-field-feature-image {
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000311}}
+      .front .view-display-id-featured_primary_block .field--name-field-feature-image img {
+        position: relative;
+        z-index: 1;
+        border: 12px solid rgba(255, 255, 255, 0.2); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000317}}
+      .front .view-display-id-featured_primary_block .field--name-field-feature-image:before {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 100px;
+        right: 100px;
+        display: block;
+        height: 100px;
+        background: #000;
+        z-index: 0;
+        -moz-box-shadow: 0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000;
+        -webkit-box-shadow: 0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000;
+        box-shadow: 0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000;
+        -moz-transform: perspective(300px) rotateX(45deg);
+        -webkit-transform: perspective(300px) rotateX(45deg);
+        transform: perspective(300px) rotateX(45deg);
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+        opacity: 0.7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000332}}
+      .front .view-display-id-featured_primary_block .field--name-field-feature-image:after {
+        content: "";
+        position: absolute;
+        bottom: -8px;
+        left: 120px;
+        right: 120px;
+        display: block;
+        height: 100px;
+        background: #000;
+        z-index: -0;
+        -moz-box-shadow: 0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000;
+        -webkit-box-shadow: 0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000;
+        box-shadow: 0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000;
+        -moz-transform: perspective(300px) rotateX(45deg);
+        -webkit-transform: perspective(300px) rotateX(45deg);
+        transform: perspective(300px) rotateX(45deg);
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+        opacity: 0.7; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_breadcrumb\.scss}line{font-family:\000031}}
 .breadcrumb {
@@ -431,17 +492,19 @@ a {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
-  min-height: 300px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\0000313}}
+  min-height: 300px;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\0000314}}
   .l-header a {
     color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\0000319}}
   .l-header .nav-bar {
     background: url('../images/rgbapng/000000cc-5.png?1410183799');
     background: rgba(0, 0, 0, 0.8);
-    padding: 1em; }
+    padding: 1em;
+    position: relative; }
     @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\0000324}}
       .flexbox .l-header .nav-bar {
         display: -webkit-box;
         display: -webkit-flex;
@@ -459,7 +522,7 @@ a {
         -moz-align-items: center;
         align-items: center; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\0000334}}
 .site-name {
   font-size: 22px;
   font-size: 2.2rem;
@@ -504,6 +567,19 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/styles\/_notifications\.scss}line{font-family:\000036}}
 .alert-info {
   background: #d9edf7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/styles\/_overlays\.scss}line{font-family:\000031}}
+.dark-grid-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/patterns/dark-grid.png");
+  background-repeat: repeat;
+  overflow: auto;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/styles\/_pane_styles\.scss}line{font-family:\000031}}
 .style-2 {

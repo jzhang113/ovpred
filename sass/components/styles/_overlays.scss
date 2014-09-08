@@ -1,0 +1,12 @@
+.dark-grid-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/patterns/dark-grid.png');
+  background-repeat: repeat;
+  //background-color: rgba($color-1,0.6);
+  overflow: auto;
+  @include opacity(.6);
+}

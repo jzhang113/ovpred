@@ -9,6 +9,7 @@ $bp-superfish-collapsed: 768px;
   @include background-size(cover);
   background-position: center;
   min-height: 300px;
+  position: relative;
 
   a {
     color: #fff;
@@ -18,6 +19,7 @@ $bp-superfish-collapsed: 768px;
   .nav-bar {
     @include rgba-background(rgba(0,0,0,0.8));
     padding: 1em;
+    position: relative;
 
     .flexbox & {
       @include breakpoint($bp-superfish-collapsed) {

@@ -1,0 +1,49 @@
+.view-display-id-featured_primary_block {
+  .front & {
+    max-width: $page-max-width;
+    margin: 0 auto;
+    padding: 1em 0 2em;
+
+    .field--name-field-feature-image {
+      @include breakpoint($bp-desktop)  {
+        position: relative;
+
+        img {
+          position: relative;
+          z-index: 1;
+          border: 12px solid rgba(255,255,255,.2);
+        }
+
+        &:before {
+          content: "";
+          position: absolute;
+          bottom: -20px;
+          left: 100px;
+          right: 100px;
+          display: block;
+          height: 100px;
+          background: #000;
+          z-index: 0;
+          @include box-shadow(0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000);
+          @include rotateX(45deg, $perspective: 300px);
+          @include opacity(.7);
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: -8px;
+          left: 120px;
+          right: 120px;
+          display: block;
+          height: 100px;
+          background: #000;
+          z-index: -0;
+          @include box-shadow(0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000);
+          @include rotateX(45deg, $perspective: 300px);
+          @include opacity(.7);
+        }
+      }
+    }
+  }
+}
