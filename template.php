@@ -40,13 +40,6 @@ function ovpred_breadcrumb(&$variables) {
  * Implements theme_preprocess_node().
  */
 function ovpred_preprocess_node(&$variables) {
-  // Set a $feature variable to use in templates.
-  if($variables['view_mode'] == 'feature') {
-    $variables['feature'] = TRUE;
-  }
-  else {
-    $variables['feature'] = FALSE;
-  }
   if($variables['type'] == 'featured_content') {
     $variables['feature_link'] = $variables['field_feature_link'][LANGUAGE_NONE][0]['url'];
   }
