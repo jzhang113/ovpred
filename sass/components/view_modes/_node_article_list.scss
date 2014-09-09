@@ -1,0 +1,15 @@
+.node--article--list {
+  h2 {
+    margin: 0;
+
+    a {
+      font-family: $base-font-stack;
+      font-weight: 400;
+      @include font-size(1.8);
+      border-bottom: 1px solid #eee;
+      padding-bottom: .5em;
+      margin-bottom: .5em;
+      display: block;
+    }
+  }
+}

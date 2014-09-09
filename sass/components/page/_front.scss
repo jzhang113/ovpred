@@ -1,0 +1,29 @@
+.front {
+
+  .view-display-id-article_pane_feature {
+    .view-content {
+      .flexbox & {
+        @include breakpoint($bp-tablet) {
+          @include flexbox;
+
+          .views-row {
+            margin-right: 1em;
+          }
+          .views-row-last {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    .views-row {
+      background: #eee;
+      padding: 1em;
+    }
+
+    .file-image {
+      float: right;
+      margin: 0 0 1em 1em;
+    }
+  }
+}
