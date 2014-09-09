@@ -8,6 +8,7 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
+stylesheets[all][] = css/libraries/fontawesome/font-awesome.css
 stylesheets[all][] = css/ovpred.normalize.css
 stylesheets[all][] = css/ovpred.hacks.css
 stylesheets[all][] = css/ovpred.styles.css
@@ -16,7 +17,7 @@ stylesheets[all][] = css/ovpred.no-query.css
 ; ========================================
 ; Scripts
 ; ========================================
-scripts[] = js/ovpred.behaviors.js
+; scripts[] = js/ovpred.behaviors.js
 
 ; ========================================
 ; Regions

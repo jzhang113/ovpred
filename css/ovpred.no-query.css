@@ -1,21 +1,15 @@
 @charset "UTF-8";
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ace\/\.rvm\/gems\/ruby-1\.9\.3-p484\@omega\.ovpred\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.ovpred\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\000031}}
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ace\/\.rvm\/gems\/ruby-1\.9\.3-p484\@omega\.ovpred\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.ovpred\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\0000311}}
 img, video {
   max-width: 100%;
   height: auto; }
 
-@font-face {
-  font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome/fontawesome-webfont.eot?v=4.0.0");
-  src: url("../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.0.0") format("embedded-opentype"), url("../fonts/fontawesome/fontawesome-webfont.woff?v=4.0.0") format("woff"), url("../fonts/fontawesome/fontawesome-webfont.ttf?v=4.0.0") format("truetype"), url("../fonts/fontawesome/fontawesome-webfont.svg?v=4.0.0#fontawesomeregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_flexslider\.scss}line{font-family:\000031}}
 .flexslider {
   border: none;
@@ -230,12 +224,12 @@ a {
       right: 1em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003128}}
       #block-superfish-1 .sf-style-none .sf-sub-indicator:before {
-        font-family: FontAwesome;
-        font-weight: normal;
-        font-style: normal;
-        text-decoration: inherit;
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
         -webkit-font-smoothing: antialiased;
-        *margin-right: .3em;
+        -moz-osx-font-smoothing: grayscale;
         content: "";
         position: relative;
         top: 1px; }
@@ -246,12 +240,12 @@ a {
     padding: 1em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003140}}
     #block-superfish-1 div.sf-accordion-toggle.sf-style-none a:before {
-      font-family: FontAwesome;
-      font-weight: normal;
-      font-style: normal;
-      text-decoration: inherit;
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
       -webkit-font-smoothing: antialiased;
-      *margin-right: .3em;
+      -moz-osx-font-smoothing: grayscale;
       content: ""; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003143}}
     #block-superfish-1 div.sf-accordion-toggle.sf-style-none a.sf-expanded {
@@ -387,12 +381,12 @@ a {
     text-align: center; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish_local_overrides\.scss}line{font-family:\0000322}}
   #block-superfish-1 .sf-expanded > .sf-accordion-button:before {
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: inherit;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    *margin-right: .3em;
+    -moz-osx-font-smoothing: grayscale;
     content: ""; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish_local_overrides\.scss}line{font-family:\0000325}}
   #block-superfish-1 .sf-accordion-button {
@@ -406,12 +400,12 @@ a {
     #block-superfish-1 .sf-accordion-button:before {
       line-height: normal;
       display: block;
-      font-family: FontAwesome;
-      font-weight: normal;
-      font-style: normal;
-      text-decoration: inherit;
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
       -webkit-font-smoothing: antialiased;
-      *margin-right: .3em;
+      -moz-osx-font-smoothing: grayscale;
       content: "";
       font-size: 17px;
       font-size: 1.7rem;
@@ -499,7 +493,7 @@ body {
     color: #fff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\0000319}}
   .l-header .nav-bar {
-    background: url('../images/rgbapng/000000cc-5.png?1409884015');
+    background: url('../images/rgbapng/000000cc-5.png?1410183799');
     background: rgba(0, 0, 0, 0.8);
     padding: 1em;
     position: relative; }
