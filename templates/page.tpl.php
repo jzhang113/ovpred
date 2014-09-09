@@ -108,7 +108,7 @@
 
 
   <div class="l-main">
-    <div class="l-content" role="main"><div class="l-container">
+    <div class="l-content" role="main">
       <?php print render($page['highlighted']); ?>
 
       <a id="main-content"></a>
@@ -129,7 +129,7 @@
 
     <?php print render($page['sidebar_first']); ?>
     <?php print render($page['sidebar_second']); ?>
-  </div></div>
+  </div>
 
   <footer class="l-footer" role="contentinfo">
     <?php print render($page['footer']); ?>

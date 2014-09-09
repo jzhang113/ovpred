@@ -16,7 +16,8 @@ img, video {
   -moz-box-shadow: initial;
   -webkit-box-shadow: initial;
   box-shadow: initial;
-  background: transparent; }
+  background: transparent;
+  margin: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
@@ -25,8 +26,6 @@ img, media {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_panel_panes\.scss}line{font-family:\000031}}
 .panel-pane .l-container {
-  max-width: 1200px;
-  margin: 0 auto;
   padding: 1em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_typography\.scss}line{font-family:\000031}}
@@ -86,6 +85,37 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1em 0 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\000037}}
+  .front .view-display-id-featured_primary_block .flex-control-nav {
+    bottom: 14px;
+    z-index: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000356}}
+  .front .view-display-id-featured_primary_block a:hover .feature-hover,
+  .front .view-display-id-featured_primary_block a:focus .feature-hover,
+  .front .view-display-id-featured_primary_block a:active .feature-hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    z-index: 9;
+    background: url('../images/rgbapng/199f86d9-5.png?1410281619');
+    background: rgba(25, 159, 134, 0.85); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000361}}
+    .front .view-display-id-featured_primary_block a:hover .feature-hover h2,
+    .front .view-display-id-featured_primary_block a:focus .feature-hover h2,
+    .front .view-display-id-featured_primary_block a:active .feature-hover h2 {
+      bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000365}}
+    .front .view-display-id-featured_primary_block a:hover .feature-hover .field--name-field-feature-caption,
+    .front .view-display-id-featured_primary_block a:focus .feature-hover .field--name-field-feature-caption,
+    .front .view-display-id-featured_primary_block a:active .feature-hover .field--name-field-feature-caption {
+      top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000369}}
+    .front .view-display-id-featured_primary_block a:hover .feature-hover .bg-icon,
+    .front .view-display-id-featured_primary_block a:focus .feature-hover .bg-icon,
+    .front .view-display-id-featured_primary_block a:active .feature-hover .bg-icon {
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -webkit-transform: scale(1);
+      transform: scale(1); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_breadcrumb\.scss}line{font-family:\000031}}
 .breadcrumb {
@@ -534,7 +564,8 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_page\.scss}line{font-family:\0000330}}
 .l-container {
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 1200px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/styles\/_notifications\.scss}line{font-family:\000036}}
 .alert-info {

@@ -80,18 +80,22 @@
 ?>
 <article<?php print $attributes; ?>>
   <a href="<?php print $feature_link; ?>">
-    <?php if (!$page): ?>
-      <h2><?php print $title; ?></h2>
-    <?php endif; ?>
-
-    <?php
-      // We hide the comments and links now so that we can render them later.
-      hide($content['comments']);
-      hide($content['links']);
-      print render($content);
-    ?>
+    <div class="feature-hover">
+      <div class="flex-center">
+        <span class="fa-stack fa-lg bg-icon">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-link fa-stack-1x fa-inverse"></i>
+        </span>
+      </div>
+      <div class="flex-end"><h2><?php print $title; ?></h2></div>
+      <?php if (isset($content['field_feature_caption'])): ?>
+        <div class="flex-start">
+          <?php print render($content['field_feature_caption']); ?>
+        </div>
+      <? endif ?>
+    </div>
+    <div class="perspective-shadow"></div>
+    <?php print render($content['field_feature_image']); ?>
 
   </a>
-  <?php print render($content['links']); ?>
-  <?php print render($content['comments']); ?>
 </article>
