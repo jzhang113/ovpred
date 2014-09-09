@@ -92,7 +92,7 @@
         <div class="flex-start">
           <?php print render($content['field_feature_caption']); ?>
         </div>
-      <? endif ?>
+      <?php endif ?>
     </div>
     <div class="perspective-shadow"></div>
     <?php print render($content['field_feature_image']); ?>
