@@ -1,3 +1,7 @@
 .panel-pane .l-container {
   padding: 1em;
 }
+
+.pane-title {
+  @include font-size(2);
+}

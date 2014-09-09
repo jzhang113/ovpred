@@ -28,6 +28,11 @@ img, media {
 .panel-pane .l-container {
   padding: 1em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_panel_panes\.scss}line{font-family:\000035}}
+.pane-title {
+  font-size: 20px;
+  font-size: 2rem; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_typography\.scss}line{font-family:\000031}}
 h1, h2, h3, h4, h5, h6 {
   font-family: "adelle", serif;
@@ -80,6 +85,40 @@ a {
 .tabs--primary {
   margin: 1em 0 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/events\/_pane_localist_pane\.scss}line{font-family:\000032}}
+.pane-localist-pane span {
+  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/events\/_pane_localist_pane\.scss}line{font-family:\000036}}
+.pane-localist-pane .lw ul {
+  margin: 0;
+  padding: 0; }
+  @media (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/events\/_pane_localist_pane\.scss}line{font-family:\0000310}}
+    .flexbox .pane-localist-pane .lw ul {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-justify-content: space-between;
+      justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/events\/_pane_localist_pane\.scss}line{font-family:\0000316}}
+      .flexbox .pane-localist-pane .lw ul li {
+        width: 49%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/events\/_pane_localist_pane\.scss}line{font-family:\0000322}}
+  .pane-localist-pane .lw ul li {
+    list-style: none;
+    background: #eee;
+    padding: 1em;
+    margin-bottom: 1em; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\000032}}
 .front .view-display-id-featured_primary_block {
   max-width: 1200px;
@@ -96,61 +135,27 @@ a {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000316}}
       .front .view-display-id-featured_primary_block .field--name-field-feature-image .field__items {
         position: relative;
-        border: 12px solid rgba(255, 255, 255, 0.2); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000321}}
-      .front .view-display-id-featured_primary_block .field--name-field-feature-image:before {
-        position: absolute;
-        bottom: -20px;
-        left: 100px;
-        right: 100px;
-        display: block;
-        height: 100px;
-        background: #000;
-        z-index: -999;
-        -moz-box-shadow: 0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000;
-        -webkit-box-shadow: 0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000;
-        box-shadow: 0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000;
-        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
-        opacity: 0.9;
-        border: 1px solid red; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000336}}
-      .front .view-display-id-featured_primary_block .field--name-field-feature-image:after {
-        position: absolute;
-        bottom: -8px;
-        left: 120px;
-        right: 120px;
-        display: block;
-        height: 100px;
-        background: #000;
-        z-index: -10;
-        -moz-box-shadow: 0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000;
-        -webkit-box-shadow: 0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000;
-        box-shadow: 0px 0px 15px 20px #000, 0px 0px 15px 10px #000, 0px 0px 10px 5px #000, 0px 0px 5px 3px #000, 0px 0px 2px 2px #000;
-        -moz-transform: perspective(300px) rotateX(45deg);
-        -webkit-transform: perspective(300px) rotateX(45deg);
-        transform: perspective(300px) rotateX(45deg);
-        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
-        opacity: 0.7; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000356}}
+        border: 12px solid rgba(255, 255, 255, 0.2); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000326}}
   .front .view-display-id-featured_primary_block a:hover .feature-hover,
   .front .view-display-id-featured_primary_block a:focus .feature-hover,
   .front .view-display-id-featured_primary_block a:active .feature-hover {
     filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
     z-index: 9;
-    background: url('../images/rgbapng/199f86d9-5.png?1410281619');
-    background: rgba(25, 159, 134, 0.85); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000361}}
+    background: url('../images/rgbapng/c02942d9-5.png?1410294537');
+    background: rgba(192, 41, 66, 0.85); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000331}}
     .front .view-display-id-featured_primary_block a:hover .feature-hover h2,
     .front .view-display-id-featured_primary_block a:focus .feature-hover h2,
     .front .view-display-id-featured_primary_block a:active .feature-hover h2 {
       bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000335}}
     .front .view-display-id-featured_primary_block a:hover .feature-hover .field--name-field-feature-caption,
     .front .view-display-id-featured_primary_block a:focus .feature-hover .field--name-field-feature-caption,
     .front .view-display-id-featured_primary_block a:active .feature-hover .field--name-field-feature-caption {
       top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000339}}
     .front .view-display-id-featured_primary_block a:hover .feature-hover .bg-icon,
     .front .view-display-id-featured_primary_block a:focus .feature-hover .bg-icon,
     .front .view-display-id-featured_primary_block a:active .feature-hover .bg-icon {
@@ -159,7 +164,7 @@ a {
       -webkit-transform: scale(1);
       transform: scale(1); }
   @media (min-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000345}}
     .front .view-display-id-featured_primary_block .feature-hover {
       position: absolute;
       top: 12px;
@@ -172,7 +177,7 @@ a {
       -o-transition: all 0.3s;
       -webkit-transition: all 0.3s;
       transition: all 0.3s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000356}}
       .flexbox .front .view-display-id-featured_primary_block .feature-hover .flex-end,
       .flexbox .front .view-display-id-featured_primary_block .feature-hover .flex-start,
       .flexbox .front .view-display-id-featured_primary_block .feature-hover .flex-center {
@@ -184,7 +189,7 @@ a {
         position: absolute;
         width: 100%;
         height: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000364}}
       .flexbox .front .view-display-id-featured_primary_block .feature-hover .flex-end {
         -webkit-box-align: end;
         -ms-flex-align: end;
@@ -192,7 +197,7 @@ a {
         -moz-align-items: flex-end;
         align-items: flex-end;
         top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000368}}
       .flexbox .front .view-display-id-featured_primary_block .feature-hover .flex-start {
         -webkit-box-align: start;
         -ms-flex-align: start;
@@ -200,7 +205,7 @@ a {
         -moz-align-items: flex-start;
         align-items: flex-start;
         bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000372}}
       .flexbox .front .view-display-id-featured_primary_block .feature-hover .flex-center {
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -214,7 +219,7 @@ a {
         justify-content: center;
         top: 0;
         height: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000380}}
       .front .view-display-id-featured_primary_block .feature-hover .bg-icon {
         font-size: 120px;
         font-size: 12rem;
@@ -226,13 +231,13 @@ a {
         -o-transition: all 0.5s;
         -webkit-transition: all 0.5s;
         transition: all 0.5s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000385}}
         .front .view-display-id-featured_primary_block .feature-hover .bg-icon .fa-stack-2x {
           color: rgba(255, 255, 255, 0.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000388}}
         .front .view-display-id-featured_primary_block .feature-hover .bg-icon .fa-stack-1x {
           color: rgba(255, 255, 255, 0.2); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000393}}
       .front .view-display-id-featured_primary_block .feature-hover h2,
       .front .view-display-id-featured_primary_block .feature-hover .field--name-field-feature-caption {
         display: block;
@@ -244,10 +249,10 @@ a {
         -webkit-transition: all 0.3s;
         transition: all 0.3s;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\00003102}}
       .front .view-display-id-featured_primary_block .feature-hover h2 {
         bottom: -100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\00003105}}
       .front .view-display-id-featured_primary_block .feature-hover .field--name-field-feature-caption {
         top: -100%;
         font-size: 24px;
@@ -597,60 +602,72 @@ a {
   #block-superfish-1 .sf-with-ul {
     padding-left: 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/news\/_article_pane\.scss}line{font-family:\000031}}
-html {
-  font-size: 62.5%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/news\/_article_pane\.scss}line{font-family:\000035}}
-body {
-  font-family: "proxima-nova", sans-serif;
-  font-size: 1.8em;
-  color: #453D36; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/news\/_article_pane\.scss}line{font-family:\0000311}}
-.l-page {
-  margin: 0 auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/news\/_article_pane\.scss}line{font-family:\0000315}}
-.l-breadcrumb {
-  background-color: #199F86;
-  padding: 1em 0;
-  color: #fff;
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/news\/_article_pane\.scss}line{font-family:\0000321}}
-  .l-breadcrumb a {
-    color: #fff; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/news\/_article_pane\.scss}line{font-family:\0000326}}
-.l-main {
-  margin: 0 auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/news\/_article_pane\.scss}line{font-family:\0000330}}
-.l-container {
-  margin: 0 auto; }
-
-@media (min-width: 750px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\000035}}
-  .flexbox .front .view-display-id-article_pane_feature .view-content {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\000033}}
+.front .panel-pane {
+  padding-top: 2em;
+  padding-bottom: 2em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\000039}}
-    .flexbox .front .view-display-id-article_pane_feature .view-content .views-row {
-      margin-right: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000312}}
-    .flexbox .front .view-display-id-article_pane_feature .view-content .views-row-last {
-      margin-right: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000319}}
+.front .view-display-id-article_pane_feature .view-content {
+  margin: 0 -.5em; }
+  @media (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000311}}
+    .flexbox .front .view-display-id-article_pane_feature .view-content {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000315}}
+      .flexbox .front .view-display-id-article_pane_feature .view-content .views-row {
+        margin-left: .5em;
+        margin-right: .5em;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 300px;
+        -moz-box-flex: 1;
+        -moz-flex: 1 1 300px;
+        -ms-flex: 1 1 300px;
+        flex: 1 1 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000320}}
+      .flexbox .front .view-display-id-article_pane_feature .view-content .views-row-first {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 500px;
+        -moz-box-flex: 1;
+        -moz-flex: 1 1 500px;
+        -ms-flex: 1 1 500px;
+        flex: 1 1 500px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000327}}
 .front .view-display-id-article_pane_feature .views-row {
   background: #eee;
   padding: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000324}}
-.front .view-display-id-article_pane_feature .file-image {
-  float: right;
-  margin: 0 0 1em 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000334}}
+.front .view-display-id-article_pane .view-content {
+  margin: 0 -.5em; }
+  @media (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000336}}
+    .flexbox .front .view-display-id-article_pane .view-content {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-justify-content: space-between;
+      justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000342}}
+      .flexbox .front .view-display-id-article_pane .view-content .views-row {
+        width: 49%;
+        padding-left: .5em;
+        padding-right: .5em;
+        -webkit-align-self: flex-end;
+        -moz-align-self: flex-end;
+        -ms-flex-item-align: end;
+        align-self: flex-end; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\000033}}
 .l-header {
@@ -768,12 +785,12 @@ body {
       position: absolute;
       left: 0;
       bottom: -5px;
-      border-bottom: 3px solid #199F86;
+      border-bottom: 3px solid #C02942;
       width: 30%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/styles\/_pane_styles\.scss}line{font-family:\0000323}}
 .style-1 {
-  background: #C7575A;
+  background: #542437;
   padding: 2em;
   color: #fff;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
@@ -805,4 +822,5 @@ body {
     border-bottom: 1px solid #eee;
     padding-bottom: .5em;
     margin-bottom: .5em;
-    display: block; }
+    display: block;
+    height: 100%; }

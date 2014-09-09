@@ -1,16 +1,24 @@
 .front {
 
+  .panel-pane {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
   .view-display-id-article_pane_feature {
     .view-content {
+      margin: 0 -.5em;
       .flexbox & {
         @include breakpoint($bp-tablet) {
           @include flexbox;
 
           .views-row {
-            margin-right: 1em;
+            margin-left: .5em;
+            margin-right: .5em;
+            @include flex(1 1 300px);
           }
-          .views-row-last {
-            margin-right: 0;
+          .views-row-first {
+            @include flex(1 1 500px);
           }
         }
       }
@@ -20,10 +28,25 @@
       background: #eee;
       padding: 1em;
     }
+  }
 
-    .file-image {
-      float: right;
-      margin: 0 0 1em 1em;
+  .view-display-id-article_pane {
+    .view-content {
+      margin: 0 -.5em;
+      .flexbox & {
+        @include breakpoint($bp-tablet) {
+          @include flexbox;
+          @include flex-wrap(wrap);
+          @include justify-content(space-between);
+
+          .views-row {
+            width: 49%;
+            padding-left: .5em;
+            padding-right: .5em;
+            @include align-self(flex-end);
+          }
+        }
+      }
     }
   }
 }

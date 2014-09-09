@@ -1,5 +1,18 @@
+// http://accessibility.oit.ncsu.edu/tools/color-contrast/accessible-color-palette.php?&colors=ECD078,D95B43,C02942,542437,53777A,FFFFFF,333333&main=FFFFFF&level=AA
+
+// Functional Color Vars
 $primary-link-color: #2476AE;
 $base-font-color: #453D36;
 
-$color-1: #199F86;
-$color-2: #C7575A;
+
+// Colors
+$yellow: #ECD078;
+$orange: #D95B43;
+$pink: #C02942;
+$purple: #542437;
+$mauve: #53777A;
+
+// Color Vars
+$color-1: $pink;
+$color-2: $purple;
+$color-3: $yellow;
