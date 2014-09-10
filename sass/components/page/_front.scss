@@ -5,54 +5,54 @@
     padding-bottom: 2em;
   }
 
-  .view-display-id-article_pane_feature {
-    .view-content {
-      margin: 0 -.5em;
-      .flexbox & {
-        @include breakpoint($bp-tablet) {
-          @include flexbox;
+  .pane-articles-article-pane-feature-and-news {}
 
-          .views-row {
-            margin-left: .5em;
-            margin-right: .5em;
-            @include flex(1 1 300px);
-          }
-          .views-row-first {
-            @include flex(1 1 500px);
-          }
-        }
+  .view-display-id-article_pane_feature_and_news {
+    $bp-floated-footer-view: 960px;
+    $bp-floated-feature-articles: 650px;
+
+    @include pie-clearfix;
+    @include add-grid(12);
+    @include add-gutter(1.5em);
+
+    > .view-content {
+
+      @include breakpoint($bp-floated-footer-view) {
+        @include grid-span(8, 1);
       }
-    }
 
-    .views-row {
-      background: #eee;
-      padding: 1em;
-    }
-  }
+      @include breakpoint($bp-floated-feature-articles) {
+        @include flexbox;
+        @include flex-wrap(wrap);
+        @include justify-content(space-between);
+      }
 
-  .view-display-id-article_pane {
-    .view-content {
-      margin: 0 -.5em;
-      .flexbox & {
-        @include breakpoint($bp-tablet) {
-          @include flexbox;
-          @include flex-wrap(wrap);
-          @include justify-content(space-between);
+      .views-row {
+        background: #f1f1f1;
+        margin-bottom: 1em;
+        padding: 1em;
 
-          .views-row {
-            width: 49%;
-            padding-left: .5em;
+        @include breakpoint($bp-floated-feature-articles) {
+          width: 48.5%;
+
+          &:nth-child(2) {
             padding-right: .5em;
-            @include align-self(flex-end);
+          }
+          &:nth-child(3) {
+            padding-left: .5em;
           }
         }
+      }
+      .views-row-first {
+        width: 100%;
+      }
+    }
+
+    > .view-footer {
+      @include breakpoint($bp-floated-footer-view) {
+        @include grid-span(4, 9);
       }
     }
   }
 }
 
-.front {
-  .pane-articles-article-pane-feature {
-    background: $trunckocean;
-  }
-}

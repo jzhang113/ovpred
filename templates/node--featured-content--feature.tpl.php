@@ -80,6 +80,10 @@
 ?>
 <article<?php print $attributes; ?>>
   <a class="url-link" href="<?php print $feature_link; ?>">
+    <div class="contextual-title">
+      <i class="fa fa-hand-o-up icon-hand"></i>
+      <h2><?php print $title; ?></h2>
+    </div>
     <div class="feature-hover">
       <div class="dark-grid-overlay"></div>
       <div class="flex-center">
@@ -88,7 +92,7 @@
           <i class="fa fa-link fa-stack-1x fa-inverse"></i>
         </span>
       </div>
-      <div class="flex-end"><h2><?php print $title; ?></h2></div>
+      <div class="flex-end"><div class="article-title"><?php print $title; ?></div></div>
       <?php if (isset($content['field_feature_caption'])): ?>
         <div class="flex-start">
           <?php print render($content['field_feature_caption']); ?>

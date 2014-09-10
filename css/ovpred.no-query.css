@@ -1,641 +1,165 @@
 @charset "UTF-8";
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ace\/\.rvm\/gems\/ruby-1\.9\.3-p484\@omega\.ovpred\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\000031}}
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ace\/\.rvm\/gems\/ruby-1\.9\.3-p484\@omega\.ovpred\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\0000311}}
-img, video {
-  max-width: 100%;
-  height: auto; }
+img, video { max-width: 100%; height: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_flexslider\.scss}line{font-family:\000031}}
-.flexslider {
-  border: none;
-  -moz-box-shadow: initial;
-  -webkit-box-shadow: initial;
-  box-shadow: initial;
-  background: transparent;
-  margin: 0; }
+.flexslider { border: none; -moz-box-shadow: initial; -webkit-box-shadow: initial; box-shadow: initial; background: transparent; margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_media\.scss}line{font-family:\000031}}
-img, media {
-  max-width: 100%;
-  height: auto; }
+img, media { max-width: 100%; height: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_panel_panes\.scss}line{font-family:\000031}}
-.panel-pane .l-container {
-  padding: 1em; }
+.panel-pane .l-container { padding: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_panel_panes\.scss}line{font-family:\000035}}
-.pane-title {
-  font-size: 20px;
-  font-size: 2rem; }
+.pane-title { font-size: 20px; font-size: 2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_typography\.scss}line{font-family:\000031}}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "adelle", serif;
-  font-weight: 700;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  margin: 0 0 .5em; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .front .view-display-id-featured_primary_block .article-title, .h3, .h4, .h5, .h6 { font-family: "adelle", serif; font-weight: 700; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; margin: 0 0 .5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_typography\.scss}line{font-family:\000038}}
-h1 {
-  font-size: 32px;
-  font-size: 3.2rem; }
+h1, .h1 { font-size: 32px; font-size: 3.2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_typography\.scss}line{font-family:\000039}}
-h2 {
-  font-size: 26px;
-  font-size: 2.6rem; }
+h2, .h2, .front .view-display-id-featured_primary_block .article-title { font-size: 26px; font-size: 2.6rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_typography\.scss}line{font-family:\0000310}}
-h3 {
-  font-size: 24px;
-  font-size: 2.4rem; }
+h3, .h3 { font-size: 24px; font-size: 2.4rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_typography\.scss}line{font-family:\0000311}}
-h4 {
-  font-size: 22px;
-  font-size: 2.2rem; }
+h4, .h4 { font-size: 22px; font-size: 2.2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_typography\.scss}line{font-family:\0000312}}
-h5 {
-  font-size: 20px;
-  font-size: 2rem; }
+h5, .h5 { font-size: 20px; font-size: 2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_typography\.scss}line{font-family:\0000313}}
-h6 {
-  font-size: 18px;
-  font-size: 1.8rem; }
+h6, .h6 { font-size: 18px; font-size: 1.8rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_typography\.scss}line{font-family:\0000315}}
-p, ol, ul, blockquote, pre, code {
-  line-height: 1.5;
-  margin: 0 0 1em; }
+p, ol, ul, blockquote, pre, code { line-height: 1.5; margin: 0 0 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/base\/_typography\.scss}line{font-family:\0000327}}
-a {
-  text-decoration: none;
-  color: #2476AE; }
+a { text-decoration: none; color: #2476AE; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/_admin\.scss}line{font-family:\000031}}
-.tabs--primary {
-  margin: 1em 0 0; }
+.tabs--primary { margin: 1em 0 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/events\/_pane_localist_pane\.scss}line{font-family:\000032}}
-.pane-localist-pane span {
-  display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/events\/_pane_localist_pane\.scss}line{font-family:\000036}}
-.pane-localist-pane .lw ul {
-  margin: 0;
-  padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/events\/_pane_localist_pane\.scss}line{font-family:\0000322}}
-  .pane-localist-pane .lw ul li {
-    list-style: none;
-    background: #eee;
-    padding: 1em;
-    margin-bottom: 1em; }
+.pane-localist-pane span { display: block; }
+.pane-localist-pane .lw ul { margin: 0; padding: 0; }
+.pane-localist-pane .lw ul li { list-style: none; background: #eee; padding: 1em; margin-bottom: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\000032}}
-.front .view-display-id-featured_primary_block {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1em 0 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\000037}}
-  .front .view-display-id-featured_primary_block .flex-control-nav {
-    bottom: 14px;
-    z-index: 2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000323}}
-  .front .view-display-id-featured_primary_block .url-link {
-    color: #333;
-    text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000330}}
-  .front .view-display-id-featured_primary_block .url-link:hover .feature-hover,
-  .front .view-display-id-featured_primary_block .url-link:focus .feature-hover,
-  .front .view-display-id-featured_primary_block .url-link:active .feature-hover {
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-    z-index: 9;
-    background: url('../images/rgbapng/ebca14e5-5.png?1410303504');
-    background: rgba(235, 202, 20, 0.9); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000335}}
-    .front .view-display-id-featured_primary_block .url-link:hover .feature-hover h2,
-    .front .view-display-id-featured_primary_block .url-link:focus .feature-hover h2,
-    .front .view-display-id-featured_primary_block .url-link:active .feature-hover h2 {
-      bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000339}}
-    .front .view-display-id-featured_primary_block .url-link:hover .feature-hover .field--name-field-feature-caption,
-    .front .view-display-id-featured_primary_block .url-link:focus .feature-hover .field--name-field-feature-caption,
-    .front .view-display-id-featured_primary_block .url-link:active .feature-hover .field--name-field-feature-caption {
-      top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000343}}
-    .front .view-display-id-featured_primary_block .url-link:hover .feature-hover .bg-icon,
-    .front .view-display-id-featured_primary_block .url-link:focus .feature-hover .bg-icon,
-    .front .view-display-id-featured_primary_block .url-link:active .feature-hover .bg-icon {
-      -moz-transform: scale(1);
-      -ms-transform: scale(1);
-      -webkit-transform: scale(1);
-      transform: scale(1); }
+.front .view-display-id-featured_primary_block { max-width: 1200px; margin: 0 auto; padding: 1em 0 2em; }
+.front .view-display-id-featured_primary_block .flex-control-nav { bottom: 14px; z-index: 2; }
+.front .view-display-id-featured_primary_block .node--featured-content { position: relative; }
+.front .view-display-id-featured_primary_block .contextual-title { position: absolute; bottom: 40px; left: 12px; right: 12px; z-index: 9; width: 100%; }
+.front .view-display-id-featured_primary_block .contextual-title h2 { font-size: 50px; font-size: 5rem; color: rgba(255, 255, 255, 0.4); font-style: italic; text-align: center; font-weight: 400; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.front .view-display-id-featured_primary_block .contextual-title .icon-hand { display: none; }
+.front .view-display-id-featured_primary_block .url-link { color: #222; text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.1); }
+.front .view-display-id-featured_primary_block .url-link:hover .feature-hover, .front .view-display-id-featured_primary_block .url-link:focus .feature-hover, .front .view-display-id-featured_primary_block .url-link:active .feature-hover { filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; z-index: 9; background: url('../images/rgbapng/fee000e5-5.png?1410362223'); background: rgba(254, 224, 0, 0.9); }
+.front .view-display-id-featured_primary_block .url-link:hover .feature-hover .article-title, .front .view-display-id-featured_primary_block .url-link:focus .feature-hover .article-title, .front .view-display-id-featured_primary_block .url-link:active .feature-hover .article-title { bottom: 0; }
+.front .view-display-id-featured_primary_block .url-link:hover .feature-hover .field--name-field-feature-caption, .front .view-display-id-featured_primary_block .url-link:focus .feature-hover .field--name-field-feature-caption, .front .view-display-id-featured_primary_block .url-link:active .feature-hover .field--name-field-feature-caption { top: 0; }
+.front .view-display-id-featured_primary_block .url-link:hover .feature-hover .bg-icon, .front .view-display-id-featured_primary_block .url-link:focus .feature-hover .bg-icon, .front .view-display-id-featured_primary_block .url-link:active .feature-hover .bg-icon { -moz-transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_breadcrumb\.scss}line{font-family:\000031}}
-.breadcrumb {
-  font-size: 13px;
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_breadcrumb\.scss}line{font-family:\000038}}
-  .breadcrumb li {
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_breadcrumb\.scss}line{font-family:\0000312}}
-  .breadcrumb .breadcrumb-seperator {
-    margin: 0 .3em; }
+.breadcrumb { font-size: 13px; font-size: 1.3rem; font-weight: 700; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.breadcrumb li { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; }
+.breadcrumb .breadcrumb-seperator { margin: 0 .3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000312}}
-.sf-menu li ul {
-  overflow: visible !important; }
+.sf-menu li ul { overflow: visible !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000317}}
-#block-superfish-1 .block__title {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000321}}
-#block-superfish-1 li,
-#block-superfish-1 a {
-  -moz-transition: background-color, 0.3s;
-  -o-transition: background-color, 0.3s;
-  -webkit-transition: background-color, 0.3s;
-  transition: background-color, 0.3s; }
+#block-superfish-1 .block__title { border: 0; height: 1px; overflow: hidden; padding: 0; position: absolute !important; width: 1px; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); }
+#block-superfish-1 li, #block-superfish-1 a { -moz-transition: background-color, 0.3s; -o-transition: background-color, 0.3s; -webkit-transition: background-color, 0.3s; transition: background-color, 0.3s; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000327}}
-#block-superfish-1 {
-  font-weight: 400; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000330}}
-  #block-superfish-1 .sf-style-none {
-    float: left;
-    margin: 0;
-    padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000334}}
-    #block-superfish-1 .sf-style-none.sf-navbar {
-      width: 100%;
-      background: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000338}}
-    #block-superfish-1 .sf-style-none ul {
-      padding-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000341}}
-      #block-superfish-1 .sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper {
-        background: #555; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000343}}
-        #block-superfish-1 .sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper li {
-          background: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000349}}
-    #block-superfish-1 .sf-style-none a {
-      color: #fff;
-      padding: 0.75em 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000352}}
-      #block-superfish-1 .sf-style-none a.sf-with-ul {
-        padding-right: 2.25em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000355}}
-      #block-superfish-1 .sf-style-none a:focus {
-        background: #555;
-        outline: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000359}}
-      #block-superfish-1 .sf-style-none a:hover {
-        background: #555;
-        outline: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000363}}
-      #block-superfish-1 .sf-style-none a:active {
-        background: #555;
-        outline: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000369}}
-    #block-superfish-1 .sf-style-none span.nolink {
-      color: #fff;
-      padding: 0.75em 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000372}}
-      #block-superfish-1 .sf-style-none span.nolink.sf-with-ul {
-        padding-right: 2.25em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000375}}
-      #block-superfish-1 .sf-style-none span.nolink:hover {
-        background: #555;
-        outline: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000380}}
-    #block-superfish-1 .sf-style-none span.sf-description {
-      color: #fff;
-      display: block;
-      font-size: 0.833em;
-      line-height: 1.5;
-      margin: 5px 0 0 5px;
-      padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000391}}
-    #block-superfish-1 .sf-style-none.rtl span.sf-description {
-      margin: 5px 5px 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000394}}
-    #block-superfish-1 .sf-style-none.rtl span.nolink.sf-with-ul {
-      padding-left: 2.25em;
-      padding-right: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\0000399}}
-    #block-superfish-1 .sf-style-none.rtl a.sf-with-ul {
-      padding-left: 2.25em;
-      padding-right: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003104}}
-    #block-superfish-1 .sf-style-none li {
-      background: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003106}}
-      #block-superfish-1 .sf-style-none li li {
-        background: #333; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003108}}
-        #block-superfish-1 .sf-style-none li li li {
-          background: #444; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003112}}
-      #block-superfish-1 .sf-style-none li:hover, #block-superfish-1 .sf-style-none li.sfHover {
-        background: #555;
-        outline: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003116}}
-        #block-superfish-1 .sf-style-none li:hover > ul, #block-superfish-1 .sf-style-none li.sfHover > ul {
-          top: 38px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003118}}
-          #block-superfish-1 .sf-style-none li:hover > ul ul, #block-superfish-1 .sf-style-none li.sfHover > ul ul {
-            top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003124}}
-    #block-superfish-1 .sf-style-none .sf-sub-indicator {
-      top: .9em;
-      right: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003128}}
-      #block-superfish-1 .sf-style-none .sf-sub-indicator:before {
-        display: inline-block;
-        font: normal normal normal 14px/1 FontAwesome;
-        font-size: inherit;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        content: "";
-        position: relative;
-        top: 1px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003136}}
-  #block-superfish-1 div.sf-accordion-toggle.sf-style-none a {
-    background: transparent;
-    color: #fff;
-    padding: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003140}}
-    #block-superfish-1 div.sf-accordion-toggle.sf-style-none a:before {
-      display: inline-block;
-      font: normal normal normal 14px/1 FontAwesome;
-      font-size: inherit;
-      text-rendering: auto;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      content: ""; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003143}}
-    #block-superfish-1 div.sf-accordion-toggle.sf-style-none a.sf-expanded {
-      background-color: #555;
-      font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003148}}
-  #block-superfish-1 div.sf-accordion-toggle span {
-    border: 0;
-    height: 1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute !important;
-    width: 1px;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003156}}
-  #block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li a {
-    padding-left: auto;
-    padding-right: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003161}}
-  #block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li li a {
-    padding-left: auto;
-    padding-right: 3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003166}}
-  #block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li li li a {
-    padding-left: auto;
-    padding-right: 4em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003171}}
-  #block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li li li li a {
-    padding-left: auto;
-    padding-right: 5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003175}}
-  #block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li li li li span.nolink {
-    padding-left: auto;
-    padding-right: 5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003180}}
-  #block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li li li span.nolink {
-    padding-left: auto;
-    padding-right: 4em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003185}}
-  #block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li li span.nolink {
-    padding-left: auto;
-    padding-right: 3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003190}}
-  #block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li span.nolink {
-    padding-left: auto;
-    padding-right: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003199}}
-  #block-superfish-1 .sf-menu.sf-style-none.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
-    float: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003207}}
-  #block-superfish-1 .sf-menu.sf-style-none.sf-accordion li.sf-expanded {
-    background-color: #555; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003210}}
-    #block-superfish-1 .sf-menu.sf-style-none.sf-accordion li.sf-expanded > a {
-      font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003213}}
-    #block-superfish-1 .sf-menu.sf-style-none.sf-accordion li.sf-expanded > span.nolink {
-      font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003219}}
-  #block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li a {
-    padding-left: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003223}}
-  #block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li li a {
-    padding-left: 3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003227}}
-  #block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li li li a {
-    padding-left: 4em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003231}}
-  #block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li li li li a {
-    padding-left: 5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003234}}
-  #block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li li li li span.nolink {
-    padding-left: 5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003238}}
-  #block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li li li span.nolink {
-    padding-left: 4em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003242}}
-  #block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li li span.nolink {
-    padding-left: 3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003246}}
-  #block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li span.nolink {
-    padding-left: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003250}}
-  #block-superfish-1 .sf-menu.sf-style-none.sf-accordion li a.sf-accordion-button {
-    font-weight: bold;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 499; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003260}}
-  #block-superfish-1 .sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper ol {
-    margin: 0;
-    padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003263}}
-    #block-superfish-1 .sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper ol li {
-      margin: 0;
-      padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003266}}
-      #block-superfish-1 .sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
-        display: inline;
-        float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003272}}
-  #block-superfish-1 .sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent {
-    font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish\.scss}line{font-family:\00003276}}
-  #block-superfish-1 .sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper span.nolink.menuparent {
-    font-weight: bold; }
+#block-superfish-1 { font-weight: 400; }
+#block-superfish-1 .sf-style-none { float: left; margin: 0; padding: 0; }
+#block-superfish-1 .sf-style-none.sf-navbar { width: 100%; background: transparent; }
+#block-superfish-1 .sf-style-none ul { padding-left: 0; }
+#block-superfish-1 .sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper { background: #555; }
+#block-superfish-1 .sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper li { background: transparent; }
+#block-superfish-1 .sf-style-none a { color: #fff; padding: 0.75em 1em; }
+#block-superfish-1 .sf-style-none a.sf-with-ul { padding-right: 2.25em; }
+#block-superfish-1 .sf-style-none a:focus { background: #555; outline: 0; }
+#block-superfish-1 .sf-style-none a:hover { background: #555; outline: 0; }
+#block-superfish-1 .sf-style-none a:active { background: #555; outline: 0; }
+#block-superfish-1 .sf-style-none span.nolink { color: #fff; padding: 0.75em 1em; }
+#block-superfish-1 .sf-style-none span.nolink.sf-with-ul { padding-right: 2.25em; }
+#block-superfish-1 .sf-style-none span.nolink:hover { background: #555; outline: 0; }
+#block-superfish-1 .sf-style-none span.sf-description { color: #fff; display: block; font-size: 0.833em; line-height: 1.5; margin: 5px 0 0 5px; padding: 0; }
+#block-superfish-1 .sf-style-none.rtl span.sf-description { margin: 5px 5px 0 0; }
+#block-superfish-1 .sf-style-none.rtl span.nolink.sf-with-ul { padding-left: 2.25em; padding-right: 1em; }
+#block-superfish-1 .sf-style-none.rtl a.sf-with-ul { padding-left: 2.25em; padding-right: 1em; }
+#block-superfish-1 .sf-style-none li { background: transparent; }
+#block-superfish-1 .sf-style-none li li { background: #333; }
+#block-superfish-1 .sf-style-none li li li { background: #444; }
+#block-superfish-1 .sf-style-none li:hover, #block-superfish-1 .sf-style-none li.sfHover { background: #555; outline: 0; }
+#block-superfish-1 .sf-style-none li:hover > ul, #block-superfish-1 .sf-style-none li.sfHover > ul { top: 38px; }
+#block-superfish-1 .sf-style-none li:hover > ul ul, #block-superfish-1 .sf-style-none li.sfHover > ul ul { top: 0; }
+#block-superfish-1 .sf-style-none .sf-sub-indicator { top: .9em; right: 1em; }
+#block-superfish-1 .sf-style-none .sf-sub-indicator:before { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: ""; position: relative; top: 1px; }
+#block-superfish-1 div.sf-accordion-toggle.sf-style-none a { background: transparent; color: #fff; padding: 1em; }
+#block-superfish-1 div.sf-accordion-toggle.sf-style-none a:before { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: ""; }
+#block-superfish-1 div.sf-accordion-toggle.sf-style-none a.sf-expanded { background-color: #555; font-weight: bold; }
+#block-superfish-1 div.sf-accordion-toggle span { border: 0; height: 1px; overflow: hidden; padding: 0; position: absolute !important; width: 1px; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); }
+#block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li a { padding-left: auto; padding-right: 2em; }
+#block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li li a { padding-left: auto; padding-right: 3em; }
+#block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li li li a { padding-left: auto; padding-right: 4em; }
+#block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li li li li a { padding-left: auto; padding-right: 5em; }
+#block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li li li li span.nolink { padding-left: auto; padding-right: 5em; }
+#block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li li li span.nolink { padding-left: auto; padding-right: 4em; }
+#block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li li span.nolink { padding-left: auto; padding-right: 3em; }
+#block-superfish-1 .sf-menu.sf-style-none.rtl.sf-accordion li li span.nolink { padding-left: auto; padding-right: 2em; }
+#block-superfish-1 .sf-menu.sf-style-none.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column { float: right; }
+#block-superfish-1 .sf-menu.sf-style-none.sf-accordion li.sf-expanded { background-color: #555; }
+#block-superfish-1 .sf-menu.sf-style-none.sf-accordion li.sf-expanded > a { font-weight: bold; }
+#block-superfish-1 .sf-menu.sf-style-none.sf-accordion li.sf-expanded > span.nolink { font-weight: bold; }
+#block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li a { padding-left: 2em; }
+#block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li li a { padding-left: 3em; }
+#block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li li li a { padding-left: 4em; }
+#block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li li li li a { padding-left: 5em; }
+#block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li li li li span.nolink { padding-left: 5em; }
+#block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li li li span.nolink { padding-left: 4em; }
+#block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li li span.nolink { padding-left: 3em; }
+#block-superfish-1 .sf-menu.sf-style-none.sf-accordion li li span.nolink { padding-left: 2em; }
+#block-superfish-1 .sf-menu.sf-style-none.sf-accordion li a.sf-accordion-button { font-weight: bold; position: absolute; right: 0; top: 0; z-index: 499; }
+#block-superfish-1 .sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper ol { margin: 0; padding: 0; }
+#block-superfish-1 .sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper ol li { margin: 0; padding: 0; }
+#block-superfish-1 .sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column { display: inline; float: left; }
+#block-superfish-1 .sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent { font-weight: bold; }
+#block-superfish-1 .sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper span.nolink.menuparent { font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish_local_overrides\.scss}line{font-family:\000033}}
-#block-superfish-1 {
-  font-size: 15px;
-  font-size: 1.5rem;
-  font-weight: 600; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish_local_overrides\.scss}line{font-family:\000037}}
-  #block-superfish-1 .sf-style-none {
-    float: none;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish_local_overrides\.scss}line{font-family:\0000312}}
-  #block-superfish-1 .sf-depth-1 > a {
-    text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish_local_overrides\.scss}line{font-family:\0000317}}
-  #block-superfish-1 #superfish-1-toggle {
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish_local_overrides\.scss}line{font-family:\0000322}}
-  #block-superfish-1 .sf-expanded > .sf-accordion-button:before {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    content: ""; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish_local_overrides\.scss}line{font-family:\0000325}}
-  #block-superfish-1 .sf-accordion-button {
-    line-height: 999px;
-    overflow: hidden;
-    height: 36px;
-    width: 36px;
-    text-align: center;
-    padding: 0 !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish_local_overrides\.scss}line{font-family:\0000334}}
-    #block-superfish-1 .sf-accordion-button:before {
-      line-height: normal;
-      display: block;
-      display: inline-block;
-      font: normal normal normal 14px/1 FontAwesome;
-      font-size: inherit;
-      text-rendering: auto;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      content: "";
-      font-size: 17px;
-      font-size: 1.7rem;
-      width: 100%;
-      height: 100%;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      -moz-align-items: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      -moz-justify-content: center;
-      justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/navigation\/_superfish_local_overrides\.scss}line{font-family:\0000347}}
-  #block-superfish-1 .sf-with-ul {
-    padding-left: 40px; }
+#block-superfish-1 { font-size: 15px; font-size: 1.5rem; font-weight: 600; }
+#block-superfish-1 .sf-style-none { float: none; display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; }
+#block-superfish-1 .sf-depth-1 > a { text-transform: uppercase; }
+#block-superfish-1 #superfish-1-toggle { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; text-align: center; }
+#block-superfish-1 .sf-expanded > .sf-accordion-button:before { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: ""; }
+#block-superfish-1 .sf-accordion-button { line-height: 999px; overflow: hidden; height: 36px; width: 36px; text-align: center; padding: 0 !important; }
+#block-superfish-1 .sf-accordion-button:before { line-height: normal; display: block; display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: ""; font-size: 17px; font-size: 1.7rem; width: 100%; height: 100%; display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; -moz-align-items: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; -moz-justify-content: center; justify-content: center; }
+#block-superfish-1 .sf-with-ul { padding-left: 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\000033}}
-.front .panel-pane {
-  padding-top: 2em;
-  padding-bottom: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\000039}}
-.front .view-display-id-article_pane_feature .view-content {
-  margin: 0 -.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000327}}
-.front .view-display-id-article_pane_feature .views-row {
-  background: #eee;
-  padding: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000334}}
-.front .view-display-id-article_pane .view-content {
-  margin: 0 -.5em; }
+.front .panel-pane { padding-top: 2em; padding-bottom: 2em; }
+.front .view-display-id-article_pane_feature_and_news { *zoom: 1; }
+.front .view-display-id-article_pane_feature_and_news:after { content: ""; display: table; clear: both; }
+.front .view-display-id-article_pane_feature_and_news > .view-content .views-row { background: #f1f1f1; margin-bottom: 1em; padding: 1em; }
+.front .view-display-id-article_pane_feature_and_news > .view-content .views-row-first { width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000355}}
-.front .pane-articles-article-pane-feature {
-  background: #4DB788; }
+.l-header { background-color: #2a2a2a; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -moz-box-shadow: 0px -60px 80px -30px rgba(0, 0, 0, 0.3) inset; -webkit-box-shadow: 0px -60px 80px -30px rgba(0, 0, 0, 0.3) inset; box-shadow: 0px -60px 80px -30px rgba(0, 0, 0, 0.3) inset; background-image: url("../images/bg-images/BioVentures-Exterior-Professional.jpg"); -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; background-position: center; min-height: 300px; position: relative; }
+.l-header a { color: #fff; }
+.l-header .nav-bar { background: url('../images/rgbapng/000000cc-5.png?1410183799'); background: rgba(0, 0, 0, 0.8); padding: 1em; position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\000033}}
-.l-header {
-  background-color: #2a2a2a;
-  color: #fff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-box-shadow: 0px -60px 80px -30px rgba(0, 0, 0, 0.3) inset;
-  -webkit-box-shadow: 0px -60px 80px -30px rgba(0, 0, 0, 0.3) inset;
-  box-shadow: 0px -60px 80px -30px rgba(0, 0, 0, 0.3) inset;
-  background-image: url("../images/bg-images/BioVentures-Exterior-Professional.jpg");
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  min-height: 300px;
-  position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\0000314}}
-  .l-header a {
-    color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\0000319}}
-  .l-header .nav-bar {
-    background: url('../images/rgbapng/000000cc-5.png?1409884015');
-    background: rgba(0, 0, 0, 0.8);
-    padding: 1em;
-    position: relative; }
+.site-name { font-size: 22px; font-size: 2.2rem; margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\0000334}}
-.site-name {
-  font-size: 22px;
-  font-size: 2.2rem;
-  margin: 0; }
+html { font-size: 62.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_page\.scss}line{font-family:\000031}}
-html {
-  font-size: 62.5%; }
+body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_page\.scss}line{font-family:\000035}}
-body {
-  font-family: "proxima-nova", sans-serif;
-  font-size: 1.8em;
-  color: #453D36; }
+.l-page { margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_page\.scss}line{font-family:\0000311}}
-.l-page {
-  margin: 0 auto; }
+.l-breadcrumb { background-color: #199F86; padding: 1em 0; color: #fff; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1); }
+.l-breadcrumb a { color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_page\.scss}line{font-family:\0000315}}
-.l-breadcrumb {
-  background-color: #199F86;
-  padding: 1em 0;
-  color: #fff;
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_page\.scss}line{font-family:\0000321}}
-  .l-breadcrumb a {
-    color: #fff; }
+.l-main { margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_page\.scss}line{font-family:\0000326}}
-.l-main {
-  margin: 0 auto; }
+.l-container { margin: 0 auto; max-width: 1200px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_page\.scss}line{font-family:\0000330}}
-.l-container {
-  margin: 0 auto;
-  max-width: 1200px; }
+.alert-info { background: #d9edf7; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/styles\/_notifications\.scss}line{font-family:\000036}}
-.alert-info {
-  background: #d9edf7; }
+.dark-grid-overlay { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-image: url("../images/patterns/dark-grid.png"); background-repeat: repeat; overflow: auto; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60); opacity: 0.6; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/styles\/_overlays\.scss}line{font-family:\000031}}
-.dark-grid-overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("../images/patterns/dark-grid.png");
-  background-repeat: repeat;
-  overflow: auto;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-  opacity: 0.6; }
+.style-2 { background: #eee; padding: 2em; }
+.style-2 .pane-title { font-size: 40px; font-size: 4rem; position: relative; }
+.style-2 .pane-title:before { content: ""; position: absolute; left: 0; bottom: -5px; border-bottom: 3px solid #C02942; width: 30%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/styles\/_pane_styles\.scss}line{font-family:\000031}}
-.style-2 {
-  background: #eee;
-  padding: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/styles\/_pane_styles\.scss}line{font-family:\000035}}
-  .style-2 .pane-title {
-    font-size: 40px;
-    font-size: 4rem;
-    position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/styles\/_pane_styles\.scss}line{font-family:\0000312}}
-    .style-2 .pane-title:before {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: -5px;
-      border-bottom: 3px solid #C02942;
-      width: 30%; }
+.style-1 { background: #542437; padding: 2em; color: #fff; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.style-1 .pane-title { font-size: 40px; font-size: 4rem; position: relative; }
+.style-1 .pane-title:before { content: ""; position: absolute; left: 0; bottom: -5px; border-bottom: 3px solid #fff; width: 30%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/styles\/_pane_styles\.scss}line{font-family:\0000323}}
-.style-1 {
-  background: #542437;
-  padding: 2em;
-  color: #fff;
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/styles\/_pane_styles\.scss}line{font-family:\0000330}}
-  .style-1 .pane-title {
-    font-size: 40px;
-    font-size: 4rem;
-    position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/styles\/_pane_styles\.scss}line{font-family:\0000337}}
-    .style-1 .pane-title:before {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: -5px;
-      border-bottom: 3px solid #fff;
-      width: 30%; }
+.node--article--feature .post-date { font-size: 15px; font-size: 1.5rem; margin-bottom: .3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/view_modes\/_node_article_list\.scss}line{font-family:\000032}}
-.node--article--list h2 {
-  margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/view_modes\/_node_article_list\.scss}line{font-family:\000035}}
-  .node--article--list h2 a {
-    font-family: "proxima-nova", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    font-size: 1.8rem;
-    border-bottom: 1px solid #eee;
-    padding-bottom: .5em;
-    margin-bottom: .5em;
-    display: block;
-    height: 100%; }
+.node--article--list h3 { margin: 0; }
+.node--article--list h3 a { font-family: "proxima-nova", sans-serif; font-weight: 400; font-size: 18px; font-size: 1.8rem; border-bottom: 1px solid #eee; padding-bottom: .5em; margin-bottom: .5em; display: block; height: 100%; }

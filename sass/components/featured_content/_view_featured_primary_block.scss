@@ -9,6 +9,14 @@
       z-index: 2;
     }
 
+    .node--featured-content {
+      position: relative;
+    }
+
+    .article-title {
+      @extend .h2;
+    }
+
     .field--name-field-feature-image {
       @include breakpoint($bp-desktop)  {
         position: relative;
@@ -20,8 +28,32 @@
       }
     }
 
+    .contextual-title {
+      position: absolute;
+      bottom: 40px;
+      left: 12px;
+      right: 12px;
+      z-index: 9;
+      width: 100%;
+
+      h2 {
+        @include font-size(5);
+        color: rgba(255,255,255,.4);
+        font-style: italic;
+        text-align: center;
+        font-weight: 400;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .icon-hand {
+        display: none;
+      }
+    }
+
     .url-link {
-      color: #333;
+      color: #222;
       @include text-shadow(1px 0px 0px rgba(255,255,255,.1));
     }
     .url-link:hover,
@@ -32,7 +64,7 @@
         z-index: 9;
         @include rgba-background(rgba($yellow-gold,.9));
 
-        h2 {
+        .article-title {
           bottom: 0;
         }
 
@@ -98,7 +130,7 @@
           }
         }
 
-        h2,
+        .article-title,
         .field--name-field-feature-caption {
           display: block;
           position: relative;
@@ -106,7 +138,7 @@
           width: 100%;
           @include transition(all .3s);
         }
-        h2 {
+        .article-title {
           bottom: -100%;
         }
         .field--name-field-feature-caption {
