@@ -1,11 +1,11 @@
 @charset "UTF-8";
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.ovpred\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ace\/\.rvm\/gems\/ruby-1\.9\.3-p484\@omega\.ovpred\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\000031}}
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.ovpred\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ace\/\.rvm\/gems\/ruby-1\.9\.3-p484\@omega\.ovpred\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\0000311}}
 img, video {
   max-width: 100%;
   height: auto; }
@@ -108,29 +108,33 @@ a {
   .front .view-display-id-featured_primary_block .flex-control-nav {
     bottom: 14px;
     z-index: 2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000326}}
-  .front .view-display-id-featured_primary_block a:hover .feature-hover,
-  .front .view-display-id-featured_primary_block a:focus .feature-hover,
-  .front .view-display-id-featured_primary_block a:active .feature-hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000323}}
+  .front .view-display-id-featured_primary_block .url-link {
+    color: #333;
+    text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000330}}
+  .front .view-display-id-featured_primary_block .url-link:hover .feature-hover,
+  .front .view-display-id-featured_primary_block .url-link:focus .feature-hover,
+  .front .view-display-id-featured_primary_block .url-link:active .feature-hover {
     filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
     z-index: 9;
-    background: url('../images/rgbapng/c02942d9-5.png?1410294537');
-    background: rgba(192, 41, 66, 0.85); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000331}}
-    .front .view-display-id-featured_primary_block a:hover .feature-hover h2,
-    .front .view-display-id-featured_primary_block a:focus .feature-hover h2,
-    .front .view-display-id-featured_primary_block a:active .feature-hover h2 {
-      bottom: 0; }
+    background: url('../images/rgbapng/ebca14e5-5.png?1410303504');
+    background: rgba(235, 202, 20, 0.9); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000335}}
-    .front .view-display-id-featured_primary_block a:hover .feature-hover .field--name-field-feature-caption,
-    .front .view-display-id-featured_primary_block a:focus .feature-hover .field--name-field-feature-caption,
-    .front .view-display-id-featured_primary_block a:active .feature-hover .field--name-field-feature-caption {
-      top: 0; }
+    .front .view-display-id-featured_primary_block .url-link:hover .feature-hover h2,
+    .front .view-display-id-featured_primary_block .url-link:focus .feature-hover h2,
+    .front .view-display-id-featured_primary_block .url-link:active .feature-hover h2 {
+      bottom: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000339}}
-    .front .view-display-id-featured_primary_block a:hover .feature-hover .bg-icon,
-    .front .view-display-id-featured_primary_block a:focus .feature-hover .bg-icon,
-    .front .view-display-id-featured_primary_block a:active .feature-hover .bg-icon {
+    .front .view-display-id-featured_primary_block .url-link:hover .feature-hover .field--name-field-feature-caption,
+    .front .view-display-id-featured_primary_block .url-link:focus .feature-hover .field--name-field-feature-caption,
+    .front .view-display-id-featured_primary_block .url-link:active .feature-hover .field--name-field-feature-caption {
+      top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/featured_content\/_view_featured_primary_block\.scss}line{font-family:\0000343}}
+    .front .view-display-id-featured_primary_block .url-link:hover .feature-hover .bg-icon,
+    .front .view-display-id-featured_primary_block .url-link:focus .feature-hover .bg-icon,
+    .front .view-display-id-featured_primary_block .url-link:active .feature-hover .bg-icon {
       -moz-transform: scale(1);
       -ms-transform: scale(1);
       -webkit-transform: scale(1);
@@ -494,6 +498,10 @@ a {
 .front .view-display-id-article_pane .view-content {
   margin: 0 -.5em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_front\.scss}line{font-family:\0000355}}
+.front .pane-articles-article-pane-feature {
+  background: #4DB788; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\000033}}
 .l-header {
   background-color: #2a2a2a;
@@ -516,7 +524,7 @@ a {
     color: #fff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/custom\/sites\/all\/themes\/ovpred\/sass\/components\/page\/_header\.scss}line{font-family:\0000319}}
   .l-header .nav-bar {
-    background: url('../images/rgbapng/000000cc-5.png?1410183799');
+    background: url('../images/rgbapng/000000cc-5.png?1409884015');
     background: rgba(0, 0, 0, 0.8);
     padding: 1em;
     position: relative; }

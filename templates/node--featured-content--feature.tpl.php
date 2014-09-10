@@ -79,8 +79,9 @@
  */
 ?>
 <article<?php print $attributes; ?>>
-  <a href="<?php print $feature_link; ?>">
+  <a class="url-link" href="<?php print $feature_link; ?>">
     <div class="feature-hover">
+      <div class="dark-grid-overlay"></div>
       <div class="flex-center">
         <span class="fa-stack fa-lg bg-icon">
           <i class="fa fa-circle fa-stack-2x"></i>
