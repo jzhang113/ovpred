@@ -79,12 +79,15 @@
  */
 ?>
 <article<?php print $attributes; ?>>
-  <div class="post-date">
-    <i class="fa fa-pencil-square-o"></i>
-    <?php print $date; ?>
-  </div>
-  <h3<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>" rel="bookmark"><?php print $title; ?></a></h3>
-  <div<?php print $content_attributes; ?>>
-    <?php print render($content); ?>
+  <?php print render($content['field_article_image']); ?>
+  <div class="article-content">
+    <h3<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>" rel="bookmark"><?php print $title; ?></a></h3>
+    <div class="post-date">
+      <i class="fa fa-pencil-square-o"></i>
+      <?php print $date; ?>
+    </div>
+    <div<?php print $content_attributes; ?>>
+      <?php print render($content); ?>
+    </div>
   </div>
 </article>

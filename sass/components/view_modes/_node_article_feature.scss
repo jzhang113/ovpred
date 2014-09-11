@@ -2,4 +2,18 @@
   p:last-child {
     margin-bottom: 0;
   }
+
+  .field--name-field-article-image {
+    max-height: 200px;
+    overflow: hidden;
+    padding: 3px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .article-content {
+    padding: 1em;
+  }
 }
