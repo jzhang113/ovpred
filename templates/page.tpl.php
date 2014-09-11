@@ -70,7 +70,7 @@
  * @see omega_preprocess_page()
  */
 ?>
-<div <?php print $attributes ?>f>
+<div <?php print $attributes ?>>
   <header class="l-header" role="banner">
     <div class="dark-grid-overlay"></div>
     <div class="nav-bar">
