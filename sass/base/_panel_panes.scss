@@ -2,6 +2,15 @@
   padding: 1em;
 }
 
-.pane-title {
-  @include font-size(2);
+.pane-header {
+  margin-bottom: 1em;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .pane-subtitle {
+    @include font-size(2);
+  }
 }

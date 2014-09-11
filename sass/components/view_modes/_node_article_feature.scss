@@ -1,6 +1,5 @@
 .node--article--feature {
-  .post-date {
-    @include font-size(1.5);
-    margin-bottom: .3em;
+  p:last-child {
+    margin-bottom: 0;
   }
 }

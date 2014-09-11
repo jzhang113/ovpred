@@ -82,7 +82,11 @@
   <?php if (!empty($title_prefix) || !empty($title_suffix) || !$page): ?>
       <?php print render($title_prefix); ?>
       <?php if (!$page): ?>
-        <span class="post-date"><?php print $date; ?></span><h3<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>" rel="bookmark"><?php print $title; ?></a></h3>
+        <div class="post-date">
+          <i class="fa fa-pencil-square-o"></i>
+          <?php print $date; ?>
+        </div>
+        <h3<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>" rel="bookmark"><?php print $title; ?></a></h3>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
   <?php endif; ?>
