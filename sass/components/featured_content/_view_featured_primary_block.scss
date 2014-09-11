@@ -65,11 +65,11 @@
         @include rgba-background(rgba($yellow-gold,.9));
 
         .article-title {
-          bottom: 0;
+          @include transform(translateY(0px));
         }
 
         .field--name-field-feature-caption {
-          top: 0;
+          @include transform(translateY(0px));
         }
 
         .bg-icon {
@@ -136,13 +136,13 @@
           position: relative;
           text-align: center;
           width: 100%;
-          @include transition(all .3s);
+          @include transition(all .6s .2s);
         }
         .article-title {
-          bottom: -100%;
+          @include transform(translateY(1000px));
         }
         .field--name-field-feature-caption {
-          top: -100%;
+          @include transform(translateY(-1000px));
           @include font-size(2.4);
           font-style: italic;
           padding: 0 3em 1em;
