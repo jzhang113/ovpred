@@ -77,9 +77,19 @@
  * @see template_preprocess_node()
  * @see template_process()
  */
+hide($content['field_article_image']);
 ?>
 <article<?php print $attributes; ?>>
-  <?php print render($content['field_article_image']); ?>
+  <?php if (isset($image_default) || isset($image_override)): ?>
+  <div class="article-image">
+    <?php if (isset($image_default) && !isset($image_override)): ?>
+      <?php print render($content['field_article_image']); ?>
+    <?php endif ?>
+    <?php if (isset($image_override)): ?>
+      <?php print render($content['field_article_image_override']); ?>
+    <?php endif ?>
+  </div>
+  <?php endif ?>
   <div class="article-content">
     <h3<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>" rel="bookmark"><?php print $title; ?></a></h3>
     <div class="post-date">
