@@ -25,6 +25,21 @@ body {
 
 .l-main {
   margin: 0 auto;
+  max-width: $page-max-width;
+  padding: 2em 0;
+
+  .panelized & {
+    max-width: 100%;
+
+    .page-title {
+      max-width: $page-max-width;
+      margin: 0 auto;
+    }
+  }
+
+  .front & {
+    padding: 0;
+  }
 }
 
 .l-container {

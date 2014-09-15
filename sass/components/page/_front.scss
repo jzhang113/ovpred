@@ -5,10 +5,6 @@
     padding-bottom: 2em;
   }
 
-  .node--article--list h3 a {
-    border-color: darken($darkturquoise, 5%);
-  }
-
   .pane-articles-article-pane-feature-and-news {
     background: $darkturquoise;
     color: #fff;
@@ -16,6 +12,64 @@
     a {
       color: $link-color-on-darkturquise;
     }
+  }
+
+  .pane-localist-pane {
+    background: $snow;
+
+    .lwe {
+      font-family: $header-font-stack;
+      text-align: center;
+      @include rgba-background(rgba(255,255,255,.5));
+      border: 3px solid #eee;
+      @include border-radius(3px);
+    }
+
+    .lwn0 {
+      font-family: $base-font-stack;
+      font-weight: $fw-bold;
+      @include font-size(1.4);
+      text-transform: uppercase;
+      margin-bottom: .5em;
+      display: block;
+      background: $darkturquoise;
+      color: #fff;
+      @include font-smoothing;
+      padding: .3em;
+
+      &:before,
+      &:after {
+        content: "\2014";
+        margin: 0 .5em;
+        position: relative;
+        top: -2px;
+      }
+    }
+
+    .lwl {
+      @include font-size(1.4);
+    }
+
+    .lwl0 {
+      height: 20px;
+      text-align: center;
+      line-height: 999px;
+      overflow: hidden;
+      display: block;
+      margin-top: 1em;
+      margin-bottom: .5em;
+
+      &:before {
+        @include icon($fa-var-map-marker);
+        @include font-size(2);
+        display: block;
+        line-height: normal;
+      }
+    }
+  }
+
+  .node--article--list h3 a {
+    border-color: darken($darkturquoise, 5%);
   }
 
   .view-display-id-article_pane_feature_and_news {
@@ -33,24 +87,37 @@
       }
 
       @include breakpoint($bp-floated-feature-articles) {
-        @include flexbox;
-        @include flex-wrap(wrap);
-        @include justify-content(space-between);
+        .flexbox & {
+          @include flexbox;
+          @include flex-wrap(wrap);
+          @include justify-content(space-between);
+        }
       }
 
       .views-row {
+        // @include feature-box(
+        //   $border-color: #{darken($darkturquoise, 5%)},
+        //   $bg-color: #ffffff,
+        //   $bg-rgba: "true",
+        //   $bg-opacity: .15,
+        //   $pull-items: #{field--name-field-article-image, post-date}
+        // );
         margin-bottom: 1em;
 
         border: 1px solid darken($darkturquoise, 5%);
         @include border-radius(2px);
-        @include rgba-background(rgba(255,255,255,0.1));
+        @include rgba-background(rgba(255,255,255,0.15));
 
         @include breakpoint($bp-floated-feature-articles) {
-          width: 48.5%;
+          .flexbox & {
+            width: 48.5%;
+          }
         }
       }
       .views-row-first {
-        width: 100%;
+        .flexbox & {
+          width: 100%;
+        }
       }
     }
 
