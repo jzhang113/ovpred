@@ -160,7 +160,7 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .l-main { margin: 0 auto; max-width: 1200px; padding: 2em 0; }
 .panelized .l-main { max-width: 100%; }
 .panelized .l-main .page-title { max-width: 1200px; margin: 0 auto; }
-.front .l-main { padding: 0; }
+.front .l-main { padding: 0; max-width: 100%; }
 
 .l-container { margin: 0 auto; max-width: 1200px; }
 
