@@ -127,5 +127,47 @@
       }
     }
   }
+
+  .pane-featured-content-featured-secondary {
+    @include pie-clearfix;
+    @include add-grid(12);
+    @include add-gutter(1.5em);
+
+    .view-content {
+        @include breakpoint(900px) {
+          .flexbox & {
+            @include flexbox;
+            @include flex-wrap(wrap);
+            @include justify-content(space-between);
+            @include align-items(flex-end);
+          }
+        }
+
+      .views-row {
+        max-width: 500px;
+        margin: 0 auto;
+        margin-bottom: 1em;
+
+        @include breakpoint(900px) {
+          .flexbox & {
+            width: 32%;
+          }
+          .no-flexbox & {
+            @include float-span(4);
+          }
+        }
+      }
+    }
+
+    h3 {
+      @include font-size(1.6);
+    }
+
+    .field--name-field-feature-image {
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
 

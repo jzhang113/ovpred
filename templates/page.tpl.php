@@ -131,7 +131,7 @@
     <?php print render($page['sidebar_second']); ?>
   </div>
 
-  <footer class="l-footer" role="contentinfo">
+  <footer class="l-footer" role="contentinfo"><div class="l-container">
     <?php print render($page['footer']); ?>
-  </footer>
+  </div></footer>
 </div>

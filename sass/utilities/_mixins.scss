@@ -1,3 +1,4 @@
+@import "../variables/colors";
 //
 // Markup free clearing
 // http://www.stubbornella.org/content/2012/05/02/cross-browser-debugging-css/
@@ -164,6 +165,29 @@
         margin-left: calc(-#{$feature-box-margin} + 3px);
       }
     }
+  }
+}
+
+@mixin btn {
+  padding: .3em 1em;
+  background-color: $primary-link-color;
+  color: #fff;
+  @include font-smoothing;
+  @include font-size(1.4);
+  font-weight: $fw-bold;
+}
+
+@mixin thick-border {
+  border-bottom: 4px solid #eee;
+}
+
+@mixin teaser-base {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  @include thick-border;
+
+  .node-readmore a {
+    @include btn;
   }
 }
 
