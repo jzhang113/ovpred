@@ -7,15 +7,28 @@
 
   .pane-articles-article-pane-feature-and-news {
     background: $darkturquoise;
-    color: #fff;
+    color: $link-color-on-darkturquise;;
     @include font-smoothing;
+
     a {
-      color: $link-color-on-darkturquise;
+      color: #fff;
+    }
+
+    .pane-title {
+      &:before {
+        @include icon-long-shadow($fa-var-align-left, large, $darkturquoise);
+      }
     }
   }
 
   .pane-localist-pane {
     background: $snow;
+
+    .pane-title {
+      &:before {
+        @include icon-long-shadow($fa-var-calendar, large, $snow);
+      }
+    }
 
     .lwe {
       font-family: $header-font-stack;
@@ -73,20 +86,14 @@
   }
 
   .view-display-id-article_pane_feature_and_news {
-    $bp-floated-footer-view: 960px;
-    $bp-floated-feature-articles: 650px;
-
-    @include pie-clearfix;
-    @include add-grid(12);
-    @include add-gutter(1.5em);
+    $bp-feature-articles-3-col: 950px;
+    $bp-articles-2-col: 650px;
+    $bp-articles-3-col: 950px;
 
     > .view-content {
+      margin-bottom: 1em;
 
-      @include breakpoint($bp-floated-footer-view) {
-        @include grid-span(8, 1);
-      }
-
-      @include breakpoint($bp-floated-feature-articles) {
+      @include breakpoint($bp-feature-articles-3-col) {
         .flexbox & {
           @include flexbox;
           @include flex-wrap(wrap);
@@ -95,35 +102,31 @@
       }
 
       .views-row {
-        // @include feature-box(
-        //   $border-color: #{darken($darkturquoise, 5%)},
-        //   $bg-color: #ffffff,
-        //   $bg-rgba: "true",
-        //   $bg-opacity: .15,
-        //   $pull-items: #{field--name-field-article-image, post-date}
-        // );
         margin-bottom: 1em;
-
         border: 1px solid darken($darkturquoise, 5%);
         @include border-radius(2px);
         @include rgba-background(rgba(255,255,255,0.15));
 
-        @include breakpoint($bp-floated-feature-articles) {
+        @include breakpoint($bp-feature-articles-3-col) {
           .flexbox & {
-            width: 48.5%;
+            width: 32%;
           }
         }
       }
-      .views-row-first {
-        .flexbox & {
-          width: 100%;
-        }
-      }
     }
-
     > .view-footer {
-      @include breakpoint($bp-floated-footer-view) {
-        @include grid-span(4, 9);
+      .view-content {
+        @include breakpoint($bp-articles-2-col) {
+          @include column-gap(2em);
+          @include column-count(2);
+
+          .views-row {
+            @include break-inside(avoid);
+          }
+        }
+        @include breakpoint($bp-articles-3-col) {
+          @include column-count(3);
+        }
       }
     }
   }

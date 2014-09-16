@@ -27,6 +27,7 @@ body {
   margin: 0 auto;
   max-width: $page-max-width;
   padding: 2em 0;
+  @include pie-clearfix;
 
   .panelized & {
     max-width: 100%;

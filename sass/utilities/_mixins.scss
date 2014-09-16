@@ -191,3 +191,165 @@
   }
 }
 
+@mixin long-shadow($type, $color, $length, $fadeout: true, $skew: false, $direction: right){
+  $shadow: '';
+  @if $skew == false or $type == text{
+    @if $direction == right {
+      @for $i from 0 to $length - 1 {
+        $shadow: $shadow + $i + 'px ' + $i + 'px 0 ' + $color + ',';
+      }
+    }
+    @if $direction == left {
+      @for $i from 0 to $length - 1 {
+        $shadow: $shadow + $i * -1 + 'px ' + $i + 'px 0 ' + $color + ',';
+       }
+      }
+     }
+
+   @if $fadeout == true{
+    @for $i from 1 to $length - 1 {
+      @if $type == text or $skew == false{
+        @if $direction == right{
+          $shadow: $shadow + $i + 'px ' + $i + 'px 0 ' +       rgba($color, 1 - $i / $length) + ',';
+        }
+        @if $direction == left{
+          $shadow: $shadow + $i * -1 + 'px ' + $i + 'px 0 ' +       rgba($color, 1 - $i / $length) + ',';
+        }
+      }
+      @if ($type == box) and $skew == true{
+        @if $direction == right {
+          $shadow: $shadow + $i + 'px ' + $i + 'px 0 ' + $i * .2 + 'px ' + rgba($color, 1 - $i / $length) + ',';
+        }
+        @if $direction == left {
+          $shadow: $shadow + $i * -1 + 'px ' + $i + 'px 0 ' + $i * .2 + 'px ' + rgba($color, 1 - $i / $length) + ',';
+        }
+      }
+  }
+  $shadow: $shadow + $length + 'px ' + $length + 'px 0 ' + rgba($color, 0);
+ }
+ @if $fadeout == false{
+   @if $skew == true and ( $type == box ){
+     @for $i from 0 to $length - 1 {
+            $shadow: $shadow + $i + 'px ' + $i + 'px 0 ' + $i * .1 + 'px ' + $color + ',';
+      }
+   }
+    $shadow: $shadow + $length + 'px ' + $length + 'px 0 ' + rgba(0,0,0,0);
+ }
+ $shadow: unquote($shadow);
+  @if $type == 'box' {box-shadow: $shadow;}
+  @if $type == 'text' {text-shadow: $shadow;}
+}
+
+@mixin icon-long-shadow($icon, $size: large, $color: $darkturquoise) {
+  @include icon($icon);
+  display: block;
+  padding: .1em;
+  @include border-radius(4px);
+  overflow: hidden;
+  margin: 0 auto 1em;
+
+  @if $size == large {
+    @include font-size(5);
+    width: 100px;
+    height: 100px;
+    line-height: 90px;
+  }
+
+  @if $color == $darkturquoise {
+    color: #fff;
+    background: darken($darkturquoise, 4);
+    @include long-shadow(text, darken($darkturquoise, 10), 40, true, true);
+    @include box-shadow(
+      rgba(0,0,0,.2) 1px 1px 3px 1px,
+      rgb(22, 158, 152) 1px 1px,
+      rgb(22, 158, 152) 2px 2px,
+      rgb(22, 158, 152) 3px 3px,
+      rgb(22, 158, 152) 4px 4px,
+      rgb(22, 158, 152) 5px 5px,
+      rgb(22, 158, 152) 6px 6px,
+      rgb(22, 158, 152) 7px 7px,
+      rgb(22, 158, 152) 8px 8px,
+      rgb(22, 158, 152) 9px 9px,
+      rgb(22, 158, 152) 10px 10px,
+      rgb(22, 158, 152) 11px 11px,
+      rgb(22, 158, 152) 12px 12px,
+      rgb(22, 158, 152) 13px 13px,
+      rgb(22, 158, 152) 14px 14px,
+      rgb(22, 158, 152) 15px 15px,
+      rgb(22, 158, 152) 16px 16px,
+      rgb(22, 158, 152) 17px 17px,
+      rgb(22, 158, 152) 18px 18px,
+      rgb(22, 158, 152) 19px 19px,
+      rgb(22, 158, 152) 20px 20px,
+      rgb(22, 158, 152) 21px 21px,
+      rgb(22, 159, 153) 22px 22px,
+      rgb(22, 159, 153) 23px 23px,
+      rgb(22, 159, 153) 24px 24px,
+      rgb(22, 160, 154) 25px 25px,
+      rgb(22, 160, 154) 26px 26px,
+      rgb(22, 160, 154) 27px 27px,
+      rgb(22, 161, 155) 28px 28px,
+      rgb(22, 161, 155) 29px 29px,
+      rgb(22, 161, 155) 30px 30px,
+      rgb(22, 162, 156) 31px 31px,
+      rgb(22, 162, 156) 32px 32px,
+      rgb(22, 162, 156) 33px 33px,
+      rgb(22, 163, 157) 34px 34px,
+      rgb(22, 163, 157) 35px 35px,
+      rgb(22, 163, 157) 36px 36px,
+      rgb(22, 164, 158) 37px 37px,
+      rgb(22, 164, 158) 38px 38px,
+      rgb(22, 164, 158) 39px 39px,
+      rgb(22, 165, 159) 40px 40px,
+      rgb(22, 165, 159) 41px 41px,
+      rgb(22, 165, 159) 42px 42px,
+      rgb(23, 166, 160) 43px 43px
+    );
+  }
+  @if $color == $snow {
+    color: #fff;
+    background: #666;
+    @include long-shadow(text, darken(#666, 8), 50, true, true);
+    @include box-shadow(
+      rgba(0,0,0,.2) 1px 1px 3px 1px,
+      rgb(229, 229, 229) 1px 1px,
+      rgb(229, 229, 229) 2px 2px,
+      rgb(229, 229, 229) 3px 3px,
+      rgb(229, 229, 229) 4px 4px,
+      rgb(229, 229, 229) 5px 5px,
+      rgb(229, 229, 229) 6px 6px,
+      rgb(229, 229, 229) 7px 7px,
+      rgb(229, 229, 229) 8px 8px,
+      rgb(230, 230, 230) 9px 9px,
+      rgb(231, 231, 231) 10px 10px,
+      rgb(231, 231, 231) 11px 11px,
+      rgb(232, 232, 232) 12px 12px,
+      rgb(233, 233, 233) 13px 13px,
+      rgb(233, 233, 233) 14px 14px,
+      rgb(234, 234, 234) 15px 15px,
+      rgb(235, 235, 235) 16px 16px,
+      rgb(235, 235, 235) 17px 17px,
+      rgb(236, 236, 236) 18px 18px,
+      rgb(237, 237, 237) 19px 19px,
+      rgb(237, 237, 237) 20px 20px,
+      rgb(238, 238, 238) 21px 21px,
+      rgb(239, 239, 239) 22px 22px,
+      rgb(239, 239, 239) 23px 23px,
+      rgb(240, 240, 240) 24px 24px,
+      rgb(241, 241, 241) 25px 25px,
+      rgb(241, 241, 241) 26px 26px,
+      rgb(242, 242, 242) 27px 27px,
+      rgb(243, 243, 243) 28px 28px,
+      rgb(243, 243, 243) 29px 29px,
+      rgb(244, 244, 244) 30px 30px,
+      rgb(245, 245, 245) 31px 31px,
+      rgb(245, 245, 245) 32px 32px,
+      rgb(246, 246, 246) 33px 33px,
+      rgb(247, 247, 247) 34px 34px,
+      rgb(247, 247, 247) 35px 35px,
+      rgb(248, 248, 248) 36px 36px,
+      rgb(249, 249, 249) 37px 37px
+    );
+  }
+}
+
