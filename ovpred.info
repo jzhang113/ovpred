@@ -24,6 +24,7 @@ stylesheets[all][] = css/ovpred.no-query.css
 ; ========================================
 regions[branding] = Branding
 regions[header] = Header
+regions[slideshow] = Slideshow
 regions[navigation] = Navigation
 regions[highlighted] = Highlighted
 regions[help] = Help

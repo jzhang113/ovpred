@@ -90,10 +90,6 @@ hide($content['field_article_image']);
       <?php endif ?>
     </div>
   <?php endif ?>
-  <div class="post-date">
-    <i class="fa fa-pencil-square-o"></i>
-    <?php print $date; ?>
-  </div>
   <div class="article-content">
     <h3<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>" rel="bookmark"><?php print $title; ?></a></h3>
     <div<?php print $content_attributes; ?>>

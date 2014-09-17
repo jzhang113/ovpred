@@ -2,32 +2,16 @@ $bp-superfish-collapsed: 768px;
 
 .l-header {
   background-color: #2a2a2a;
-  color: #fff;
   @include font-smoothing;
   @include box-shadow(0px -60px 80px -30px rgba(0,0,0,.3) inset);
-  background-image: url('../images/bg-images/BioVentures-Exterior-Professional.jpg');
-  @include background-size(cover);
-  background-position: center;
-  min-height: 300px;
   position: relative;
+  color: #333;
+  @include text-shadow(1px 0px 0px rgba(255,255,255,.3));
+  @include box-shadow(0px 1px 3px 2px rgba(0, 0, 0, 0.1));
+  z-index: 4;
 
   a {
-    color: #fff;
-  }
-
-
-  .nav-bar {
-    @include rgba-background(rgba(0,0,0,0.8));
-    padding: 1em;
-    position: relative;
-
-    .flexbox & {
-      @include breakpoint($bp-superfish-collapsed) {
-        @include flexbox;
-        @include justify-content(space-between);
-        @include align-items(center);
-      }
-    }
+    color: #333;
   }
 }
 
@@ -37,6 +21,23 @@ $bp-superfish-collapsed: 768px;
 }
 
 .l-branding {
+  text-align: center;
+  width: 100%;
+  min-height: 125px;
+  padding: 1em;
+
+  .flexbox & {
+    @include flexbox;
+    @include align-items(center);
+    @include justify-content(center);
+  }
+
+  @include background-image(linear-gradient($yellow-gold 30%, darken($yellow-gold, 3) 70%));
+
 }
 .l-region--navigation {
+  width: 100%;
+  border-top: 1px solid darken($yellow-gold, 9);
+  @include box-shadow(0px 1px 0px lighten($yellow-gold, 5) inset);
+  @include background-image(linear-gradient(darken($yellow-gold, 2), darken($yellow-gold, 4)));
 }

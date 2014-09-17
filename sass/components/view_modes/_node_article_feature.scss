@@ -1,15 +1,5 @@
 .node--article--feature {
-  padding: 3px;
 
-  p:last-child {
-    margin-bottom: 0;
-  }
-
-  .post-date {
-    background: darken($darkturquoise, 2%);
-    padding: .3em 1em;
-    text-align: center;
-  }
 
   .field--name-field-article-image {
     max-height: 200px;
@@ -19,9 +9,5 @@
     img {
       width: 100%;
     }
-  }
-
-  .article-content {
-    padding: 1em;
   }
 }

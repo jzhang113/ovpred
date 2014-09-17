@@ -3,6 +3,8 @@ $bp-is-expanded: 768px;
 #block-superfish-1 {
   @include font-size(1.5);
   font-weight: $fw-semi-bold;
+  max-width: $page-max-width;
+  margin: 0 auto;
 
   .sf-style-none {
     float: none;
@@ -11,6 +13,7 @@ $bp-is-expanded: 768px;
 
   .sf-depth-1 > a {
     text-transform: uppercase;
+    text-align: center;
   }
 
   // Accordian Styles
