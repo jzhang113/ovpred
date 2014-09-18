@@ -1,0 +1,21 @@
+.pane-ovpred-common-ovpred-business-services {
+  ul {
+    margin: 0;
+    padding: 0;
+
+    .flexbox & {
+      @include flexbox;
+    }
+
+    li {
+      list-style: none;
+      text-align: center;
+      padding: .3em;
+      background: #f5f5f5;
+
+      &:nth-child(even) {
+        background: #e1e1e1;
+      }
+    }
+  }
+}

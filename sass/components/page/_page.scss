@@ -24,29 +24,10 @@ body {
 }
 
 .l-main {
-  margin: 0 auto;
-  max-width: $page-max-width;
   padding: 2em 0;
-  @include pie-clearfix;
-
-  .l-content {
-    padding-left: 1em;
-    padding-right: 1em;
-
-    .panelized &,
-    .front & {
-      padding-left: 0;
-      padding-right: 0;
-    }
-  }
-
-  .panelized & {
-    max-width: 100%;
-  }
 
   .front & {
     padding: 0;
-    max-width: 100%;
   }
 }
 

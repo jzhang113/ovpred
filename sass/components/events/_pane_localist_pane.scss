@@ -1,4 +1,4 @@
-.pane-localist-pane {
+%pane-localist-pane-grid {
   span {
     display: block;
   }
@@ -18,12 +18,61 @@
         }
       }
     }
+  }
 
-    li {
-      list-style: none;
-      background: #eee;
-      padding: 1em;
-      margin-bottom: 1em;
+  // Each list item
+  .lwe {
+    list-style: none;
+    padding: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    background: $snow;
+    border: 1px solid darken($snow, 4);
+  }
+
+  // Date
+  .lwn0 {
+    font-family: $base-font-stack;
+    font-weight: $fw-bold;
+    @include font-size(1.4);
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    display: block;
+    background: #333;
+    color: $yellow-gold;
+    @include font-smoothing;
+    padding: .3em;
+
+    &:before,
+    &:after {
+      content: "\2014";
+      margin: 0 .5em;
+      position: relative;
+      top: -2px;
+    }
+  }
+
+  // location
+  .lwl {
+    @include font-size(1.4);
+  }
+
+  // Location label
+  .lwl0 {
+    height: 20px;
+    text-align: center;
+    line-height: 999px;
+    overflow: hidden;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: .5em;
+
+    &:before {
+      @include icon($fa-var-map-marker);
+      @include font-size(2);
+      display: block;
+      line-height: normal;
+      color: #888;
     }
   }
 }

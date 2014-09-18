@@ -122,8 +122,16 @@
     </div>
 
     <div class="l-content" role="main">
+      <?php if ($variables['content_container'] == true): ?>
+        <div class="l-container">
+      <?php endif; ?>
+
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
+
+      <?php if ($variables['content_container'] == true): ?>
+        </div>
+      <?php endif; ?>
     </div>
 
     <?php print render($page['sidebar_first']); ?>

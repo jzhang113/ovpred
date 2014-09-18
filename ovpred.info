@@ -34,6 +34,11 @@ regions[sidebar_second] = Second Sidebar
 regions[footer] = Footer
 
 ; ========================================
+; Plugins
+; ========================================
+plugins[panels][layouts] = layouts/panel_layouts
+
+; ========================================
 ; Breakpoints
 ; ========================================
 breakpoints[wide] = (min-width: 1220px)

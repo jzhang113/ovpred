@@ -1,0 +1,3 @@
+/******************************************************************************* zoolander.layout.scss  Styling of the "Zoolander" layout grids with Singularity. *****************************************************************************/
+.panel-display--zoolander { *zoom: 1; }
+.panel-display--zoolander:after { content: ""; display: table; clear: both; }
