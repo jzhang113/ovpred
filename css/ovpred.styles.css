@@ -14,6 +14,8 @@ img, media { max-width: 100%; height: auto; }
 .pane-header h2 { margin-bottom: 0; }
 .pane-header .pane-subtitle { font-size: 26px; font-size: 2.6rem; font-weight: 300; }
 
+.panel-pane { margin-bottom: 1em; }
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "proxima-nova", sans-serif; font-weight: 700; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; margin: 0 0 .5em; }
 
 h1, .h1 { font-size: 32px; font-size: 3.2rem; }
@@ -41,10 +43,12 @@ a { text-decoration: none; color: #2476AE; }
   .zero-region .pane-localist-pane { width: 23.40426%; float: left; margin-right: -100%; margin-left: 51.06383%; clear: none; }
   .zero-region .pane-twitter-block-1 { width: 23.40426%; float: right; margin-left: 0; margin-right: 0; clear: none; } }
 
-.pane-ovpred-common-ovpred-business-services ul { margin: 0; padding: 0; }
-.flexbox .pane-ovpred-common-ovpred-business-services ul { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; }
-.pane-ovpred-common-ovpred-business-services ul li { list-style: none; text-align: center; padding: .3em; background: #f5f5f5; }
-.pane-ovpred-common-ovpred-business-services ul li:nth-child(even) { background: #e1e1e1; }
+.block--ovpred-common-ovpred-business-services ul, .pane-ovpred-common-ovpred-business-services ul { margin: 0 -3px; padding: 0; }
+.flexbox .block--ovpred-common-ovpred-business-services ul, .flexbox .pane-ovpred-common-ovpred-business-services ul { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+@media (min-width: 950px) { .flexbox .block--ovpred-common-ovpred-business-services ul, .flexbox .pane-ovpred-common-ovpred-business-services ul { -webkit-flex-wrap: nowrap; -moz-flex-wrap: nowrap; -ms-flex-wrap: none; flex-wrap: nowrap; } }
+.block--ovpred-common-ovpred-business-services ul li, .pane-ovpred-common-ovpred-business-services ul li { list-style: none; text-align: center; background: #f9f9f9; line-height: 1; -webkit-box-flex: 1; -webkit-flex: 1 1 200px; -moz-box-flex: 1; -moz-flex: 1 1 200px; -ms-flex: 1 1 200px; flex: 1 1 200px; margin: 3px; border: 1px solid #efefef; }
+.block--ovpred-common-ovpred-business-services ul li a, .pane-ovpred-common-ovpred-business-services ul li a { display: block; padding: 1em; font-size: 13px; font-size: 1.3rem; }
+.block--ovpred-common-ovpred-business-services ul li a:before, .pane-ovpred-common-ovpred-business-services ul li a:before { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: ""; display: block; margin-bottom: 5px; font-size: 23px; font-size: 2.3rem; }
 
 .front .pane-localist-pane span { display: block; }
 .front .pane-localist-pane .lw ul { margin: 0; padding: 0; }
