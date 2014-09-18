@@ -23,16 +23,18 @@ $bp-superfish-collapsed: 768px;
 .l-branding {
   text-align: center;
   width: 100%;
-  min-height: 125px;
   padding: 1em;
-
-  .flexbox & {
-    @include flexbox;
-    @include align-items(center);
-    @include justify-content(center);
-  }
-
   @include background-image(linear-gradient($yellow-gold 30%, darken($yellow-gold, 3) 70%));
+
+  @include breakpoint($bp-sf-is-expanded) {
+    min-height: 125px;
+
+    .flexbox & {
+      @include flexbox;
+      @include align-items(center);
+      @include justify-content(center);
+    }
+  }
 
 }
 .l-region--navigation {

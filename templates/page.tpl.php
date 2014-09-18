@@ -102,18 +102,12 @@
     </div>
   <?php endif; ?>
 
-  <?php if ($breadcrumb): ?>
-    <div class="l-breadcrumb"><div class="l-container">
-      <?php print $breadcrumb; ?>
-    </div></div>
-  <?php endif; ?>
-
-
   <div class="l-main">
-    <div class="l-content" role="main">
-      <?php print render($page['highlighted']); ?>
 
+    <div class="l-container">
+      <?php print render($page['highlighted']); ?>
       <a id="main-content"></a>
+      <?php print $breadcrumb; ?>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
         <h1 class="page-title"><?php print $title; ?></h1>
@@ -125,6 +119,9 @@
       <?php if ($action_links): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
+    </div>
+
+    <div class="l-content" role="main">
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
     </div>
