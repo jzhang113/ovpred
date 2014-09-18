@@ -1,0 +1,51 @@
+$bp-slider-small-screen: $bp-sf-is-expanded;
+
+.node--featured-content--feature {
+  max-height: 450px;
+  overflow: hidden;
+  position: relative;
+
+  .slider-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    @include breakpoint(0 $bp-slider-small-screen) {
+      position: static;
+    }
+  }
+
+  a {
+    display: block;
+  }
+
+  h2,
+  .field--name-field-feature-caption {
+    padding: 10px 20px;
+  }
+
+  h2 {
+    @include inline-block;
+    @include rgba-background(rgba(0,0,0,0.75));
+    font-weight: $fw-light;
+    margin-bottom: 3px;
+    color: #fff;
+
+    @include breakpoint(0 $bp-slider-small-screen) {
+      display: block;
+      margin-bottom: 0;
+      @include font-size(1.8);
+      background: #222;
+    }
+  }
+
+  .field--name-field-feature-caption {
+    max-width: 600px;
+    @include rgba-background(rgba(255,255,255,0.75));
+    @include font-size(1.5);
+
+    @include breakpoint(0 $bp-slider-small-screen) {
+      display: none;
+    }
+  }
+}

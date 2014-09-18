@@ -3,4 +3,9 @@
   @include box-shadow(initial);
   background: transparent;
   margin: 0;
+
+  .flex-control-nav {
+    bottom: 14px;
+    z-index: 2;
+  }
 }
