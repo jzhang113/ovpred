@@ -9,7 +9,7 @@
  * panel of the layout. This layout supports the following sections:
  */
 ?>
-<div<?php print $attributes ?>>
+<div<?php print $attributes ?>><div class="l-container">
   <?php foreach($content as $name => $item): ?>
     <?php if (!empty($item)): ?>
       <div<?php print drupal_attributes($region_attributes_array[$name])?>>
@@ -17,4 +17,4 @@
       </div>
     <?php endif; ?>
   <?php endforeach; ?>
-</div>
+</div></div>

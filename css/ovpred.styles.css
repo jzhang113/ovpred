@@ -34,10 +34,12 @@ a { text-decoration: none; color: #2476AE; }
 
 .tabs--primary { margin: 1em 0 0; }
 
-.pane-ovpred-common-ovpred-business-services ul { margin: 0; padding: 0; }
-.flexbox .pane-ovpred-common-ovpred-business-services ul { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; }
-.pane-ovpred-common-ovpred-business-services ul li { list-style: none; text-align: center; padding: .3em; background: #f5f5f5; }
-.pane-ovpred-common-ovpred-business-services ul li:nth-child(even) { background: #e1e1e1; }
+.zero-region { *zoom: 1; }
+.zero-region:after { content: ""; display: table; clear: both; }
+@media (min-width: 950px) { .zero-region .pane-articles-article-pane-testimonial { width: 23.40426%; float: left; margin-right: -100%; margin-left: 0; clear: none; }
+  .zero-region .pane-articles-article-pane-feature { width: 23.40426%; float: left; margin-right: -100%; margin-left: 25.53191%; clear: none; }
+  .zero-region .pane-localist-pane { width: 23.40426%; float: left; margin-right: -100%; margin-left: 51.06383%; clear: none; }
+  .zero-region .pane-twitter-block-1 { width: 23.40426%; float: right; margin-left: 0; margin-right: 0; clear: none; } }
 
 .pane-ovpred-common-ovpred-business-services ul { margin: 0; padding: 0; }
 .flexbox .pane-ovpred-common-ovpred-business-services ul { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; }
