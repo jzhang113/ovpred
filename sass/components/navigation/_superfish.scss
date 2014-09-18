@@ -2,9 +2,13 @@
 // You can add these variables to your _base.scss
 $superfish-1-color: #333;
 $superfish-1-background-color-level-first: transparent;
-$superfish-1-background-color-level-second: #333;
-$superfish-1-background-color-level-third: #444;
-$superfish-1-background-color-level-fourth: #555;
+$superfish-1-background-color-level-second: $snow;
+$superfish-1-background-color-level-third: darken($snow, 5);
+$superfish-1-background-color-level-fourth: darken($snow, 10);
+$superfish-1-background-color-hover: lighten($yellow-gold, 45);
+$superfish-1-background-color-active: lighten($yellow-gold, 40);
+
+$fa-icon: true;
 
 $hover-top: 38px;
 
@@ -53,15 +57,15 @@ $hover-top: 38px;
         padding-right: 2.25em;
       }
       &:focus {
-        background: $superfish-1-background-color-level-fourth;
+        background: $superfish-1-background-color-hover;
         outline: 0;
       }
       &:hover {
-        background: $superfish-1-background-color-level-fourth;
+        background: $superfish-1-background-color-hover;
         outline: 0;
       }
       &:active {
-        background: $superfish-1-background-color-level-fourth;
+        background: $superfish-1-background-color-hover;
         outline: 0;
       }
     }
@@ -107,11 +111,14 @@ $hover-top: 38px;
         background: $superfish-1-background-color-level-second;
         li {
           background: $superfish-1-background-color-level-third;
+          li {
+            background: $superfish-1-background-color-level-fourth;
+          }
         }
       }
       &:hover,
       &.sfHover {
-        background: $superfish-1-background-color-level-fourth;
+        background: $superfish-1-background-color-active;
         outline: 0;
         > ul {
           top: $hover-top;
@@ -124,11 +131,26 @@ $hover-top: 38px;
     .sf-sub-indicator {
       top: .9em;
       right: 1em;
+    }
 
-      &:before {
+    @if $fa-icon == true {
+      .sf-sub-indicator {
+        background-image: none;
+        height: 15px;
+        text-align: center;
+
+        &:before {
+          @include icon($fa-var-caret-right);
+          text-indent: 0;
+          display: block !important;
+          position: relative;
+          top: 2px;
+        }
+      }
+
+      .sf-depth-1 > .sf-sub-indicator:before {
         @include icon($fa-var-caret-down);
-        position: relative;
-        top: 1px;
+        top: -3px;
       }
     }
   }

@@ -80,7 +80,7 @@
 ?>
 <article<?php print $attributes; ?>>
   <a href="<?php print $feature_link; ?>">
-    <h3><?php print $title; ?></h3>
     <?php print render($content['field_feature_image']); ?>
+    <h3><?php print $title; ?></h3>
   </a>
 </article>
