@@ -45,11 +45,19 @@ hr { height: 2px; border: none; background: #ccc; }
 .zero-region .pane-articles-article-pane-testimonial p { margin-bottom: .3em; }
 .zero-region .pane-articles-article-pane-testimonial .view-content { background: #f9f9f9; border: 1px solid #efefef; padding: 1em; }
 
-.block--ovpred-common-ovpred-business-services ul, .pane-ovpred-common-ovpred-business-services ul { margin: 0 -3px; padding: 0; }
+.block--ovpred-common-ovpred-business-services ul, .pane-ovpred-common-ovpred-business-services ul { margin: 0 -1px; padding: 0; }
 .flexbox .block--ovpred-common-ovpred-business-services ul, .flexbox .pane-ovpred-common-ovpred-business-services ul { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
-.block--ovpred-common-ovpred-business-services ul li, .pane-ovpred-common-ovpred-business-services ul li { list-style: none; text-align: center; background: #f9f9f9; line-height: 1; -webkit-box-flex: 1; -webkit-flex: 1 1 200px; -moz-box-flex: 1; -moz-flex: 1 1 200px; -ms-flex: 1 1 200px; flex: 1 1 200px; margin: 3px; border: 1px solid #efefef; }
-.block--ovpred-common-ovpred-business-services ul li a, .pane-ovpred-common-ovpred-business-services ul li a { display: block; padding: 1em; font-size: 13px; font-size: 1.3rem; }
-.block--ovpred-common-ovpred-business-services ul li a:before, .pane-ovpred-common-ovpred-business-services ul li a:before { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: ""; display: block; margin-bottom: 5px; font-size: 23px; font-size: 2.3rem; }
+.block--ovpred-common-ovpred-business-services ul li, .pane-ovpred-common-ovpred-business-services ul li { list-style: none; text-align: center; line-height: 1; -webkit-box-flex: 1; -webkit-flex: 1 1 250px; -moz-box-flex: 1; -moz-flex: 1 1 250px; -ms-flex: 1 1 250px; flex: 1 1 250px; margin: 1px; }
+.block--ovpred-common-ovpred-business-services ul li a, .pane-ovpred-common-ovpred-business-services ul li a { display: block; padding: 1.3em 1em 1em; font-size: 14px; font-size: 1.4rem; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2); }
+.block--ovpred-common-ovpred-business-services ul li a:before, .pane-ovpred-common-ovpred-business-services ul li a:before { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: ""; display: block; margin-bottom: 5px; font-size: 35px; font-size: 3.5rem; }
+.block--ovpred-common-ovpred-business-services .consultant, .pane-ovpred-common-ovpred-business-services .consultant { background-color: #795659; }
+.block--ovpred-common-ovpred-business-services .start, .pane-ovpred-common-ovpred-business-services .start { background-color: #73731B; }
+.block--ovpred-common-ovpred-business-services .recruit, .pane-ovpred-common-ovpred-business-services .recruit { background-color: #722030; }
+.block--ovpred-common-ovpred-business-services .professional-development, .pane-ovpred-common-ovpred-business-services .professional-development { background-color: #0D6E5C; }
+.block--ovpred-common-ovpred-business-services .relocate, .pane-ovpred-common-ovpred-business-services .relocate { background-color: #2C4E56; }
+.block--ovpred-common-ovpred-business-services .licensing, .pane-ovpred-common-ovpred-business-services .licensing { background-color: #637666; }
+.block--ovpred-common-ovpred-business-services .mentor, .pane-ovpred-common-ovpred-business-services .mentor { background-color: #676376; }
+.block--ovpred-common-ovpred-business-services .technology, .pane-ovpred-common-ovpred-business-services .technology { background-color: #AE485E; }
 
 .pane-localist-pane-grid span, .front .pane-localist-pane span { display: block; }
 .pane-localist-pane-grid .lw ul, .front .pane-localist-pane .lw ul { margin: 0; padding: 0; }

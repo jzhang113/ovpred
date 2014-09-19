@@ -3,7 +3,7 @@ $bp-full-flex: 950px;
 .block--ovpred-common-ovpred-business-services,
 .pane-ovpred-common-ovpred-business-services {
   ul {
-    margin: 0 -3px;
+    margin: 0 -1px;
     padding: 0;
 
     .flexbox & {
@@ -11,31 +11,57 @@ $bp-full-flex: 950px;
       @include flex-wrap(wrap);
 
       @include breakpoint($bp-full-flex) {
-        @include flex-wrap(nowrap);
+        //@include flex-wrap(nowrap);
       }
     }
 
     li {
       list-style: none;
       text-align: center;
-      background: $snow;
       line-height: 1;
-      @include flex(1 1 200px);
-      margin: 3px;
-      border: 1px solid darken($snow, 4);
+      @include flex(1 1 250px);
+      margin: 1px;
 
       a {
         display: block;
-        padding: 1em;
-        @include font-size(1.3);
+        padding: 1.3em 1em 1em;
+        @include font-size(1.4);
+        color: #fff;
+        @include font-smoothing;
+        @include text-shadow(1px 1px 0px rgba(0,0,0,.2));
 
         &:before {
           @include icon($fa-var-briefcase);
           display: block;
           margin-bottom: 5px;
-          @include font-size(2.3);
+          @include font-size(3.5);
         }
       }
     }
+  }
+
+  .consultant {
+    background-color: #795659;
+  }
+  .start {
+    background-color: #73731B;
+  }
+  .recruit {
+    background-color: #722030;
+  }
+  .professional-development {
+    background-color: #0D6E5C;
+  }
+  .relocate {
+    background-color: #2C4E56;
+  }
+  .licensing {
+    background-color: #637666;
+  }
+  .mentor {
+    background-color: #676376;
+  }
+  .technology {
+    background-color: #AE485E;
   }
 }
