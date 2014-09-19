@@ -1,12 +1,13 @@
 
 // You can add these variables to your _base.scss
-$superfish-1-color: #333;
+$superfish-1-color: #fff;
 $superfish-1-background-color-level-first: transparent;
-$superfish-1-background-color-level-second: $snow;
-$superfish-1-background-color-level-third: darken($snow, 5);
-$superfish-1-background-color-level-fourth: darken($snow, 10);
-$superfish-1-background-color-hover: lighten($yellow-gold, 45);
-$superfish-1-background-color-active: lighten($yellow-gold, 40);
+$superfish-1-background-color-level-second: #333;
+$superfish-1-background-color-level-third: darken(#333, 5);
+$superfish-1-background-color-level-fourth: darken(#333, 10);
+$superfish-1-background-color-hover: lighten(#333, 4);
+$superfish-1-background-color-active: lighten(#333, 6);
+$superfish-hover-text-color: #fff;
 
 $fa-icon: true;
 
@@ -59,14 +60,17 @@ $hover-top: 38px;
       &:focus {
         background: $superfish-1-background-color-hover;
         outline: 0;
+        color: $superfish-hover-text-color;
       }
       &:hover {
         background: $superfish-1-background-color-hover;
         outline: 0;
+        color: $superfish-hover-text-color;
       }
       &:active {
         background: $superfish-1-background-color-hover;
         outline: 0;
+        color: $superfish-hover-text-color;
       }
     }
     span {

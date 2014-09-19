@@ -3,6 +3,7 @@
   font-weight: $fw-semi-bold;
   max-width: $page-max-width;
   margin: 0 auto;
+  @include text-shadow(none);
 
   ul {
     line-height: 1;
@@ -16,6 +17,7 @@
 
   .sf-depth-1 > a {
     text-transform: uppercase;
+    color: #333;
 
     @include breakpoint($bp-sf-is-expanded) {
       text-align: center;
