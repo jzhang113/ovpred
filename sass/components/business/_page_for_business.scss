@@ -11,7 +11,7 @@
     .pane-articles-article-pane-testimonial {
       @include grid-span(3, 1);
     }
-    .pane-articles-article-pane-feature {
+    .pane-articles-article-pane {
       @include grid-span(3, 4);
     }
     .pane-localist-pane {
@@ -19,6 +19,26 @@
     }
     .pane-twitter-block-1 {
       @include grid-span(3, 10);
+    }
+  }
+
+  .pane-articles-article-pane-testimonial {
+    .node__title {
+      @include element-invisible;
+    }
+
+    .field--name-field-article-image {
+      margin-bottom: .5em;
+    }
+
+    p {
+      margin-bottom: .3em;
+    }
+
+    .view-content {
+      background: $snow;
+      border: 1px solid darken($snow, 4);
+      padding: 1em;
     }
   }
 }

@@ -1,3 +1,4 @@
+.pane-localist-pane-grid,
 %pane-localist-pane-grid {
   span {
     display: block;
@@ -73,6 +74,44 @@
       display: block;
       line-height: normal;
       color: #888;
+    }
+  }
+}
+
+.pane-localist-pane-list {
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  span {
+    display: block;
+  }
+
+  .lwe {
+    @include article-list;
+  }
+
+  .lwn0 {
+    @include font-size(1.4);
+
+    &:before {
+      @include icon($fa-var-calendar);
+      margin-right: 10px;
+      color: #777;
+    }
+  }
+
+  .lwl {
+    @include font-size(1.4);
+
+    .lwl0 {
+      display: inline;
+      margin-right: 5px;
     }
   }
 }
