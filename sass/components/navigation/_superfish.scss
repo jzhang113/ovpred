@@ -8,6 +8,7 @@ $superfish-1-background-color-level-fourth: darken(#333, 10);
 $superfish-1-background-color-hover: lighten(#333, 4);
 $superfish-1-background-color-active: lighten(#333, 6);
 $superfish-hover-text-color: #fff;
+$superfish-1-text-color-active: #fff;
 
 $fa-icon: true;
 
@@ -124,6 +125,9 @@ $hover-top: 38px;
       &.sfHover {
         background: $superfish-1-background-color-active;
         outline: 0;
+        a {
+          color: $superfish-1-text-color-active;
+        }
         > ul {
           top: $hover-top;
           ul {

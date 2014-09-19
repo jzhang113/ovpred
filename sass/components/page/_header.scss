@@ -24,7 +24,7 @@ $bp-superfish-collapsed: 768px;
   text-align: center;
   width: 100%;
   padding: 1em;
-  @include background-image(linear-gradient($yellow-gold 30%, darken($yellow-gold, 3) 70%));
+  @include background-image(linear-gradient($yellow-gold 30%, #ffd600 70%));
 
   @include breakpoint($bp-sf-is-expanded) {
     min-height: 125px;
@@ -39,8 +39,8 @@ $bp-superfish-collapsed: 768px;
 }
 .l-region--navigation {
   width: 100%;
-  border-top: 1px solid darken($yellow-gold, 9);
-  border-bottom: 1px solid darken($yellow-gold, 9);
+  border-top: 1px solid darken(#ffd600, 9);
+  border-bottom: 1px solid darken(#ffd600, 9);
   @include box-shadow(0px 1px 0px lighten($yellow-gold, 5) inset);
-  @include background-image(linear-gradient(darken($yellow-gold, 2), darken($yellow-gold, 4)));
+  @include background-image(linear-gradient(#ffd600, darken(#ffd600, 3)));
 }
