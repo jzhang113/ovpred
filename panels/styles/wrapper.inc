@@ -79,7 +79,7 @@ function ovpred_wrapper_settings_form($style_settings) {
 function theme_ovpred_color_preset_colors() {
   return array(
     'no-color' => t('None'),
-    'grey' => t('Grey'),
+    'gray' => t('Gray'),
     'gold' => t('Gold'),
     'delaney-teal' => t('Delaney Teal'),
   );
