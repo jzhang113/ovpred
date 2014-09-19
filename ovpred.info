@@ -37,6 +37,7 @@ regions[footer] = Footer
 ; Plugins
 ; ========================================
 plugins[panels][layouts] = layouts/panel_layouts
+plugins[panels][styles] = panels/styles
 
 ; ========================================
 ; Breakpoints
