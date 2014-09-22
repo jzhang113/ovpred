@@ -1,5 +1,11 @@
 .pane-articles-article-pane-testimonial {
   @include views-row-grid(2);
+
+  .field--name-field-article-image {
+    float: right;
+    margin-left: 20px;
+    max-width: 250px;
+  }
 }
 
 .pane-articles-article-pane-feature {
@@ -7,5 +13,5 @@
 }
 
 #twitter-widget-0 {
-  width: 100%;
+  width: 100% !important;
 }

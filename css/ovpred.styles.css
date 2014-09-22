@@ -45,13 +45,14 @@ hr { height: 2px; border: none; background: #ccc; }
 .pane-articles-article-pane-testimonial .view-content:after { content: ""; display: table; clear: both; }
 .pane-articles-article-pane-testimonial .view-content .views-row { width: 48.93617%; clear: right; float: left; margin-left: 0; margin-right: 2.12766%; }
 .pane-articles-article-pane-testimonial .view-content .views-row:nth-child(2n) { width: 48.93617%; clear: right; float: right; margin-right: 0; }
+.pane-articles-article-pane-testimonial .field--name-field-article-image { float: right; margin-left: 20px; max-width: 250px; }
 
 .pane-articles-article-pane-feature .view-content { *zoom: 1; }
 .pane-articles-article-pane-feature .view-content:after { content: ""; display: table; clear: both; }
 .pane-articles-article-pane-feature .view-content .views-row { width: 23.40426%; clear: right; float: left; margin-left: 0; margin-right: 2.12766%; }
 .pane-articles-article-pane-feature .view-content .views-row:nth-child(4n) { width: 23.40426%; clear: right; float: right; margin-right: 0; }
 
-#twitter-widget-0 { width: 100%; }
+#twitter-widget-0 { width: 100% !important; }
 
 .block--ovpred-common-ovpred-business-services ul, .pane-ovpred-common-ovpred-business-services ul { margin: 0 -1px; padding: 0; }
 .flexbox .block--ovpred-common-ovpred-business-services ul, .flexbox .pane-ovpred-common-ovpred-business-services ul { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
