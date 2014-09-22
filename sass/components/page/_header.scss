@@ -27,11 +27,11 @@ $bp-superfish-collapsed: 768px;
   height: 100%;
   top: 0;
   left: 0;
-  @include opacity(.1);
+  @include opacity(.2);
 
   background-image: url('../images/bg-images/research.png');
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: bottom right;
   background-size: 60% auto;
 }
 
