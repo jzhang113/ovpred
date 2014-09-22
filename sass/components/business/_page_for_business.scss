@@ -1,44 +1,11 @@
-.zero-region {
-  @include pie-clearfix;
-  @include add-grid(12);
-  @include add-gutter(1/3);
-  // @include sgs-change("debug", true);
-  // @include background-grid;
+.pane-articles-article-pane-testimonial {
+  @include views-row-grid(2);
+}
 
-  $grids-of-4: 950px;
+.pane-articles-article-pane-feature {
+  @include views-row-grid(4);
+}
 
-  @include breakpoint($grids-of-4) {
-    .pane-articles-article-pane-testimonial {
-      @include grid-span(3, 1);
-    }
-    .pane-articles-article-pane {
-      @include grid-span(3, 4);
-    }
-    .pane-localist-pane {
-      @include grid-span(3, 7);
-    }
-    .pane-twitter-block-1 {
-      @include grid-span(3, 10);
-    }
-  }
-
-  .pane-articles-article-pane-testimonial {
-    .node__title {
-      @include element-invisible;
-    }
-
-    .field--name-field-article-image {
-      margin-bottom: .5em;
-    }
-
-    p {
-      margin-bottom: .3em;
-    }
-
-    .view-content {
-      background: $snow;
-      border: 1px solid darken($snow, 4);
-      padding: 1em;
-    }
-  }
+#twitter-widget-0 {
+  width: 100%;
 }

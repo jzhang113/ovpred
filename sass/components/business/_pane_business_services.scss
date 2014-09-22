@@ -1,5 +1,3 @@
-$bp-full-flex: 950px;
-
 .block--ovpred-common-ovpred-business-services,
 .pane-ovpred-common-ovpred-business-services {
   ul {
@@ -9,10 +7,6 @@ $bp-full-flex: 950px;
     .flexbox & {
       @include flexbox;
       @include flex-wrap(wrap);
-
-      @include breakpoint($bp-full-flex) {
-        //@include flex-wrap(nowrap);
-      }
     }
 
     li {
