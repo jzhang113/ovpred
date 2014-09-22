@@ -15,3 +15,51 @@
     display: none;
   }
 }
+
+table {
+  @include font-size(1.6);
+  margin-bottom: 1em;
+  border: 1px solid darken($snow, 6);
+
+  caption {
+    @include font-size(2.4);
+    text-align: left;
+    margin-bottom: .5em;
+  }
+}
+
+tr.odd {
+  background: $snow;
+}
+tr.even {
+  background: darken($snow, 4);
+}
+
+td,
+th {
+  padding: .5em;
+}
+
+th {
+  background: #444;
+  color: #fff;
+  @include font-smoothing;
+
+  border-right: 1px solid lighten(#444, 6);
+
+  &:last-child {
+    border: none;
+  }
+}
+
+td {
+  border-right: 1px solid darken($snow, 6);
+
+  .even & {
+    border-color: darken($snow, 8);
+  }
+
+  &:last-child {
+    border: none;
+  }
+}

@@ -19,6 +19,22 @@ img, media { max-width: 100%; height: auto; }
 /** Responsive tables. */
 @media screen and (max-width: 500px) { th.priority-low, td.priority-low, th.priority-medium, td.priority-medium { display: none; } }
 @media screen and (max-width: 750px) { th.priority-low, td.priority-low { display: none; } }
+table { font-size: 16px; font-size: 1.6rem; margin-bottom: 1em; border: 1px solid #eaeaea; }
+table caption { font-size: 24px; font-size: 2.4rem; text-align: left; margin-bottom: .5em; }
+
+tr.odd { background: #f9f9f9; }
+
+tr.even { background: #efefef; }
+
+td, th { padding: .5em; }
+
+th { background: #444; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; border-right: 1px solid #535353; }
+th:last-child { border: none; }
+
+td { border-right: 1px solid #eaeaea; }
+.even td { border-color: #e5e5e5; }
+td:last-child { border: none; }
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "proxima-nova", sans-serif; font-weight: 700; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; margin: 0 0 .5em; }
 
 h1, .h1 { font-size: 32px; font-size: 3.2rem; }
@@ -239,6 +255,11 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .l-container { margin: 0 auto; max-width: 1200px; padding-left: 1em; padding-right: 1em; }
 
 .tabs--primary { margin-bottom: 1em; }
+
+.view-display-id-directory_reporting table { width: 100%; margin-bottom: 2em; }
+@media (min-width: 1200px) { .view-display-id-directory_reporting .views-field-title { width: 250px; }
+  .view-display-id-directory_reporting .views-field-field-person-phone-number { width: 100px; }
+  .view-display-id-directory_reporting .views-field-field-person-email { width: 300px; } }
 
 .node--article--feature { max-width: 500px; margin: 0 auto; margin-bottom: 1em; }
 .node--article--feature h3 { font-size: 18px; font-size: 1.8rem; font-weight: 400; }
