@@ -91,7 +91,7 @@ hide($content['field_article_image']);
   </div>
   <?php endif ?>
   <div class="article-content">
-    <h3<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>" rel="bookmark"><?php print $title; ?></a></h3>
+    <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>" rel="bookmark"><?php print $title; ?></a></h2>
     <div<?php print $content_attributes; ?>>
       <?php
       // We hide the comments and links now so that we can render them later.

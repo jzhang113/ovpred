@@ -16,6 +16,9 @@ img, media { max-width: 100%; height: auto; }
 
 .panel-pane { margin-bottom: 2em; }
 
+/** Responsive tables. */
+@media screen and (max-width: 500px) { th.priority-low, td.priority-low, th.priority-medium, td.priority-medium { display: none; } }
+@media screen and (max-width: 750px) { th.priority-low, td.priority-low { display: none; } }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "proxima-nova", sans-serif; font-weight: 700; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; margin: 0 0 .5em; }
 
 h1, .h1 { font-size: 32px; font-size: 3.2rem; }
@@ -242,9 +245,9 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 @media (min-width: 0) and (max-width: 768px) { .node--featured-content--feature .slider-caption { position: static; } }
 .node--featured-content--feature a { display: block; }
 .node--featured-content--feature h2, .node--featured-content--feature .field--name-field-feature-caption { padding: 10px 20px; }
-.node--featured-content--feature h2 { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; background: url('../images/rgbapng/000000bf-5.png?1410183799'); background: rgba(0, 0, 0, 0.75); font-weight: 300; margin-bottom: 3px; color: #fff; }
+.node--featured-content--feature h2 { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; background: url('../images/rgbapng/000000bf-5.png?1410445913'); background: rgba(0, 0, 0, 0.75); font-weight: 300; margin-bottom: 3px; color: #fff; }
 @media (min-width: 0) and (max-width: 768px) { .node--featured-content--feature h2 { display: block; margin-bottom: 0; font-size: 18px; font-size: 1.8rem; background: #222; } }
-.node--featured-content--feature .field--name-field-feature-caption { max-width: 600px; background: url('../images/rgbapng/ffffffbf-5.png?1411056452'); background: rgba(255, 255, 255, 0.75); font-size: 15px; font-size: 1.5rem; }
+.node--featured-content--feature .field--name-field-feature-caption { max-width: 600px; background: url('../images/rgbapng/ffffffbf-5.png?1411071202'); background: rgba(255, 255, 255, 0.75); font-size: 15px; font-size: 1.5rem; }
 @media (min-width: 0) and (max-width: 768px) { .node--featured-content--feature .field--name-field-feature-caption { display: none; } }
 
 .node--featured-content--teaser { max-width: 500px; margin: 0 auto; margin-bottom: 1em; }
