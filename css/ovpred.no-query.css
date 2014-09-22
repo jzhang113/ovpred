@@ -6,7 +6,11 @@ img, video { max-width: 100%; height: auto; }
 .post-date { font-size: 13px; font-size: 1.3rem; font-weight: 700; }
 
 .flexslider { border: none; -moz-box-shadow: initial; -webkit-box-shadow: initial; box-shadow: initial; background: transparent; margin: 0; }
-.flexslider .flex-control-nav { bottom: 14px; z-index: 2; }
+.flexslider .flex-control-nav { line-height: 0; bottom: 5px; z-index: 2; }
+.flexslider .flex-direction-nav a { height: 48px; color: #fff; text-shadow: none; }
+.flexslider .flex-control-paging li { margin: 0 3px; }
+.flexslider .flex-control-paging li a { width: 8px; height: 8px; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+.flexslider .flex-control-paging li a.flex-active { background: #fee000; }
 
 img, media { max-width: 100%; height: auto; }
 

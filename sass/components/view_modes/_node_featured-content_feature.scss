@@ -13,6 +13,11 @@ $bp-slider-small-screen: $bp-sf-is-expanded;
     @include breakpoint(0 $bp-slider-small-screen) {
       position: static;
     }
+
+    @include breakpoint($page-max-width) {
+      bottom: 40px;
+      left: 40px;
+    }
   }
 
   a {
@@ -46,6 +51,19 @@ $bp-slider-small-screen: $bp-sf-is-expanded;
 
     @include breakpoint(0 $bp-slider-small-screen) {
       display: none;
+    }
+  }
+}
+
+// Flexslider Styles
+.view-display-id-featured_primary_block {
+  .flex-control-nav {
+    @include breakpoint(0 $bp-slider-small-screen) {
+      bottom: auto;
+      top: 10px;
+    }
+    @include breakpoint($page-max-width) {
+      bottom: 15px;
     }
   }
 }
