@@ -1,3 +1,20 @@
+.page-business {
+  .l-main {
+    padding-bottom: 0;
+  }
+
+  .panel-pane {
+    margin-bottom: 0;
+    padding: 2em 0 ;
+
+    &:nth-child(even) {
+      background-color: $snow;
+      border-top: 1px solid darken($snow, 4);
+      border-bottom: 1px solid darken($snow, 4);
+    }
+  }
+}
+
 .pane-articles-article-pane-testimonial {
   @include views-row-grid(2);
 
@@ -14,4 +31,31 @@
 
 #twitter-widget-0 {
   width: 100% !important;
+}
+
+.pane-ovpred-units {
+  ul {
+    margin: 0 -2px;
+    padding: 0;
+
+    .flexbox & {
+      @include flexbox;
+      @include flex-wrap(wrap);
+    }
+
+    li {
+      list-style: none;
+      text-align: center;
+      line-height: 1;
+      @include flex(1 1 250px);
+      margin: 2px;
+      background-color: $snow;
+      border: 1px solid darken($snow, 4);
+
+      a {
+        display: block;
+        padding: 1em;
+      }
+    }
+  }
 }
