@@ -29,39 +29,32 @@ $bp-full-flex: 950px;
         color: #fff;
         @include font-smoothing;
         @include text-shadow(1px 1px 0px rgba(0,0,0,.2));
+        background-color: #333;
 
         &:before {
-          @include icon($fa-var-briefcase);
-          display: block;
-          margin-bottom: 5px;
-          @include font-size(3.5);
+          // @include icon($fa-var-briefcase);
+          // display: block;
+          // margin-bottom: 5px;
+          // @include font-size(3.5);
         }
       }
     }
   }
 
   .consultant {
-    background-color: #795659;
   }
   .start {
-    background-color: #73731B;
   }
   .recruit {
-    background-color: #722030;
   }
   .professional-development {
-    background-color: #0D6E5C;
   }
   .relocate {
-    background-color: #2C4E56;
   }
   .licensing {
-    background-color: #637666;
   }
   .mentor {
-    background-color: #676376;
   }
   .technology {
-    background-color: #AE485E;
   }
 }

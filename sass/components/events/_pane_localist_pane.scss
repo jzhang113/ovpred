@@ -26,7 +26,6 @@
     list-style: none;
     padding: 1em;
     margin-bottom: 1em;
-    text-align: center;
     background: $snow;
     border: 1px solid darken($snow, 4);
   }
@@ -43,6 +42,7 @@
     color: $yellow-gold;
     @include font-smoothing;
     padding: .3em;
+    text-align: center;
 
     &:before,
     &:after {
@@ -55,6 +55,7 @@
 
   // location
   .lwl {
+    display: none;
     @include font-size(1.4);
   }
 
