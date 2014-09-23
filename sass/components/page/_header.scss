@@ -15,6 +15,13 @@ $bp-superfish-collapsed: 768px;
   }
 }
 
+.site-logo {
+  display: block;
+  line-height: 0;
+  position: relative;
+  z-index: 1;
+}
+
 .site-name {
   @include font-size(3.2);
   margin: 0;

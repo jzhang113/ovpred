@@ -6,7 +6,6 @@ img, video { max-width: 100%; height: auto; }
 .post-date { font-size: 13px; font-size: 1.3rem; font-weight: 700; }
 
 .flexslider { border: none; -moz-box-shadow: initial; -webkit-box-shadow: initial; box-shadow: initial; background: transparent; margin: 0; }
-.flexslider:hover { -moz-box-shadow: 0px 5px 10px red inset; -webkit-box-shadow: 0px 5px 10px red inset; box-shadow: 0px 5px 10px red inset; }
 .flexslider .flex-control-nav { line-height: 0; bottom: 5px; z-index: 2; }
 .flexslider .flex-direction-nav a { height: 48px; color: #fff; text-shadow: none; }
 .flexslider .flex-control-paging li { margin: 0 3px; }
@@ -93,7 +92,8 @@ hr { height: 2px; border: none; background: #ccc; }
 @media (min-width: 950px) { .flexbox .pane-ovpred-edfacts .l-container { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-box-align: stretch; -ms-flex-align: stretch; -webkit-align-items: stretch; -moz-align-items: stretch; align-items: stretch; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; -moz-justify-content: center; justify-content: center; } }
 .pane-ovpred-edfacts .fact { padding: 1em; border: 4px solid #eee; margin-bottom: 1em; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; background: url('../images/rgbapng/ffffffb3-5.png?1411489334'); background: rgba(255, 255, 255, 0.7); }
 @media (min-width: 950px) { .pane-ovpred-edfacts .fact { margin: 5px; } }
-.pane-ovpred-edfacts .value { display: block; font-size: 55px; font-size: 5.5rem; font-weight: 800; margin-bottom: -10px; }
+.pane-ovpred-edfacts .prefix { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; font-size: 28px; font-size: 2.8rem; font-weight: 800; position: relative; top: -3px; right: 2px; }
+.pane-ovpred-edfacts .value { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; font-size: 55px; font-size: 5.5rem; font-weight: 800; margin-bottom: -10px; }
 .pane-ovpred-edfacts .unit { display: block; font-weight: 300; font-size: 30px; font-size: 3rem; }
 .pane-ovpred-edfacts .description { display: block; font-size: 14px; font-size: 1.4rem; margin-top: 5px; }
 @media (min-width: 950px) { .pane-ovpred-edfacts .description { max-width: 300px; margin: 5px auto 0; } }
@@ -247,6 +247,8 @@ hr { height: 2px; border: none; background: #ccc; }
 
 .l-header { background-color: #2a2a2a; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -moz-box-shadow: 0px -60px 80px -30px rgba(0, 0, 0, 0.3) inset; -webkit-box-shadow: 0px -60px 80px -30px rgba(0, 0, 0, 0.3) inset; box-shadow: 0px -60px 80px -30px rgba(0, 0, 0, 0.3) inset; position: relative; color: #333; text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.3); -moz-box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.1); box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.1); z-index: 4; }
 .l-header a { color: #333; }
+
+.site-logo { display: block; line-height: 0; position: relative; z-index: 1; }
 
 .site-name { font-size: 32px; font-size: 3.2rem; margin: 0; position: relative; }
 
