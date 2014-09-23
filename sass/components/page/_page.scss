@@ -22,6 +22,10 @@ body {
   margin: 0 auto;
 }
 
+.l-region--slideshow {
+  border-bottom: 1px solid darken($snow, 4);
+}
+
 .l-breadcrumb {
   background-color: #199F86;
   padding: 1em 0;
