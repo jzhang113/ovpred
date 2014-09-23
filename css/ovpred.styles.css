@@ -89,6 +89,15 @@ hr { height: 2px; border: none; background: #ccc; }
 .block--ovpred-common-ovpred-business-services ul li, .pane-ovpred-common-ovpred-business-services ul li { list-style: none; text-align: center; line-height: 1; -webkit-box-flex: 1; -webkit-flex: 1 1 250px; -moz-box-flex: 1; -moz-flex: 1 1 250px; -ms-flex: 1 1 250px; flex: 1 1 250px; margin: 1px; }
 .block--ovpred-common-ovpred-business-services ul li a, .pane-ovpred-common-ovpred-business-services ul li a { display: block; padding: 1.3em 1em 1em; font-size: 14px; font-size: 1.4rem; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2); background-color: #333; }
 
+.pane-ovpred-edfacts { text-align: center; }
+@media (min-width: 950px) { .flexbox .pane-ovpred-edfacts .l-container { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-box-align: stretch; -ms-flex-align: stretch; -webkit-align-items: stretch; -moz-align-items: stretch; align-items: stretch; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; -moz-justify-content: center; justify-content: center; } }
+.pane-ovpred-edfacts .fact { padding: 1em; border: 4px solid #eee; margin-bottom: 1em; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; background: url('../images/rgbapng/ffffffb3-5.png?1411489334'); background: rgba(255, 255, 255, 0.7); }
+@media (min-width: 950px) { .pane-ovpred-edfacts .fact { margin: 5px; } }
+.pane-ovpred-edfacts .value { display: block; font-size: 55px; font-size: 5.5rem; font-weight: 800; margin-bottom: -10px; }
+.pane-ovpred-edfacts .unit { display: block; font-weight: 300; font-size: 30px; font-size: 3rem; }
+.pane-ovpred-edfacts .description { display: block; font-size: 14px; font-size: 1.4rem; margin-top: 5px; }
+@media (min-width: 950px) { .pane-ovpred-edfacts .description { max-width: 300px; margin: 5px auto 0; } }
+
 .pane-localist-pane-grid span, .front .pane-localist-pane span { display: block; }
 .pane-localist-pane-grid .lw ul, .front .pane-localist-pane .lw ul { margin: 0; padding: 0; }
 @media (min-width: 750px) { .flexbox .pane-localist-pane-grid .lw ul, .flexbox .front .pane-localist-pane .lw ul, .front .flexbox .pane-localist-pane .lw ul { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; -webkit-justify-content: space-between; -moz-justify-content: space-between; justify-content: space-between; }
