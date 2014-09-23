@@ -27,6 +27,13 @@ small { }
 a {
   text-decoration: none;
   color: $primary-link-color;
+  @include transition(all .5s);
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $link-hover-color;
+  }
 }
 
 hr {

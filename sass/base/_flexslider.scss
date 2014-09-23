@@ -4,6 +4,10 @@
   background: transparent;
   margin: 0;
 
+  &:hover {
+    @include box-shadow(0px 5px 10px red inset);
+  }
+
   .flex-control-nav {
     line-height: 0;
     bottom: 5px;

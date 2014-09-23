@@ -67,18 +67,20 @@
  */
 ?>
 <div id="<?php print $id; ?>" class="<?php print $classes ?>"<?php print $attributes; ?>>
-
-  <?php if ($display_submitted): ?>
-    <div class="submitted">
-      <?php print $submitted; ?>
-    </div>
-  <?php endif; ?>
-
   <div class="content"<?php print $content_attributes; ?>>
     <?php
       // We hide the links now so that we can render them later.
       hide($content['links']);
       print render($content);
     ?>
+  </div>
+  <div class="fc-hover">
+    <div class="grid-overlay"></div>
+    <div class="flex-center">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-link fa-stack-1x"></i>
+      </span>
+    </div>
   </div>
 </div>
