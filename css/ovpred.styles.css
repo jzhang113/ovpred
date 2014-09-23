@@ -297,8 +297,7 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 @media (min-width: 1200px) { .view-display-id-featured_primary_block .flex-control-nav { bottom: 15px; } }
 
 .node--featured-content--teaser { max-width: 500px; margin: 0 auto; margin-bottom: 1em; }
-.node--featured-content--teaser .field--type-image { line-height: 0; }
-.node--featured-content--teaser .field--type-image .content { position: relative; }
+.node--featured-content--teaser .field--type-image { line-height: 0; position: relative; }
 .node--featured-content--teaser .field--type-image .fc-hover { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent; -moz-transition: background 0.5s; -o-transition: background 0.5s; -webkit-transition: background 0.5s; transition: background 0.5s; }
 .node--featured-content--teaser .field--type-image .fc-hover .grid-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url("../images/patterns/dark-grid.png"); background-repeat: repeat; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s; -webkit-transition: opacity 0.5s; transition: opacity 0.5s; }
 .flexbox .node--featured-content--teaser .field--type-image .fc-hover .flex-center { height: 100%; display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; -moz-align-items: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; -moz-justify-content: center; justify-content: center; }
