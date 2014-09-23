@@ -130,6 +130,9 @@ $temp_logo = drupal_get_path('theme', 'ovpred') . '/images/logo/ovpred-banner-ti
       <?php endif; ?>
 
       <?php print render($page['content']); ?>
+      <div class="l-container">
+        <?php print render($page['content_bottom']); ?>
+      </div>
       <?php print $feed_icons; ?>
 
       <?php if ($variables['content_container'] == true): ?>
