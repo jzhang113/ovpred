@@ -1,8 +1,9 @@
+$bp-flexslider-max-height: 1350px;
+$flexslider-height: 450px;
 $bp-slider-small-screen: $bp-sf-is-expanded;
 
 .node--featured-content--feature {
-  max-height: 450px;
-  overflow: hidden;
+  max-height: $flexslider-height;
   position: relative;
 
   .slider-caption {
@@ -97,7 +98,12 @@ $bp-slider-small-screen: $bp-sf-is-expanded;
 }
 
 // View specific Flexslider styles.
-.view-featured-content {
+.view-featured-content .flexslider {
+  @include breakpoint($bp-flexslider-max-height) {
+    height: $flexslider-height;
+    overflow: hidden;
+  }
+
   .flex-control-nav {
     @include breakpoint(0 $bp-slider-small-screen) {
       bottom: auto;

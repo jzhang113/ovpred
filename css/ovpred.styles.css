@@ -299,7 +299,7 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .node--article--teaser { margin-bottom: 1em; padding-bottom: 1em; border-bottom: 4px solid #eee; }
 .node--article--teaser .node-readmore a { padding: .3em 1em; background-color: #2476AE; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-size: 14px; font-size: 1.4rem; font-weight: 700; text-decoration: none; }
 
-.node--featured-content--feature { max-height: 450px; overflow: hidden; position: relative; }
+.node--featured-content--feature { max-height: 450px; position: relative; }
 .node--featured-content--feature .slider-caption { position: absolute; bottom: 20px; left: 20px; }
 @media (min-width: 0) and (max-width: 768px) { .node--featured-content--feature .slider-caption { position: static; } }
 @media (min-width: 1200px) { .node--featured-content--feature .slider-caption { bottom: 40px; left: 40px; } }
@@ -314,8 +314,9 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .node--featured-content--feature .field--name-field-feature-caption { max-width: 600px; background: url('../images/rgbapng/ffffffbf-5.png?1411056452'); background: rgba(255, 255, 255, 0.75); font-size: 15px; font-size: 1.5rem; color: #444; padding: 15px 20px; }
 @media (min-width: 0) and (max-width: 768px) { .node--featured-content--feature .field--name-field-feature-caption { display: none; } }
 
-@media (min-width: 0) and (max-width: 768px) { .view-featured-content .flex-control-nav { bottom: auto; top: 10px; } }
-@media (min-width: 1200px) { .view-featured-content .flex-control-nav { bottom: 15px; } }
+@media (min-width: 1350px) { .view-featured-content .flexslider { height: 450px; overflow: hidden; } }
+@media (min-width: 0) and (max-width: 768px) { .view-featured-content .flexslider .flex-control-nav { bottom: auto; top: 10px; } }
+@media (min-width: 1200px) { .view-featured-content .flexslider .flex-control-nav { bottom: 15px; } }
 
 .node--featured-content--teaser { max-width: 500px; margin: 0 auto; margin-bottom: 1em; }
 .node--featured-content--teaser .field--type-image { line-height: 0; position: relative; }
