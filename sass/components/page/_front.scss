@@ -12,9 +12,6 @@
 
   .pane-articles-article-pane-feature-and-news {
     $bp-feature-articles-3-col: 950px;
-    background: $snow;
-    border-top: 1px solid darken($snow, 4);
-    border-bottom: 1px solid darken($snow, 4);
 
     .view-display-id-article_pane_feature_and_news {
       @include pie-clearfix;
@@ -50,9 +47,6 @@
 
   .pane-featured-content-featured-secondary {
     $bp-float-rows: 950px;
-    background: $snow;
-    border-top: 1px solid darken($snow, 4);
-    border-bottom: 1px solid darken($snow, 4);
 
     .pane-title {
       @include element-invisible;

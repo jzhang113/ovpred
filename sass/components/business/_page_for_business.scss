@@ -6,12 +6,6 @@
   .panel-pane {
     margin-bottom: 0;
     padding: 2em 0 ;
-
-    &:nth-child(even) {
-      background-color: $snow;
-      border-top: 1px solid darken($snow, 4);
-      border-bottom: 1px solid darken($snow, 4);
-    }
   }
 }
 
