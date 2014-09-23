@@ -65,12 +65,6 @@ hr { height: 2px; border: none; background: #ccc; }
 .page-business .l-main { padding-bottom: 0; }
 .page-business .panel-pane { margin-bottom: 0; padding: 2em 0; }
 
-.pane-articles-article-pane-testimonial .view-content { *zoom: 1; }
-.pane-articles-article-pane-testimonial .view-content:after { content: ""; display: table; clear: both; }
-.pane-articles-article-pane-testimonial .view-content .views-row { width: 48.93617%; clear: right; float: left; margin-left: 0; margin-right: 2.12766%; }
-.pane-articles-article-pane-testimonial .view-content .views-row:nth-child(2n) { width: 48.93617%; clear: right; float: right; margin-right: 0; }
-.pane-articles-article-pane-testimonial .field--name-field-article-image { float: right; margin-left: 20px; max-width: 250px; }
-
 .pane-articles-article-pane-feature .view-content { *zoom: 1; }
 .pane-articles-article-pane-feature .view-content:after { content: ""; display: table; clear: both; }
 .pane-articles-article-pane-feature .view-content .views-row { width: 23.40426%; clear: right; float: left; margin-left: 0; margin-right: 2.12766%; }
@@ -195,9 +189,10 @@ hr { height: 2px; border: none; background: #ccc; }
 #block-superfish-1 .sf-style-none { float: none; display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; *zoom: 1; }
 #block-superfish-1 .sf-style-none:after { content: ""; display: table; clear: both; }
 #block-superfish-1 .sf-depth-1 > a { text-transform: uppercase; color: #333; }
-#block-superfish-1 #superfish-1-toggle { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; text-align: center; }
+#block-superfish-1 #superfish-1-toggle { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; text-align: center; color: #222; }
+#block-superfish-1 #superfish-1-toggle.sf-expanded { color: #fff; }
 #block-superfish-1 .sf-expanded > .sf-accordion-button:before { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: ""; }
-#block-superfish-1 .sf-accordion-button { line-height: 999px; overflow: hidden; height: 38px; width: 38px; text-align: center; padding: 0 !important; }
+#block-superfish-1 .sf-accordion-button { line-height: 999px; overflow: hidden; height: 37px; width: 37px; text-align: center; padding: 0 !important; }
 #block-superfish-1 .sf-accordion-button:before { line-height: normal; display: block !important; display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: ""; font-size: 17px; font-size: 1.7rem; width: 100%; height: 100%; line-height: 35px !important; }
 #block-superfish-1 .sf-with-ul { padding-left: 40px; }
 

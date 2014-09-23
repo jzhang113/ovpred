@@ -10,12 +10,19 @@
 }
 
 .pane-articles-article-pane-testimonial {
-  @include views-row-grid(2);
+  $bp-float-testimonial-image: 500px;
+  $bp-float-testimonials: 950px;
+
+  @include breakpoint($bp-float-testimonials) {
+    @include views-row-grid(2);
+  }
 
   .field--name-field-article-image {
-    float: right;
-    margin-left: 20px;
-    max-width: 250px;
+    @include breakpoint($bp-float-testimonial-image) {
+      float: right;
+      margin-left: 20px;
+      max-width: 250px;
+    }
   }
 }
 
