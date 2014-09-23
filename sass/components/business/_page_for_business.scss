@@ -14,7 +14,21 @@
   $bp-float-testimonials: 950px;
 
   @include breakpoint($bp-float-testimonials) {
-    @include views-row-grid(2);
+    .no-flexbox & {
+      @include views-row-grid(2);
+    }
+
+    .view-content {
+      .flexbox & {
+        @include flexbox;
+        margin: 0 -10px;
+
+        .views-row {
+          @include flex(1 1 400px);
+          margin: 10px;
+        }
+      }
+    }
   }
 
   .field--name-field-article-image {

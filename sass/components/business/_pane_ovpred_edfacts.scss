@@ -49,6 +49,7 @@ $bp-float-facts: 950px;
     display: block;
     @include font-size(1.4);
     margin-top: 5px;
+    color: $light-gray-valid-contrast;
 
     @include breakpoint($bp-float-facts) {
       max-width: 300px;

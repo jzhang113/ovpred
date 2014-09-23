@@ -87,7 +87,7 @@ hr { height: 2px; border: none; background: #ccc; }
 .pane-ovpred-edfacts .prefix { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; font-size: 28px; font-size: 2.8rem; font-weight: 800; position: relative; top: -3px; right: 2px; }
 .pane-ovpred-edfacts .value { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; font-size: 55px; font-size: 5.5rem; font-weight: 800; margin-bottom: -10px; }
 .pane-ovpred-edfacts .unit { display: block; font-weight: 300; font-size: 30px; font-size: 3rem; }
-.pane-ovpred-edfacts .description { display: block; font-size: 14px; font-size: 1.4rem; margin-top: 5px; }
+.pane-ovpred-edfacts .description { display: block; font-size: 14px; font-size: 1.4rem; margin-top: 5px; color: #717171; }
 
 .pane-localist-pane-grid span, .front .pane-localist-pane span { display: block; }
 .pane-localist-pane-grid .lw ul, .front .pane-localist-pane .lw ul { margin: 0; padding: 0; }
@@ -270,6 +270,10 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 
 .node--article--teaser { margin-bottom: 1em; padding-bottom: 1em; border-bottom: 4px solid #eee; }
 .node--article--teaser .node-readmore a { padding: .3em 1em; background-color: #2476AE; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-size: 14px; font-size: 1.4rem; font-weight: 700; text-decoration: none; }
+
+.node--article--testimonial h3 { margin: 0; }
+.node--article--testimonial h3 a { display: block; background: #333; padding: 5px 10px; color: #bbbbbb; }
+.node--article--testimonial .node__content { padding: 1em; background: url('../images/rgbapng/ffffffb3-5.png?1411496959'); background: rgba(255, 255, 255, 0.7); border-left: 4px solid #eee; border-right: 4px solid #eee; border-bottom: 4px solid #eee; }
 
 .node--featured-content--feature { max-height: 450px; position: relative; }
 .node--featured-content--feature .slider-caption { position: absolute; bottom: 20px; left: 20px; }
