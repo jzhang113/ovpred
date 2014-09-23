@@ -69,7 +69,7 @@
  * @see template_process()
  * @see omega_preprocess_page()
  */
-$temp_logo = drupal_get_path('theme', 'ovpred') . '/images/logo/ovpred-banner-title.png';
+$temp_logo = $base_path . drupal_get_path('theme', 'ovpred') . '/images/logo/ovpred-banner-title.png';
 ?>
 <div <?php print $attributes ?>>
   <header class="l-header" role="banner">
