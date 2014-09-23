@@ -97,7 +97,7 @@ $bp-slider-small-screen: $bp-sf-is-expanded;
 }
 
 // View specific Flexslider styles.
-.view-display-id-featured_primary_block {
+.view-featured-content {
   .flex-control-nav {
     @include breakpoint(0 $bp-slider-small-screen) {
       bottom: auto;
