@@ -2,9 +2,6 @@
 .pane-featured-content-featured-secondary,
 .pane-featured-content-featured-business-primary {
   $bp-float-rows: 950px;
-  background: $snow;
-  border-top: 1px solid darken($snow, 4);
-  border-bottom: 1px solid darken($snow, 4);
 
   .pane-title {
     @include element-invisible;

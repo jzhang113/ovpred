@@ -114,7 +114,6 @@ hr { height: 2px; border: none; background: #ccc; }
 .pane-localist-pane-list .lwl { font-size: 14px; font-size: 1.4rem; }
 .pane-localist-pane-list .lwl .lwl0 { display: inline; margin-right: 5px; }
 
-.pane-featured-content-featured-secondary, .pane-featured-content-featured-business-primary { background: #f9f9f9; border-top: 1px solid #efefef; border-bottom: 1px solid #efefef; }
 .pane-featured-content-featured-secondary .pane-title, .pane-featured-content-featured-business-primary .pane-title { clip: auto; height: auto; overflow: auto; position: absolute; top: -9999px; left: -9999px; }
 .pane-featured-content-featured-secondary .view-featured-content .view-content, .pane-featured-content-featured-business-primary .view-featured-content .view-content { *zoom: 1; }
 .pane-featured-content-featured-secondary .view-featured-content .view-content:after, .pane-featured-content-featured-business-primary .view-featured-content .view-content:after { content: ""; display: table; clear: both; }
