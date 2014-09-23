@@ -128,6 +128,9 @@
       <?php endif; ?>
 
       <?php print render($page['content']); ?>
+      <div class="l-container">
+        <?php print render($page['content_bottom']); ?>
+      </div>
       <?php print $feed_icons; ?>
 
       <?php if ($variables['content_container'] == true): ?>
