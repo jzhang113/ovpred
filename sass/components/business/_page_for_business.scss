@@ -66,10 +66,15 @@
       margin: 2px;
       background-color: $snow;
       border: 1px solid darken($snow, 4);
+      max-height: 100px;
 
       a {
         display: block;
-        padding: 1em;
+      }
+
+      img {
+        padding: .5em;
+        max-height: 100%;
       }
     }
   }

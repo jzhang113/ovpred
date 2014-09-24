@@ -74,8 +74,9 @@ hr { height: 2px; border: none; background: #ccc; }
 
 .pane-ovpred-units ul { margin: 0 -2px; padding: 0; }
 .flexbox .pane-ovpred-units ul { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
-.pane-ovpred-units ul li { list-style: none; text-align: center; line-height: 1; -webkit-box-flex: 1; -webkit-flex: 1 1 250px; -moz-box-flex: 1; -moz-flex: 1 1 250px; -ms-flex: 1 1 250px; flex: 1 1 250px; margin: 2px; background-color: #f9f9f9; border: 1px solid #efefef; }
-.pane-ovpred-units ul li a { display: block; padding: 1em; }
+.pane-ovpred-units ul li { list-style: none; text-align: center; line-height: 1; -webkit-box-flex: 1; -webkit-flex: 1 1 250px; -moz-box-flex: 1; -moz-flex: 1 1 250px; -ms-flex: 1 1 250px; flex: 1 1 250px; margin: 2px; background-color: #f9f9f9; border: 1px solid #efefef; max-height: 100px; }
+.pane-ovpred-units ul li a { display: block; }
+.pane-ovpred-units ul li img { padding: .5em; max-height: 100%; }
 
 .block--ovpred-common-ovpred-business-services ul, .pane-ovpred-common-ovpred-business-services ul { margin: 0 -1px; padding: 0; }
 .flexbox .block--ovpred-common-ovpred-business-services ul, .flexbox .pane-ovpred-common-ovpred-business-services ul { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
