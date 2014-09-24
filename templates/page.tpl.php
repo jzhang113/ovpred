@@ -107,44 +107,50 @@ $temp_logo = $base_path . drupal_get_path('theme', 'ovpred') . '/images/logo/ovp
 
   <div class="l-main">
 
-    <div class="l-container">
-      <?php print render($page['highlighted']); ?>
-      <a id="main-content"></a>
-      <?php print $breadcrumb; ?>
-      <?php print render($title_prefix); ?>
-      <?php if ($title): ?>
-        <h1 class="page-title"><?php print $title; ?></h1>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
-      <?php print $messages; ?>
-      <?php print render($tabs); ?>
-      <?php print render($page['help']); ?>
-      <?php if ($action_links): ?>
-        <ul class="action-links"><?php print render($action_links); ?></ul>
-      <?php endif; ?>
+    <div class="l-main-header">
+      <div class="l-container">
+        <?php print render($page['highlighted']); ?>
+        <a id="main-content"></a>
+        <?php print $breadcrumb; ?>
+        <?php print render($title_prefix); ?>
+        <?php if ($title): ?>
+          <h1 class="page-title"><?php print $title; ?></h1>
+        <?php endif; ?>
+        <?php print render($title_suffix); ?>
+        <?php print $messages; ?>
+        <?php print render($tabs); ?>
+        <?php print render($page['help']); ?>
+        <?php if ($action_links): ?>
+          <ul class="action-links"><?php print render($action_links); ?></ul>
+        <?php endif; ?>
+      </div>
     </div>
 
+    <?php if ($variables['content_container'] == true): ?>
+      <div class="l-container">
+    <?php endif; ?>
+
     <div class="l-content" role="main">
-      <?php if ($variables['content_container'] == true): ?>
-        <div class="l-container">
-      <?php endif; ?>
-
       <?php print render($page['content']); ?>
-
-      <?php if($page['content_bottom']): ?>
-        <div class="l-container">
-          <?php print render($page['content_bottom']); ?>
-        </div>
-      <?php endif; ?>
       <?php print $feed_icons; ?>
-
-      <?php if ($variables['content_container'] == true): ?>
-        </div>
-      <?php endif; ?>
     </div>
 
     <?php print render($page['sidebar_first']); ?>
     <?php print render($page['sidebar_second']); ?>
+
+    <?php if ($variables['content_container'] == true): ?>
+      </div>
+    <?php endif; ?>
+
+    <?php if($page['content_bottom']): ?>
+      <div class="l-content-bottom">
+        <div class="l-container">
+          <?php print render($page['content_bottom']); ?>
+        </div>
+      </div>
+    <?php endif; ?>
+
+
   </div>
 
   <footer class="l-footer" role="contentinfo"><div class="l-container">
