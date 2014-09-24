@@ -81,13 +81,13 @@
 <article<?php print $attributes; ?>>
   <a class="url-link" href="<?php print $feature_link; ?>">
     <?php print render($content['field_feature_image']); ?>
-
-    <div class="slider-caption">
-      <h2><?php print $title; ?></h2>
-      <?php if (isset($content['field_feature_caption'])): ?>
-        <?php print render($content['field_feature_caption']); ?>
-      <?php endif ?>
+    <div class="l-container">
+      <div class="slider-caption">
+        <h2><?php print $title; ?></h2>
+        <?php if (isset($content['field_feature_caption'])): ?>
+          <?php print render($content['field_feature_caption']); ?>
+        <?php endif ?>
+      </div>
     </div>
-
   </a>
 </article>

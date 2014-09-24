@@ -1,25 +1,32 @@
 $bp-flexslider-max-height: 1350px;
-$flexslider-height: 450px;
+$flexslider-height: auto;
 $bp-slider-small-screen: $bp-sf-is-expanded;
 
 .node--featured-content--feature {
   max-height: $flexslider-height;
   position: relative;
 
-  .slider-caption {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+  .l-container {
+    position: relative;
+    max-height: $flexslider-height;
 
-    // Caption position in mobile only.
     @include breakpoint(0 $bp-slider-small-screen) {
-      position: static;
+      padding: 0;
     }
+  }
+
+  .slider-caption {
 
     // Caption position for large screens.
+    @include breakpoint($bp-slider-small-screen) {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+    }
+
     @include breakpoint($page-max-width) {
-      bottom: 40px;
-      left: 40px;
+      bottom: 60px;
+      left: 0;
     }
   }
 
@@ -28,15 +35,7 @@ $bp-slider-small-screen: $bp-sf-is-expanded;
 
     &:hover,
     &:focus,
-    &:active {
-      .fc-hover {
-        @include rgba-background(rgba(0,0,0,0.4));
-        @include box-shadow(60px 0px 50px -15px rgba(0,0,0,.4) inset, -60px 0px 50px -15px rgba(0,0,0,.4) inset);
-      }
-      .grid-overlay{
-        @include opacity(.3);
-      }
-    }
+    &:active {}
   }
 
   .field--type-image {

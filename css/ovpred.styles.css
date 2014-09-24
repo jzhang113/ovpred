@@ -307,13 +307,12 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .node--article--testimonial h3 a { display: block; background: #333; padding: 5px 10px; color: #bbbbbb; }
 .node--article--testimonial .node__content { padding: 1em; background: url('../images/rgbapng/ffffffb3-5.png?1411496959'); background: rgba(255, 255, 255, 0.7); border-left: 4px solid #eee; border-right: 4px solid #eee; border-bottom: 4px solid #eee; }
 
-.node--featured-content--feature { max-height: 450px; position: relative; }
-.node--featured-content--feature .slider-caption { position: absolute; bottom: 20px; left: 20px; }
-@media (min-width: 0) and (max-width: 768px) { .node--featured-content--feature .slider-caption { position: static; } }
-@media (min-width: 1200px) { .node--featured-content--feature .slider-caption { bottom: 40px; left: 40px; } }
+.node--featured-content--feature { max-height: auto; position: relative; }
+.node--featured-content--feature .l-container { position: relative; max-height: auto; }
+@media (min-width: 0) and (max-width: 768px) { .node--featured-content--feature .l-container { padding: 0; } }
+@media (min-width: 768px) { .node--featured-content--feature .slider-caption { position: absolute; bottom: 20px; left: 20px; } }
+@media (min-width: 1200px) { .node--featured-content--feature .slider-caption { bottom: 60px; left: 0; } }
 .node--featured-content--feature a { display: block; }
-.node--featured-content--feature a:hover .fc-hover, .node--featured-content--feature a:focus .fc-hover, .node--featured-content--feature a:active .fc-hover { background: url('../images/rgbapng/00000066-5.png?1411496959'); background: rgba(0, 0, 0, 0.4); -moz-box-shadow: 60px 0px 50px -15px rgba(0, 0, 0, 0.4) inset, -60px 0px 50px -15px rgba(0, 0, 0, 0.4) inset; -webkit-box-shadow: 60px 0px 50px -15px rgba(0, 0, 0, 0.4) inset, -60px 0px 50px -15px rgba(0, 0, 0, 0.4) inset; box-shadow: 60px 0px 50px -15px rgba(0, 0, 0, 0.4) inset, -60px 0px 50px -15px rgba(0, 0, 0, 0.4) inset; }
-.node--featured-content--feature a:hover .grid-overlay, .node--featured-content--feature a:focus .grid-overlay, .node--featured-content--feature a:active .grid-overlay { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30); opacity: 0.3; }
 .node--featured-content--feature .field--type-image { position: relative; }
 .node--featured-content--feature .field--type-image .fc-hover { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; -moz-transition: background 0.5s, box-shadow 0.5s; -o-transition: background 0.5s, box-shadow 0.5s; -webkit-transition: background 0.5s, box-shadow 0.5s; transition: background 0.5s, box-shadow 0.5s; }
 .node--featured-content--feature .field--type-image .grid-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url("../images/patterns/dark-grid.png"); background-repeat: repeat; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s; -webkit-transition: opacity 0.5s; transition: opacity 0.5s; }
@@ -322,7 +321,7 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .node--featured-content--feature .field--name-field-feature-caption { max-width: 600px; background: url('../images/rgbapng/ffffffbf-5.png?1411056452'); background: rgba(255, 255, 255, 0.75); font-size: 15px; font-size: 1.5rem; color: #444; padding: 15px 20px; }
 @media (min-width: 0) and (max-width: 768px) { .node--featured-content--feature .field--name-field-feature-caption { display: none; } }
 
-@media (min-width: 1350px) { .view-featured-content .flexslider { height: 450px; overflow: hidden; } }
+@media (min-width: 1350px) { .view-featured-content .flexslider { height: auto; overflow: hidden; } }
 @media (min-width: 0) and (max-width: 768px) { .view-featured-content .flexslider .flex-control-nav { bottom: auto; top: 10px; } }
 @media (min-width: 1200px) { .view-featured-content .flexslider .flex-control-nav { bottom: 15px; } }
 
