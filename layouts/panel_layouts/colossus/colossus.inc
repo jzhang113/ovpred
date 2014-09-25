@@ -9,7 +9,7 @@
 $plugin = array(
   'title' => t('Colossus'),
   'icon' => 'preview.png',
-  'category' => t('Sitenow Standard content layouts'),
+  'category' => t('OVPR layouts'),
   'theme' => 'colossus',
   'css' => '../../../css/layouts/colossus/colossus.layout.css',
   'regions' => array(

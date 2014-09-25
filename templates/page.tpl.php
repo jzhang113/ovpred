@@ -69,20 +69,18 @@
  * @see template_process()
  * @see omega_preprocess_page()
  */
-$temp_logo = $base_path . drupal_get_path('theme', 'ovpred') . '/images/logo/ovpred-banner-title.png';
 ?>
 <div <?php print $attributes ?>>
   <header class="l-header" role="banner">
     <div class="l-branding">
       <div class="img-overlay"></div>
-      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $temp_logo; ?>" alt="<?php print t('Home'); ?>" /></a>
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
       <?php endif; ?>
 
       <?php if ($site_name || $site_slogan): ?>
         <?php if ($site_name): ?>
-          <h1 class="site-name element-invisible">
+          <h1 class="site-name">
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
           </h1>
         <?php endif; ?>

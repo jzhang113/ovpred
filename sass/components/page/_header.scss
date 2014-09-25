@@ -23,9 +23,10 @@ $bp-superfish-collapsed: 768px;
 }
 
 .site-name {
-  @include font-size(3.2);
+  @include font-size(5);
   margin: 0;
   position: relative;
+  font-family: $ovpr-font-stack;
 }
 
 .img-overlay {
