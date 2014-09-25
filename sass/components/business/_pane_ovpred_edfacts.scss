@@ -3,7 +3,9 @@ $bp-float-facts: 950px;
 .ovpred-facts {
   text-align: center;
 
-  .l-container {
+  .facts {
+    margin-bottom: 1em;
+
     @include breakpoint($bp-float-facts) {
       .flexbox & {
         @include flexbox;

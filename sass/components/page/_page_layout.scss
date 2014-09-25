@@ -1,4 +1,15 @@
 .l-main {
+
+  .magnum & {
+    .l-region--sidebar-first,
+    .l-region--sidebar-second {
+      margin: 0 auto;
+      max-width: $page-max-width;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+  }
+
   .l-container {
     @include add-grid(12);
     @include add-gutter(1/3);

@@ -14,17 +14,29 @@ function ovpred_preprocess_page(&$variables) {
   // Add a "panelized" class to panelized nodes.
   if(!empty($variables['node']->panelizer)) {
     $variables['classes_array'][] = "panelized";
-    $needs_container = false;
 
     // Add the panel layout being used.
     if($variables['node']->panelizer['default']->display->layout) {
       $variables['classes_array'][] = $variables['node']->panelizer['default']->display->layout;
+
+      // Check to see if the container markup needs to be implemented.
+      if ($variables['node']->panelizer['default']->display->layout == 'magnum') {
+        $needs_container = false;
+      }
     }
   }
 
   if (panels_get_current_page_display()) {
-    $needs_container = false;
+    // Add the panel layout being used.
+    $panel_layout = panels_get_current_page_display()->layout;
+    $variables['classes_array'][] = $panel_layout;
+
+    // Check to see if the container markup needs to be implemented.
+    if ($panel_layout == 'magnum') {
+      $needs_container = false;
+    }
   }
 
+  // Pass container flag to page tempalte.
   $variables['content_container'] = $needs_container;
 }

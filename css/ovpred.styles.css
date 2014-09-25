@@ -62,9 +62,6 @@ hr { height: 2px; border: none; background: #ccc; }
 
 .tabs--primary { margin: 1em 0 0; }
 
-.page-business .l-main { padding-bottom: 0; }
-.page-business .panel-pane { margin-bottom: 0; padding: 2em 0; }
-
 @media (min-width: 950px) { .no-flexbox .pane-articles-article-pane-testimonial .view-content { *zoom: 1; }
   .no-flexbox .pane-articles-article-pane-testimonial .view-content:after { content: ""; display: table; clear: both; }
   .no-flexbox .pane-articles-article-pane-testimonial .view-content .views-row { width: 48.93617%; clear: right; float: left; margin-left: 0; margin-right: 2.12766%; }
@@ -92,7 +89,8 @@ hr { height: 2px; border: none; background: #ccc; }
 .block--ovpred-common-ovpred-business-services ul li a, .pane-ovpred-common-ovpred-business-services ul li a { display: block; padding: 1.3em 1em 1em; font-size: 14px; font-size: 1.4rem; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2); background-color: #333; }
 
 .ovpred-facts { text-align: center; }
-@media (min-width: 950px) { .flexbox .ovpred-facts .l-container { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-box-align: stretch; -ms-flex-align: stretch; -webkit-align-items: stretch; -moz-align-items: stretch; align-items: stretch; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; -moz-justify-content: center; justify-content: center; } }
+.ovpred-facts .facts { margin-bottom: 1em; }
+@media (min-width: 950px) { .flexbox .ovpred-facts .facts { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-box-align: stretch; -ms-flex-align: stretch; -webkit-align-items: stretch; -moz-align-items: stretch; align-items: stretch; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; -moz-justify-content: center; justify-content: center; } }
 .ovpred-facts .fact { padding: 1em; border: 4px solid #eee; margin-bottom: 1em; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; background: url('../images/rgbapng/ffffffb3-5.png?1411496959'); background: rgba(255, 255, 255, 0.7); }
 @media (min-width: 950px) { .ovpred-facts .fact { margin: 5px; } }
 .ovpred-facts .prefix { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; font-size: 28px; font-size: 2.8rem; font-weight: 800; position: relative; top: -3px; right: 2px; }
@@ -232,7 +230,6 @@ hr { height: 2px; border: none; background: #ccc; }
 .l-footer .block--ovpred-blocks-ovpred-thank .block__content a { padding: .3em 1em; background-color: #2476AE; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-size: 14px; font-size: 1.4rem; font-weight: 700; text-decoration: none; }
 .l-footer .block--ovpred-blocks-ovpred-thank .block__content a:before { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: ""; margin-right: .3em; font-size: 20px; font-size: 2rem; position: relative; top: 2px; }
 
-.front .panel-pane { padding-top: 2em; padding-bottom: 2em; margin-bottom: 0; }
 .front .pane-articles-article-pane-feature-and-news .view-display-id-article_pane_feature_and_news { *zoom: 1; }
 .front .pane-articles-article-pane-feature-and-news .view-display-id-article_pane_feature_and_news:after { content: ""; display: table; clear: both; }
 .front .pane-articles-article-pane-feature-and-news .view-display-id-article_pane_feature_and_news > .view-content { *zoom: 1; }
@@ -279,13 +276,13 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .l-breadcrumb { background-color: #199F86; padding: 1em 0; color: #fff; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1); }
 .l-breadcrumb a { color: #fff; }
 
-.l-main { padding: 2em 0; }
-.front .l-main { padding: 0; }
+.l-main-header { padding-top: 2em; }
 
 .l-container { margin: 0 auto; max-width: 1200px; padding-left: 1em; padding-right: 1em; }
 
 .tabs--primary { margin-bottom: 1em; }
 
+.magnum .l-main .l-region--sidebar-first, .magnum .l-main .l-region--sidebar-second { margin: 0 auto; max-width: 1200px; padding-left: 1em; padding-right: 1em; }
 .l-main .l-container { *zoom: 1; }
 .l-main .l-container:after { content: ""; display: table; clear: both; }
 @media (min-width: 750px) { .one_sidebar.sidebar_second .l-main .l-container .l-content { width: 65.95745%; float: left; margin-right: -100%; margin-left: 0; clear: none; }

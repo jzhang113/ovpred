@@ -1,11 +1,5 @@
 .front {
 
-  .panel-pane {
-    padding-top: 2em;
-    padding-bottom: 2em;
-    margin-bottom: 0;
-  }
-
   .pane-localist-pane {
     @extend %pane-localist-pane-grid;
   }

@@ -104,25 +104,27 @@
   <?php endif; ?>
 
   <div class="l-main">
+    <a id="main-content"></a>
 
-    <div class="l-main-header">
-      <div class="l-container">
-        <?php print render($page['highlighted']); ?>
-        <a id="main-content"></a>
-        <?php print $breadcrumb; ?>
-        <?php print render($title_prefix); ?>
-        <?php if ($title): ?>
-          <h1 class="page-title"><?php print $title; ?></h1>
-        <?php endif; ?>
-        <?php print render($title_suffix); ?>
-        <?php print $messages; ?>
-        <?php print render($tabs); ?>
-        <?php print render($page['help']); ?>
-        <?php if ($action_links): ?>
-          <ul class="action-links"><?php print render($action_links); ?></ul>
-        <?php endif; ?>
+    <?php if ($page['highlighted'] || $breadcrumb || $title || $messages || $page['help'] || $action_links): ?>
+      <div class="l-main-header">
+        <div class="l-container">
+          <?php print render($page['highlighted']); ?>
+          <?php print $breadcrumb; ?>
+          <?php print render($title_prefix); ?>
+          <?php if ($title): ?>
+            <h1 class="page-title"><?php print $title; ?></h1>
+          <?php endif; ?>
+          <?php print render($title_suffix); ?>
+          <?php print $messages; ?>
+          <?php print render($tabs); ?>
+          <?php print render($page['help']); ?>
+          <?php if ($action_links): ?>
+            <ul class="action-links"><?php print render($action_links); ?></ul>
+          <?php endif; ?>
+        </div>
       </div>
-    </div>
+    <?php endif; ?>
 
     <?php if ($variables['content_container'] == true): ?>
       <div class="l-container">
