@@ -1,10 +1,10 @@
-@mixin views-row-grid($col) {
-  .view-content {
+@mixin grid($col, $container, $grid-item) {
+  #{$container} {
     @include pie-clearfix;
     @include add-grid(12);
     @include add-gutter(1/3);
 
-    .views-row {
+    #{$grid-item} {
       @if $col == 2 {
         @include float-span(6);
         &:nth-child(2n) {

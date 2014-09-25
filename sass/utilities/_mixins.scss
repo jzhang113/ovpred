@@ -164,14 +164,20 @@
   }
 }
 
-@mixin btn {
+@mixin btn($size: "m") {
   padding: .3em 1em;
   background-color: $primary-link-color;
   color: #fff;
   @include font-smoothing;
-  @include font-size(1.4);
   font-weight: $fw-bold;
   text-decoration: none;
+
+  @if $size == "m" {
+    @include font-size(1.4);
+  }
+  @if $size == "l" {
+    @include font-size($base-font-size);
+  }
 }
 
 @mixin thick-border {

@@ -4,7 +4,7 @@
 
   @include breakpoint($bp-float-testimonials) {
     .no-flexbox & {
-      @include views-row-grid(2);
+      @include grid(2, ".view-content", ".views-row");
     }
 
     .view-content {
@@ -30,7 +30,7 @@
 }
 
 .pane-articles-article-pane-feature {
-  @include views-row-grid(4);
+  @include grid(4, ".view-content", ".views-row");
 }
 
 #twitter-widget-0 {

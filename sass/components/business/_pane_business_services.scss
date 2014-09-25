@@ -24,13 +24,6 @@
         @include font-smoothing;
         @include text-shadow(1px 1px 0px rgba(0,0,0,.2));
         background-color: #333;
-
-        &:before {
-          // @include icon($fa-var-briefcase);
-          // display: block;
-          // margin-bottom: 5px;
-          // @include font-size(3.5);
-        }
       }
     }
   }

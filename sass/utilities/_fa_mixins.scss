@@ -5,7 +5,7 @@
 // --------------------------
 
 @mixin icon($icon, $size: auto, $margin-right: auto, $margin-left: auto, $color: auto, $top: auto, $shadow: none, $float: none) {
-  @include fa-icon;
+  @include icon-FontAwesome();
   content: $icon;
   @if $size != auto    { font-size: $size; }
   @if $margin-right != auto  { margin-right: $margin-right; }
@@ -14,5 +14,14 @@
   @if $top != auto     { position: relative; top: $top; }
   @if $shadow != none { text-shadow: $shadow; }
   @if $float != none  { float: $float; }
+}
+
+@mixin icon-FontAwesome() {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em; // fixes ie7 issues
 }
 
