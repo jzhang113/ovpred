@@ -1,5 +1,9 @@
 .block--ovpred-common-ovpred-business-services,
 .pane-ovpred-common-ovpred-business-services {
+  .pane-title {
+    @include offscreen;
+  }
+
   ul {
     margin: 0 -1px;
     padding: 0;
