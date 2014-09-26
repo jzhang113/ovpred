@@ -26,6 +26,7 @@ function template_preprocess_le_tigre(&$variables) {
   $variables['attributes_array']['class'][] = 'panel-display--le-tigre';
 
   foreach($variables['content'] as $name => $item) {
+    $variables['region_attributes_array'][$name]['class'][] = 'l-panel-region';
     $variables['region_attributes_array'][$name]['class'][] = 'le-tigre-region';
     $variables['region_attributes_array'][$name]['class'][] = 'le-tigre-region--' . drupal_clean_css_identifier($name);
   }

@@ -25,6 +25,7 @@ function template_preprocess_zero(&$variables) {
   $variables['attributes_array']['class'][] = 'panel-display--zero';
 
   foreach($variables['content'] as $name => $item) {
+    $variables['region_attributes_array'][$name]['class'][] = 'l-panel-region';
     $variables['region_attributes_array'][$name]['class'][] = 'zero-region';
     $variables['region_attributes_array'][$name]['class'][] = 'zero-region--' . drupal_clean_css_identifier($name);
   }
