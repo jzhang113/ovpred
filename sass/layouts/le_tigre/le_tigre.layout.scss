@@ -1,7 +1,7 @@
 /*******************************************************************************
- * colossus.layout.scss
+ * le-tigre.layout.scss
  *
- * Styling of the "Colossus" layout
+ * Styling of the "Le Tigre" layout
  * grids with Singularity.
  ******************************************************************************/
 @import "compass";
@@ -10,8 +10,6 @@
 @import "../../variables/breakpoints";
 
 // Set Singularity grid variables.
-
-
 .panel-display--le-tigre {
   @include pie-clearfix;
   @include add-grid(6 6);

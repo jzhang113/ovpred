@@ -1,4 +1,4 @@
-/******************************************************************************* colossus.layout.scss  Styling of the "Colossus" layout grids with Singularity. *****************************************************************************/
+/******************************************************************************* le-tigre.layout.scss  Styling of the "Le Tigre" layout grids with Singularity. *****************************************************************************/
 .panel-display--le-tigre { *zoom: 1; }
 .panel-display--le-tigre:after { content: ""; display: table; clear: both; }
 

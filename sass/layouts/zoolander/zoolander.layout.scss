@@ -9,12 +9,32 @@
 @import "singularitygs";
 @import "../../variables/breakpoints";
 
-// Set Singularity grid variables.
-@include add-grid(12);
-@include add-gutter(1/3);
-
 .panel-display--zoolander {
   @include pie-clearfix;
+  @include add-grid(12);
+  @include add-gutter(1/3);
 }
 
 .zoolander-region {}
+
+// Page reactions
+@include breakpoint($bp-tablet) {
+  .zoolander-region--first,
+  .panels-dnd .zoolander-region--first {
+    @include grid-span(8, 1);
+  }
+  .zoolander-region--second,
+  .panels-dnd .zoolander-region--second {
+    @include grid-span(4, 9);
+  }
+  .zoolander-region--third,
+  .panels-dnd .zoolander-region--third {
+    @include isolation-span(6, 1, 'both');
+  }
+  .zoolander-region--fourth,
+  .panels-dnd .zoolander-region--fourth {
+    @include grid-span(6, 7);
+  }
+}
+
+

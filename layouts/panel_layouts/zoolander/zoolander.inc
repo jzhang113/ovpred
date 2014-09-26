@@ -8,7 +8,7 @@
 // Plugin definition.
 $plugin = array(
   'title' => t('Zoolander'),
-  'icon' => 'preview.png',
+  'icon' => 'zoolander_preview.png',
   'category' => t('OVPR layouts'),
   'theme' => 'zoolander',
   'css' => '../../../css/layouts/zoolander/zoolander.layout.css',
@@ -28,6 +28,7 @@ function template_preprocess_zoolander(&$variables) {
   $variables['attributes_array']['class'][] = 'panel-display--zoolander';
 
   foreach($variables['content'] as $name => $item) {
+    $variables['region_attributes_array'][$name]['class'][] = 'l-panel-region';
     $variables['region_attributes_array'][$name]['class'][] = 'zoolander-region';
     $variables['region_attributes_array'][$name]['class'][] = 'zoolander-region--' . drupal_clean_css_identifier($name);
   }
