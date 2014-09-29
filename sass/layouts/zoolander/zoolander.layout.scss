@@ -33,7 +33,7 @@
   }
   .zoolander-region--fourth,
   .panels-dnd .zoolander-region--fourth {
-    @include grid-span(6, 7);
+    @include isolation-span(6, 7, 'right');
   }
 }
 
