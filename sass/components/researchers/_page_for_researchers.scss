@@ -27,19 +27,6 @@
     @include font-size(1.4);
   }
 
-  .guide:before {
-    @include icon($fa-var-send);
-  }
-  .funding:before {
-    @include icon($fa-var-shield);
-  }
-  .myresearchportal:before {
-    @include icon($fa-var-shopping-cart);
-  }
-  .commercialize:before {
-    @include icon($fa-var-taxi);
-  }
-
   // Grids
   @include breakpoint($bp-mobile ($bp-tablet - 1px)) {
     @include grid(2, ul, li);
