@@ -1,0 +1,9 @@
+.page-node.section-impact {
+  .field--name-field-impact-articles {
+    @include grid(3, "> .field__items", "> .field__item");
+  }
+
+  .pane-videos-impact-videos {
+    @include grid(3, ".view-content", ".views-row");
+  }
+}

@@ -80,7 +80,8 @@ function theme_ovpred_color_preset_colors() {
   return array(
     'no-color' => t('None'),
     'gray' => t('Gray'),
-    'gold' => t('Gold'),
-    'delaney-teal' => t('Delaney Teal'),
+    'floralwhite' => t('Floral White'),
+    'oldlace' => t('Old Lace'),
+    'aliceblue' => t('Alice Blue'),
   );
 }

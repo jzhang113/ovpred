@@ -91,7 +91,7 @@
     .l-container {
       @include pie-clearfix;
       @include add-grid(12);
-      @include add-gutter(1/3);
+      @include add-gutter(1);
     }
 
     .pane-header {
@@ -123,9 +123,7 @@
     .l-container {
       @include pie-clearfix;
       @include add-grid(12);
-      @include add-gutter(1/3);
-      @include sgs-change("debug", true);
-      // @include background-grid;
+      @include add-gutter(1);
 
       .info {
         @include grid-span(6, 1);
