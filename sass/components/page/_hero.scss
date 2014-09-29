@@ -20,6 +20,7 @@
 
   .l-container {
     position: relative;
+    padding: 0;
   }
 
   .hero-title {
@@ -27,12 +28,24 @@
     max-width: $page-max-width;
     margin: 0 auto;
     display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    @include font-size(3.2);
-    font-weight: $fw-light;
-    @include rgba-background(rgba(#fff, .8));
+    background: #272727;
+    color: #fff;
     padding: 10px 20px;
+    @include font-smoothing;
+
+    @include breakpoint(860px) {
+      position: absolute;
+      bottom: 25px;
+      left: 1em;
+      max-width: 70%;
+      @include rgba-background(rgba(#000, .55));
+      border: 3px solid #fff;
+      @include font-size(3.2);
+    }
+
+    @include breakpoint($page-max-width) {
+      bottom: 80px;
+      left: 0;
+    }
   }
 }

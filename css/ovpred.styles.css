@@ -270,8 +270,10 @@ hr { height: 2px; border: none; background: #ccc; }
 .l-region--hero { line-height: 0; position: relative; }
 .l-region--hero:after { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; -moz-box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.9) inset, 0px -3px 14px rgba(0, 0, 0, 0.2) inset; -webkit-box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.9) inset, 0px -3px 14px rgba(0, 0, 0, 0.2) inset; box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.9) inset, 0px -3px 14px rgba(0, 0, 0, 0.2) inset; }
 .l-region--hero img { width: 100%; line-height: 0; }
-.l-region--hero .l-container { position: relative; }
-.l-region--hero .hero-title { line-height: normal; max-width: 1200px; margin: 0 auto; display: block; position: absolute; bottom: 0; left: 0; font-size: 32px; font-size: 3.2rem; font-weight: 300; background: url('../images/rgbapng/ffffffcc-5.png?1412001752'); background: rgba(255, 255, 255, 0.8); padding: 10px 20px; }
+.l-region--hero .l-container { position: relative; padding: 0; }
+.l-region--hero .hero-title { line-height: normal; max-width: 1200px; margin: 0 auto; display: block; background: #272727; color: #fff; padding: 10px 20px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+@media (min-width: 860px) { .l-region--hero .hero-title { position: absolute; bottom: 25px; left: 1em; max-width: 70%; background: url('../images/rgbapng/0000008c-5.png?1412004161'); background: rgba(0, 0, 0, 0.55); border: 3px solid #fff; font-size: 32px; font-size: 3.2rem; } }
+@media (min-width: 1200px) { .l-region--hero .hero-title { bottom: 80px; left: 0; } }
 
 html { font-size: 62.5%; }
 
