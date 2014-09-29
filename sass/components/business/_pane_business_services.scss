@@ -1,6 +1,7 @@
 .block--ovpred-common-ovpred-business-services,
 .pane-ovpred-common-ovpred-business-services {
-  .pane-title {
+  .pane-title,
+  .block__title {
     @include offscreen;
   }
 
