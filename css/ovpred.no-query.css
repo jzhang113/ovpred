@@ -108,18 +108,6 @@ hr { height: 2px; border: none; background: #ccc; }
 .pane-featured-content-featured-secondary .view-featured-content h3, .pane-featured-content-featured-business-primary .view-featured-content h3 { font-size: 18px; font-size: 1.8rem; font-weight: 400; }
 .pane-featured-content-featured-secondary .view-featured-content .field--name-field-feature-image img, .pane-featured-content-featured-business-primary .view-featured-content .field--name-field-feature-image img { width: 100%; }
 
-<<<<<<< HEAD
-=======
-.ovpred-facts { text-align: center; }
-.ovpred-facts .facts { margin-bottom: 1em; }
-.ovpred-facts .fact { padding: 1em; border: 4px solid #eee; margin-bottom: 1em; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; background: url('../images/rgbapng/ffffffb3-5.png?1411496071'); background: rgba(255, 255, 255, 0.7); }
-.ovpred-facts .prefix { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; font-size: 28px; font-size: 2.8rem; font-weight: 800; position: relative; top: -3px; right: 2px; }
-.ovpred-facts .value { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; font-size: 55px; font-size: 5.5rem; font-weight: 800; margin-bottom: -10px; }
-.ovpred-facts .unit { display: block; font-weight: 300; font-size: 30px; font-size: 3rem; }
-.ovpred-facts .description { display: block; font-size: 14px; font-size: 1.4rem; margin-top: 5px; color: #717171; }
-.ovpred-facts .more { padding: .3em 1em; background-color: #2476AE; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-weight: 700; text-decoration: none; font-size: 18px; font-size: 1.8rem; }
-
->>>>>>> feature/165
 .breadcrumb { font-size: 13px; font-size: 1.3rem; font-weight: 700; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 .breadcrumb li { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; }
 .breadcrumb .breadcrumb-seperator { margin: 0 .3em; }
@@ -211,7 +199,7 @@ hr { height: 2px; border: none; background: #ccc; }
 
 .ovpred-facts { text-align: center; }
 .ovpred-facts .facts { margin-bottom: 1em; }
-.ovpred-facts .fact { padding: 1em; border: 4px solid #eee; margin-bottom: 1em; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; background: url('../images/rgbapng/ffffffb3-5.png?1411496959'); background: rgba(255, 255, 255, 0.7); }
+.ovpred-facts .fact { padding: 1em; border: 4px solid #eee; margin-bottom: 1em; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; background: url('../images/rgbapng/ffffffb3-5.png?1411496071'); background: rgba(255, 255, 255, 0.7); }
 .ovpred-facts .prefix { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; font-size: 28px; font-size: 2.8rem; font-weight: 800; position: relative; top: -3px; right: 2px; }
 .ovpred-facts .value { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; font-size: 55px; font-size: 5.5rem; font-weight: 800; margin-bottom: -10px; }
 .ovpred-facts .unit { display: block; font-weight: 300; font-size: 30px; font-size: 3rem; }
