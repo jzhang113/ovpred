@@ -3,16 +3,10 @@ $bp-superfish-collapsed: 768px;
 .l-header {
   background-color: #2a2a2a;
   @include font-smoothing;
-  @include box-shadow(0px -60px 80px -30px rgba(0,0,0,.3) inset);
   position: relative;
   color: #333;
-  @include text-shadow(1px 0px 0px rgba(255,255,255,.3));
   @include box-shadow(0px 1px 3px 2px rgba(0, 0, 0, 0.1));
   z-index: 4;
-
-  a {
-    color: #333;
-  }
 }
 
 .site-logo {
@@ -27,6 +21,10 @@ $bp-superfish-collapsed: 768px;
   margin: 0;
   position: relative;
   font-family: $ovpr-font-stack;
+
+  a {
+    color: #333;
+  }
 }
 
 .l-branding {
@@ -35,7 +33,6 @@ $bp-superfish-collapsed: 768px;
   width: 100%;
   padding: 1em;
   @include background-image(linear-gradient($yellow-gold 30%, #ffd600 70%));
-
 
   @include breakpoint($bp-sf-is-expanded) {
     .flexbox & {

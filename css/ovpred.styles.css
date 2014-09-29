@@ -133,6 +133,13 @@ hr { height: 2px; border: none; background: #ccc; }
 .breadcrumb li { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; }
 .breadcrumb .breadcrumb-seperator { margin: 0 .3em; }
 
+.l-region--sidebar-first .menu, .l-region--sidebar-second .menu { margin: 0; padding: 0; }
+.l-region--sidebar-first .menu li, .l-region--sidebar-second .menu li { list-style: none; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #eee; }
+.l-region--sidebar-first .menu .collapsed:before, .l-region--sidebar-second .menu .collapsed:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; margin-right: 8px; }
+.l-region--sidebar-first .menu .expanded:before, .l-region--sidebar-second .menu .expanded:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; margin-right: 8px; }
+.l-region--sidebar-first .menu ul, .l-region--sidebar-second .menu ul { margin-left: 20px; }
+.l-region--sidebar-first .menu ul li:last-child, .l-region--sidebar-second .menu ul li:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
 .sf-menu li ul { overflow: visible !important; }
 
 #block-superfish-1 .block__title { clip: auto; height: auto; overflow: auto; position: absolute; top: -9999px; left: -9999px; }
@@ -247,12 +254,12 @@ hr { height: 2px; border: none; background: #ccc; }
 .front .pane-featured-content-featured-secondary .view-display-id-featured_secondary h3 { font-size: 18px; font-size: 1.8rem; font-weight: 400; }
 .front .pane-featured-content-featured-secondary .view-display-id-featured_secondary .field--name-field-feature-image img { width: 100%; }
 
-.l-header { background-color: #2a2a2a; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -moz-box-shadow: 0px -60px 80px -30px rgba(0, 0, 0, 0.3) inset; -webkit-box-shadow: 0px -60px 80px -30px rgba(0, 0, 0, 0.3) inset; box-shadow: 0px -60px 80px -30px rgba(0, 0, 0, 0.3) inset; position: relative; color: #333; text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.3); -moz-box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.1); box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.1); z-index: 4; }
-.l-header a { color: #333; }
+.l-header { background-color: #2a2a2a; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; position: relative; color: #333; -moz-box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.1); box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.1); z-index: 4; }
 
 .site-logo { display: block; line-height: 0; position: relative; z-index: 1; }
 
 .site-name { font-size: 50px; font-size: 5rem; margin: 0; position: relative; font-family: "akzidenz-grotesk-condensed", sans-serif; }
+.site-name a { color: #333; }
 
 .l-branding { position: relative; text-align: center; width: 100%; padding: 1em; background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIzMCUiIHN0b3AtY29sb3I9IiNmZWUwMDAiLz48c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2ZmZDYwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='); background-size: 100%; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(30%, #fee000), color-stop(70%, #ffd600)); background-image: -moz-linear-gradient(#fee000 30%, #ffd600 70%); background-image: -webkit-linear-gradient(#fee000 30%, #ffd600 70%); background-image: linear-gradient(#fee000 30%, #ffd600 70%); }
 @media (min-width: 768px) { .flexbox .l-branding { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; -moz-align-items: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; -moz-justify-content: center; justify-content: center; } }
@@ -388,19 +395,31 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .node--job--teaser { margin-bottom: 1em; padding-bottom: 1em; border-bottom: 4px solid #eee; }
 .node--job--teaser .node-readmore a { padding: .3em 1em; background-color: #2476AE; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-weight: 700; text-decoration: none; font-size: 14px; font-size: 1.4rem; }
 
-.node--person--full .field { margin-bottom: .5em; }
+.node--person--full .field--type-image, .node--person--full .node__content, .node--person--full .field--name-body { margin-bottom: 1em; }
+.node--person--full .field--type-image img { display: block; margin: 0 auto; }
+.node--person--full .field--name-field-person-job-title { margin-bottom: 1.5em; font-size: 16px; font-size: 1.6rem; font-style: italic; }
+.node--person--full .field--name-field-person-job-title .field__item { margin-bottom: 5px; overflow: hidden; }
+.node--person--full .field--name-field-person-job-title .field__item:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; font-size: 13px; font-size: 1.3rem; margin-right: 5px; }
 .node--person--full .profile-details .field { padding-bottom: .5em; margin-bottom: .5em; border-bottom: 2px solid #eee; }
-.node--person--full .profile-details .field__label { min-width: 140px; font-size: 14px; font-size: 1.4rem; position: relative; top: 3px; }
+.node--person--full .profile-details .field__items { float: left; overflow: hidden; }
+.node--person--full .profile-details .field__label { min-width: 160px; font-size: 14px; font-size: 1.4rem; position: relative; top: 3px; margin-bottom: 5px; }
+.node--person--full .profile-details .field__label:before { margin-right: 5px; min-width: 16px; display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; position: relative; top: -2px; }
 .node--person--full .profile-details .field--name-field-person-email .field__label:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
 .node--person--full .profile-details .field--name-field-person-office .field__label:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
 .node--person--full .profile-details .field--name-field-person-phone-number .field__label:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
 .node--person--full .profile-details .field--name-field-person-twitter .field__label:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
+.node--person--full .profile-details .field--name-field-person-dept .field__label:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
+.node--person--full .profile-details .field--name-field-person-scheduler .field__label:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
 
-.node--person--full.person-photo { *zoom: 1; }
-.node--person--full.person-photo:after { content: ""; display: table; clear: both; }
-.node--person--full.person-photo .field--type-image { -sgs-span-settings: ("span": 4, "location": 1, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": ((null: null))); width: 31.91489%; float: left; margin-right: -100%; margin-left: 0; clear: none; }
-.node--person--full.person-photo .node__content { -sgs-span-settings: ("span": 8, "location": 5, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": ((null: null))); width: 65.95745%; float: right; margin-left: 0; margin-right: 0; clear: none; }
-.node--person--full.person-photo .field--name-body { -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (("clear": both))); width: 100%; float: right; margin-left: 0; margin-right: 0; clear: both; }
-
+@media (min-width: 500px) and (max-width: 999px) { .node--person--full.person-photo { *zoom: 1; }
+  .node--person--full.person-photo:after { content: ""; display: table; clear: both; }
+  .node--person--full.person-photo .field--type-image { -sgs-span-settings: ("span": 5, "location": 1, "grid": 12, "gutter": 1, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": ((null: null))); width: 39.13043%; float: left; margin-right: -100%; margin-left: 0; clear: none; }
+  .node--person--full.person-photo .node__content { -sgs-span-settings: ("span": 7, "location": 6, "grid": 12, "gutter": 1, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": ((null: null))); width: 56.52174%; float: right; margin-left: 0; margin-right: 0; clear: none; }
+  .node--person--full.person-photo .field--name-body { -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (("clear": both))); width: 100%; float: right; margin-left: 0; margin-right: 0; clear: both; } }
+@media (min-width: 1000px) { .node--person--full.person-photo { *zoom: 1; }
+  .node--person--full.person-photo:after { content: ""; display: table; clear: both; }
+  .node--person--full.person-photo .field--type-image { -sgs-span-settings: ("span": 3, "location": 1, "grid": 12, "gutter": 1, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": ((null: null))); width: 21.73913%; float: left; margin-right: -100%; margin-left: 0; clear: none; }
+  .node--person--full.person-photo .node__content { -sgs-span-settings: ("span": 9, "location": 4, "grid": 12, "gutter": 1, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": ((null: null))); width: 73.91304%; float: right; margin-left: 0; margin-right: 0; clear: none; }
+  .node--person--full.person-photo .field--name-body { -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 1, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (("clear": both))); width: 100%; float: right; margin-left: 0; margin-right: 0; clear: both; } }
 .node--venture--teaser { margin-bottom: 1em; padding-bottom: 1em; border-bottom: 4px solid #eee; }
 .node--venture--teaser .node-readmore a { padding: .3em 1em; background-color: #2476AE; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-weight: 700; text-decoration: none; font-size: 14px; font-size: 1.4rem; }
