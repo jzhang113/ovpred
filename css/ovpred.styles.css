@@ -267,6 +267,12 @@ hr { height: 2px; border: none; background: #ccc; }
 
 .l-region--navigation { width: 100%; border-top: 1px solid #d1af00; border-bottom: 1px solid #d1af00; -moz-box-shadow: 0px 1px 0px #ffe419 inset; -webkit-box-shadow: 0px 1px 0px #ffe419 inset; box-shadow: 0px 1px 0px #ffe419 inset; background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZDYwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YwYzkwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='); background-size: 100%; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffd600), color-stop(100%, #f0c900)); background-image: -moz-linear-gradient(#ffd600, #f0c900); background-image: -webkit-linear-gradient(#ffd600, #f0c900); background-image: linear-gradient(#ffd600, #f0c900); }
 
+.l-region--hero { line-height: 0; position: relative; }
+.l-region--hero:after { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; -moz-box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.9) inset, 0px -3px 14px rgba(0, 0, 0, 0.2) inset; -webkit-box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.9) inset, 0px -3px 14px rgba(0, 0, 0, 0.2) inset; box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.9) inset, 0px -3px 14px rgba(0, 0, 0, 0.2) inset; }
+.l-region--hero img { width: 100%; line-height: 0; }
+.l-region--hero .l-container { position: relative; }
+.l-region--hero .hero-title { line-height: normal; max-width: 1200px; margin: 0 auto; display: block; position: absolute; bottom: 0; left: 0; font-size: 32px; font-size: 3.2rem; font-weight: 300; background: url('../images/rgbapng/ffffffcc-5.png?1412001752'); background: rgba(255, 255, 255, 0.8); padding: 10px 20px; }
+
 html { font-size: 62.5%; }
 
 body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36; }
