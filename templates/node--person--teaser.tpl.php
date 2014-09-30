@@ -79,6 +79,8 @@
  */
 ?>
 <article<?php print $attributes; ?>>
+<?php print render($content['field_person_headshot']); ?>
+
   <?php if (!empty($title_prefix) || !empty($title_suffix) || !$page): ?>
       <?php print render($title_prefix); ?>
       <?php if (!$page): ?>

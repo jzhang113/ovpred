@@ -102,7 +102,7 @@
       hide($content['comments']);
       hide($content['links']);
       if($page) {
-        print $date;
+        print '<div class="post-date">' . $date . '</div>';
       }
       print render($content);
     ?>
