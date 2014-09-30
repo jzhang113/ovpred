@@ -20,7 +20,7 @@ function ovpred_preprocess_page(&$variables) {
       $variables['classes_array'][] = $variables['node']->panelizer['default']->display->layout;
 
       // Check to see if the container markup needs to be implemented.
-      if ($variables['node']->panelizer['default']->display->layout == 'magnum') {
+      if ($variables['node']->panelizer['default']->display->layout == 'magnum' || $variables['node']->panelizer['default']->display->layout == 'blue_steel') {
         $needs_container = false;
       }
     }
@@ -32,7 +32,7 @@ function ovpred_preprocess_page(&$variables) {
     $variables['classes_array'][] = $panel_layout;
 
     // Check to see if the container markup needs to be implemented.
-    if ($panel_layout == 'magnum') {
+    if ($panel_layout == 'magnum' || $panel_layout == 'blue_steel') {
       $needs_container = false;
     }
   }
