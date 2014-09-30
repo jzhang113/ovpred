@@ -1,0 +1,12 @@
+.node--article--full {
+  .field--name-field-article-tag {
+    @include font-size(1.5);
+
+    .field__label {
+      &:before {
+        @include icon($fa-var-tags);
+        margin-right: 5px;
+      }
+    }
+  }
+}
