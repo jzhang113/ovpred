@@ -13,6 +13,7 @@
   <?php foreach($content as $name => $item): ?>
 
     <?php if($name == 'second'): ?>
+      <div class="bottom-container gray">
       <div class="l-container">
     <?php endif; ?>
 
@@ -23,7 +24,7 @@
     <?php endif; ?>
 
     <?php if($name == 'third'): ?>
-      </div>
+      </div></div>
     <?php endif; ?>
 
   <?php endforeach; ?>

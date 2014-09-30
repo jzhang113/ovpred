@@ -1,4 +1,5 @@
-.panel-pane.gray {
+.panel-pane.gray,
+.bottom-container.gray {
   background-color: $snow;
   border-top: 1px solid darken($snow, 4);
   border-bottom: 1px solid darken($snow, 4);
