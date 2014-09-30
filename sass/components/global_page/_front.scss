@@ -42,10 +42,6 @@
   .pane-featured-content-featured-secondary {
     $bp-float-rows: 950px;
 
-    .pane-title {
-      @include element-invisible;
-    }
-
     .view-display-id-featured_secondary {
 
       .view-content {
@@ -77,4 +73,3 @@
     }
   }
 }
-

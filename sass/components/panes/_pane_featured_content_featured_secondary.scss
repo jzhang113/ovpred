@@ -3,10 +3,6 @@
 .pane-featured-content-featured-business-primary {
   $bp-float-rows: 950px;
 
-  .pane-title {
-    @include element-invisible;
-  }
-
   .view-featured-content {
 
     .view-content {
