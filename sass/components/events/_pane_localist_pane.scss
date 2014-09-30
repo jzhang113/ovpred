@@ -8,18 +8,6 @@
   .lw ul {
     margin: 0;
     padding: 0;
-
-    .flexbox & {
-      @include breakpoint($bp-tablet) {
-        @include flexbox;
-        @include flex-wrap(wrap);
-        @include justify-content(space-between);
-
-        li {
-          width: 24%;
-        }
-      }
-    }
   }
 
   // Each list item
@@ -29,6 +17,16 @@
     margin-bottom: 1em;
     background: $snow;
     border: 1px solid darken($snow, 4);
+  }
+
+  // Image
+  .lwi1 {
+    line-height: 0;
+    text-align: center;
+
+    a {
+      display: block;
+    }
   }
 
   // Date
@@ -57,7 +55,6 @@
   // location
   .lwl {
     display: none;
-    @include font-size(1.4);
   }
 
   // Location label
@@ -76,6 +73,29 @@
       display: block;
       line-height: normal;
       color: #888;
+    }
+  }
+
+  // Responsive
+  @include breakpoint(500px ($bp-desktop - 1px)) {
+    @include grid(2, "ul", "li");
+  }
+
+  @include breakpoint($bp-desktop) {
+    .no-flexbox & {
+      @include grid(4, "ul", "li");
+    }
+
+    .flexbox & {
+      ul {
+        @include flexbox;
+        @include flex-wrap(wrap);
+        @include justify-content(space-between);
+      }
+
+      li {
+        width: 24%;
+      }
     }
   }
 }

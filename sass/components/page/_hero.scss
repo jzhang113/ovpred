@@ -29,12 +29,16 @@
     margin: 0 auto;
     display: block;
     background: #272727;
+    @include rgba-background(rgba(0,0,0,.6));
     color: #fff;
     padding: 10px 20px;
     @include font-smoothing;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
     @include breakpoint(860px) {
-      position: absolute;
+      width: auto;
       bottom: 25px;
       left: 1em;
       max-width: 70%;
@@ -43,7 +47,7 @@
       @include font-size(3.2);
     }
 
-    @include breakpoint($page-max-width) {
+    @include breakpoint($page-max-width + 10px) {
       bottom: 80px;
       left: 0;
     }

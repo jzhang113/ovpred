@@ -1,52 +1,55 @@
 .block--ovpred-common-ovpred-business-services,
-.pane-ovpred-common-ovpred-business-services {
+.pane-ovpred-common-ovpred-business-services,
+.pane-ovpred-researcherlinks {
   .pane-title,
   .block__title {
     @include offscreen;
   }
 
   ul {
-    margin: 0 -1px;
+    margin: 0;
     padding: 0;
+    text-align: center;
 
-    .flexbox & {
+    li {
+      list-style: none;
+      margin-bottom: 1em;
+      border: 1px dotted #aaa;
+      padding: 1em;
+      @include border-radius(4px);
+
+      a {
+        display: block;
+      }
+    }
+  }
+
+  .description {
+    display: block;
+    font-style: italic;
+    @include font-size(1.4);
+    color: $light-gray-valid-contrast;
+  }
+
+  .flexbox & {
+    ul {
       @include flexbox;
       @include flex-wrap(wrap);
     }
 
     li {
-      list-style: none;
-      text-align: center;
-      line-height: 1;
-      @include flex(1 1 250px);
-      margin: 1px;
-
-      a {
-        display: block;
-        padding: 1.3em 1em 1em;
-        @include font-size(1.4);
-        color: #fff;
-        @include font-smoothing;
-        @include text-shadow(1px 1px 0px rgba(0,0,0,.2));
-        background-color: #333;
-      }
+      @include flex(1 1 220px);
+      margin: 0 10px 10px;
     }
   }
 
-  .consultant {
-  }
-  .start {
-  }
-  .recruit {
-  }
-  .professional-development {
-  }
-  .relocate {
-  }
-  .licensing {
-  }
-  .mentor {
-  }
-  .technology {
+  // Grids
+  .no-flexbox & {
+    @include breakpoint($bp-mobile ($bp-tablet - 1px)) {
+      @include grid(2, ul, li);
+    }
+    @include breakpoint($bp-tablet) {
+      @include grid(4, ul, li);
+    }
   }
 }
