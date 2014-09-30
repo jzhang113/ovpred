@@ -343,10 +343,6 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .pane-ovpred-researcherlinks ul li a { display: block; }
 .pane-ovpred-researcherlinks ul li a:before { display: block; font-size: 40px; font-size: 4rem; color: #453D36; }
 .pane-ovpred-researcherlinks .description { display: block; font-style: italic; font-size: 14px; font-size: 1.4rem; }
-.pane-ovpred-researcherlinks .guide:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
-.pane-ovpred-researcherlinks .funding:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
-.pane-ovpred-researcherlinks .myresearchportal:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
-.pane-ovpred-researcherlinks .commercialize:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
 @media (min-width: 500px) and (max-width: 749px) { .pane-ovpred-researcherlinks ul { *zoom: 1; }
   .pane-ovpred-researcherlinks ul:after { content: ""; display: table; clear: both; }
   .pane-ovpred-researcherlinks ul li { width: 48.93617%; clear: right; float: left; margin-left: 0; margin-right: 2.12766%; }

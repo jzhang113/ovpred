@@ -296,10 +296,6 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .pane-ovpred-researcherlinks ul li a { display: block; }
 .pane-ovpred-researcherlinks ul li a:before { display: block; font-size: 40px; font-size: 4rem; color: #453D36; }
 .pane-ovpred-researcherlinks .description { display: block; font-style: italic; font-size: 14px; font-size: 1.4rem; }
-.pane-ovpred-researcherlinks .guide:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
-.pane-ovpred-researcherlinks .funding:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
-.pane-ovpred-researcherlinks .myresearchportal:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
-.pane-ovpred-researcherlinks .commercialize:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
 
 .pane-ovpred-researchercompliance img { display: block; margin: 0 auto 1em; }
 .pane-ovpred-researchercompliance .description { display: block; margin-bottom: 1em; }
