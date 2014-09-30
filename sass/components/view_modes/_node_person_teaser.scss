@@ -1,3 +1,9 @@
 .node--person--teaser {
+  .field--name-field-person-headshot {
+    @include breakpoint($bp-tablet) {
+      float: left;
+      margin-right: $spacer-unit;
+    }
+  }
 
 }

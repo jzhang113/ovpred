@@ -457,6 +457,8 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
   .node--person--full.person-photo .field--type-image { width: 21.73913%; float: left; margin-right: -100%; margin-left: 0; clear: none; }
   .node--person--full.person-photo .node__content { width: 73.91304%; float: right; margin-left: 0; margin-right: 0; clear: none; }
   .node--person--full.person-photo .field--name-body { width: 100%; float: right; margin-left: 0; margin-right: 0; clear: both; } }
+@media (min-width: 750px) { .node--person--teaser .field--name-field-person-headshot { float: left; margin-right: 20px; } }
+
 .node--venture--teaser { margin-bottom: 1em; padding-bottom: 1em; border-bottom: 4px solid #eee; }
 .node--venture--teaser .node-readmore a { padding: .3em 1em; background-color: #2476AE; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-weight: 700; text-decoration: none; font-size: 14px; font-size: 1.4rem; }
 
