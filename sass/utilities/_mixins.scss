@@ -130,40 +130,6 @@
   }
 }
 
-@mixin feature-box(
-  $border-color: #ffffff,
-  $bg-color: #ffffff,
-  $bg-rgba: "false",
-  $bg-opacity: 1,
-  $pull-items: "null")
-  {
-  $feature-box-padding: 1em;
-  $feature-box-margin: 1em;
-
-  padding: $feature-box-padding;
-  border: 1px solid $border-color;
-  @include border-radius(2px);
-  margin-bottom: $feature-box-margin;
-
-  @if $bg-rgba == "false" {
-    background: $bg-color;
-  }
-  @if $bg-rgba == "true" {
-    @include rgba-background(rgba($bg-color, $bg-opacity));
-  }
-
-  @if $pull-items != "null" {
-
-    @each $pull-item in $pull-items {
-      .#{nth($pull-items, 1)}{
-        margin-top: calc(-#{$feature-box-margin} + 3px);
-        margin-right: calc(-#{$feature-box-margin} + 3px);
-        margin-left: calc(-#{$feature-box-margin} + 3px);
-      }
-    }
-  }
-}
-
 @mixin btn($size: "m") {
   padding: .3em 1em;
   background-color: $primary-link-color;

@@ -41,4 +41,8 @@ body {
   @include element-invisible;
 }
 
+.btn {
+  @include btn;
+}
+
 

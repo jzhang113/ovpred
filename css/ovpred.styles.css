@@ -119,6 +119,8 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 
 .element-invisible { clip: auto; height: auto; overflow: auto; position: absolute; top: -9999px; left: -9999px; }
 
+.btn { padding: .3em 1em; background-color: #2476AE; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-weight: 700; text-decoration: none; font-size: 14px; font-size: 1.4rem; }
+
 .magnum .l-main, .blue_steel .l-main { padding-bottom: 0; }
 .magnum .l-main .l-region--sidebar-first, .magnum .l-main .l-region--sidebar-second, .blue_steel .l-main .l-region--sidebar-first, .blue_steel .l-main .l-region--sidebar-second { margin: 0 auto; max-width: 1200px; padding: 2em 1em; }
 .l-main .l-container { *zoom: 1; }
@@ -288,6 +290,8 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
   .pane-featured-content-featured-secondary .view-featured-content .views-row:nth-child(3n), .pane-featured-content-featured-business-primary .view-featured-content .views-row:nth-child(3n) { width: 31.91489%; clear: right; float: right; margin-right: 0; } }
 .pane-featured-content-featured-secondary .view-featured-content h3, .pane-featured-content-featured-business-primary .view-featured-content h3 { font-size: 18px; font-size: 1.8rem; font-weight: 400; }
 .pane-featured-content-featured-secondary .view-featured-content .field--name-field-feature-image img, .pane-featured-content-featured-business-primary .view-featured-content .field--name-field-feature-image img { width: 100%; }
+
+.page-business .pane-1 p { margin-bottom: 0; }
 
 .pane-videos-impact-videos .view-content { *zoom: 1; }
 .pane-videos-impact-videos .view-content:after { content: ""; display: table; clear: both; }
