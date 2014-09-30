@@ -5,26 +5,14 @@ $bp-float-facts: 950px;
 
   .facts {
     margin-bottom: 1em;
-
-    @include breakpoint($bp-float-facts) {
-      .flexbox & {
-        @include flexbox;
-        @include align-items(stretch);
-        @include justify-content(center);
-      }
-    }
   }
 
   .fact {
     padding: 1em;
     border: 4px solid #eee;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     @include border-radius(8px);
     @include rgba-background(rgba(255,255,255,.7));
-
-    @include breakpoint($bp-float-facts) {
-      margin: 5px;
-    }
   }
 
   .prefix {
@@ -63,5 +51,26 @@ $bp-float-facts: 950px;
 
   .more {
     @include btn($size: "l");
+    @include inline-block;
+  }
+
+  // Responsive flexbox with fall back
+  @include breakpoint($bp-float-facts) {
+    .facts {
+      .flexbox & {
+        @include flexbox;
+        @include align-items(stretch);
+        @include justify-content(center);
+
+        .fact {
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+      }
+    }
+
+    .no-flexbox & {
+      @include grid(3, ".facts", ".fact");
+    }
   }
 }
