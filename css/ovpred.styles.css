@@ -237,6 +237,11 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 
 .panel-pane.aliceblue { background-color: #F2F8FF; border-top: 1px solid #deedff; border-bottom: 1px solid #deedff; }
 
+@media (min-width: 750px) { .splitscreen .splitscreen { *zoom: 1; }
+  .splitscreen .splitscreen:after { content: ""; display: table; clear: both; }
+  .splitscreen .splitscreen .split { width: 48.93617%; clear: right; float: left; margin-left: 0; margin-right: 2.12766%; }
+  .splitscreen .splitscreen .split:nth-child(2n) { width: 48.93617%; clear: right; float: right; margin-right: 0; } }
+
 @media (min-width: 500px) and (max-width: 999px) { .pane-articles-article-pane-feature .view-content { *zoom: 1; }
   .pane-articles-article-pane-feature .view-content:after { content: ""; display: table; clear: both; }
   .pane-articles-article-pane-feature .view-content .views-row { width: 48.93617%; clear: right; float: left; margin-left: 0; margin-right: 2.12766%; }
