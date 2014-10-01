@@ -223,6 +223,8 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .pane-articles-article-pane-feature-and-news .view-display-id-article_pane_feature_and_news > .view-content { *zoom: 1; }
 .pane-articles-article-pane-feature-and-news .view-display-id-article_pane_feature_and_news > .view-content:after { content: ""; display: table; clear: both; }
 
+.pane-articles-article-pane-grid .node--article--list { border-bottom: 1px solid #efefef; padding-bottom: .5em; margin-bottom: .5em; }
+
 .pane-bundle-impact-grid .field--name-field-impact-articles > .field__items { *zoom: 1; }
 .pane-bundle-impact-grid .field--name-field-impact-articles > .field__items:after { content: ""; display: table; clear: both; }
 .pane-bundle-impact-grid .field--name-field-impact-articles > .field__items > .field__item { width: 31.91489%; clear: right; float: left; margin-left: 0; margin-right: 2.12766%; }
@@ -303,8 +305,9 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .node--article--full .field--name-field-article-tag { font-size: 15px; font-size: 1.5rem; }
 .node--article--full .field--name-field-article-tag .field__label:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; margin-right: 5px; }
 
-.node--article--list { border-bottom: 1px solid #efefef; padding-bottom: .5em; margin-bottom: .5em; }
 .node--article--list h3 { margin: 0; font-weight: 400; font-size: 18px; font-size: 1.8rem; }
+
+.view-display-id-article_pane .node--article--list { border-bottom: 1px solid #efefef; padding-bottom: .5em; margin-bottom: .5em; }
 
 .node--article--teaser { margin-bottom: 1em; padding-bottom: 1em; border-bottom: 4px solid #eee; }
 .node--article--teaser .node-readmore a { padding: .3em 1em; background-color: #2476AE; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-weight: 700; text-decoration: none; font-size: 14px; font-size: 1.4rem; }
