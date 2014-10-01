@@ -117,6 +117,7 @@
 
   .lwe {
     @include article-list;
+    @include list-separator;
   }
 
   .lwn0 {
