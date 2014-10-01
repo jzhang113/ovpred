@@ -66,7 +66,7 @@ function ovpred_wrapper_settings_form($style_settings) {
     '#type' => 'select',
     '#title' => t('Choose color preset'),
     '#default_value' => (isset($style_settings['preset_color'])) ? $style_settings['preset_color'] : FALSE,
-    '#options' => theme_ovpred_color_preset_colors(),
+    '#options' => theme_ovpred_wrapper_color_preset_colors(),
   );
 
   return $form;
@@ -76,7 +76,7 @@ function ovpred_wrapper_settings_form($style_settings) {
  * Available color presets.
  * @return array
  */
-function theme_ovpred_color_preset_colors() {
+function theme_ovpred_wrapper_color_preset_colors() {
   return array(
     'no-color' => t('None'),
     'gray' => t('Gray'),
