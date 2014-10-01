@@ -1,6 +1,8 @@
 .block--ovpred-common-ovpred-business-services,
 .pane-ovpred-common-ovpred-business-services,
 .pane-ovpred-researcherlinks {
+  padding-bottom: 1em !important;
+
   .pane-title,
   .block__title {
     @include offscreen;
@@ -14,8 +16,6 @@
     li {
       list-style: none;
       margin-bottom: 1em;
-      border: 1px dotted #aaa;
-      padding: 1em;
       @include border-radius(4px);
 
       a {
@@ -39,7 +39,7 @@
 
     li {
       @include flex(1 1 220px);
-      margin: 0 10px 10px;
+      margin: 0 .5em 2em;
     }
   }
 
