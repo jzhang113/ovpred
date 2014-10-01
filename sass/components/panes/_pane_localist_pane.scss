@@ -16,7 +16,7 @@
     padding: 1em;
     margin-bottom: 1em;
     background: $snow;
-    border: 1px solid darken($snow, 4);
+    @include border(1px, bottom);
   }
 
   // Image

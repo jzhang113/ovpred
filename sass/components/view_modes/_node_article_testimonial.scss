@@ -13,8 +13,8 @@
   .node__content {
     padding: 1em;
     @include rgba-background(rgba(255,255,255,.7));
-    border-left: 4px solid #eee;
-    border-right: 4px solid #eee;
-    border-bottom: 4px solid #eee;
+    @include border(4px, bottom);
+    @include border(4px, right);
+    @include border(4px, left);
   }
 }

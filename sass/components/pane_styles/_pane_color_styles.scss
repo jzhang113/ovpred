@@ -19,3 +19,20 @@
   border-top: 1px solid darken($aliceblue, 4);
   border-bottom: 1px solid darken($aliceblue, 4);
 }
+
+// Color variations
+.panel-pane.oldlace * {
+  border-color: darken($oldlace, 4);
+}
+.panel-pane.floralwhite * {
+  border-color: darken($floralwhite, 4);
+}
+.panel-pane.aliceblue * {
+  border-color: darken($aliceblue, 4);
+}
+.panel-pane.gray * {
+  border-color: #eee;
+}
+.panel-pane.no-color * {
+  border-color: #efefef;
+}

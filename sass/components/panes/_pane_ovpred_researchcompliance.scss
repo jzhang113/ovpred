@@ -24,7 +24,7 @@
         display: block;
         margin-bottom: .3em;
         padding-bottom: .3em;
-        border-bottom: 1px solid darken($snow, 6);
+        @include border(1px, bottom);
       }
     }
   }

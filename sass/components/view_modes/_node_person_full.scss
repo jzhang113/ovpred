@@ -34,7 +34,7 @@
     .field {
       padding-bottom: .5em;
       margin-bottom: .5em;
-      border-bottom: 2px solid #eee;
+      @include border(2px, bottom);
     }
 
     .field__items {
