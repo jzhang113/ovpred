@@ -1,3 +1,9 @@
 .node--article--list {
   @include article-list;
 }
+
+.view-display-id-article_pane .node--article--list {
+  @include list-separator;
+}
+
+

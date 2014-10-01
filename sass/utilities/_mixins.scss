@@ -161,14 +161,17 @@
 }
 
 @mixin article-list {
-  border-bottom: 1px solid darken($snow, 4);
-  padding-bottom: .5em;
-  margin-bottom: .5em;
 
   h3 {
     margin: 0;
     font-weight: $fw-normal;
     @include font-size($base-font-size);
   }
+}
+
+@mixin list-separator {
+  border-bottom: 1px solid darken($snow, 4);
+  padding-bottom: .5em;
+  margin-bottom: .5em;
 }
 
