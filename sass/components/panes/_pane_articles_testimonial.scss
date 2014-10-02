@@ -1,5 +1,4 @@
 .pane-articles-article-pane-testimonial {
-  $bp-float-testimonial-image: 500px;
   $bp-float-testimonials: 950px;
 
   @include breakpoint($bp-float-testimonials) {
@@ -17,14 +16,6 @@
           margin: 10px;
         }
       }
-    }
-  }
-
-  .field--name-field-article-image {
-    @include breakpoint($bp-float-testimonial-image) {
-      float: right;
-      margin-left: 20px;
-      max-width: 250px;
     }
   }
 }

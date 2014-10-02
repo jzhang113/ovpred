@@ -333,9 +333,11 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .node--article--teaser .node-readmore a { padding: .3em 1em; background-color: #2476AE; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-weight: 700; text-decoration: none; font-size: 14px; font-size: 1.4rem; }
 .node--article--teaser .field--type-image { line-height: 0; text-align: center; margin: 0 auto 10px; }
 
+.node--article--testimonial { margin-bottom: 1em; }
 .node--article--testimonial h3 { margin: 0; }
 .node--article--testimonial h3 a { display: block; background: #333; padding: 5px 10px; color: #bbbbbb; }
-.node--article--testimonial .node__content { padding: 1em; background: url('../images/rgbapng/ffffffb3-5.png?1411496959'); background: rgba(255, 255, 255, 0.7); border-style: solid; border-width: 0; border-color: #eee; border-width: 4px; border-top: none; }
+.node--article--testimonial .node__content { padding: 1em; background: url('../images/rgbapng/ffffffb3-5.png?1411496959'); background: rgba(255, 255, 255, 0.7); border-style: solid; border-width: 0; border-color: #eee; border-width: 4px; border-top: none; *zoom: 1; }
+.node--article--testimonial .node__content:after { content: ""; display: table; clear: both; }
 
 .node--featured-content--feature { max-height: auto; position: relative; }
 .node--featured-content--feature .l-container { position: relative; max-height: auto; }

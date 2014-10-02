@@ -1,4 +1,9 @@
+$bp-float-testimonial-image: 500px;
+
 .node--article--testimonial {
+  margin-bottom: 1em;
+
+
   h3 {
     margin: 0;
 
@@ -15,5 +20,14 @@
     @include rgba-background(rgba(255,255,255,.7));
     @include border(4px, all);
     border-top: none;
+    @include pie-clearfix;
+  }
+
+  .field--type-image {
+    @include breakpoint($bp-float-testimonial-image) {
+      float: right;
+      margin-left: 20px;
+      max-width: 250px;
+    }
   }
 }
