@@ -213,9 +213,6 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 #block-superfish-1 .sf-accordion-button:before { line-height: normal; display: block !important; font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; font-size: 17px; font-size: 1.7rem; width: 100%; height: 100%; line-height: 35px !important; }
 #block-superfish-1 .sf-with-ul { padding-left: 40px; }
 
-.page-business .bottom-container { padding: 3em 0; }
-.page-business .bottom-container .panel-pane { padding: 0; }
-
 .panel-pane.gray, .bottom-container.gray { background-color: #f9f9f9; border-top: 1px solid #efefef; border-bottom: 1px solid #efefef; }
 
 .panel-pane.floralwhite { background-color: #FFFAF2; border-top: 1px solid #fff2de; border-bottom: 1px solid #fff2de; }
