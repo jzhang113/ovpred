@@ -11,7 +11,7 @@
 
 // Set Singularity grid variables.
 @include add-grid(12);
-@include add-gutter(1/3);
+@include add-gutter(1/2);
 
 .panel-display--zero {
   @include pie-clearfix;
