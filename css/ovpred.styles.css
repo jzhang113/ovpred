@@ -87,6 +87,7 @@ hr { height: 2px; border: none; background: #ccc; }
 .l-footer .block--ovpred-blocks-ovpred-social .block__content a:before { margin-right: 5px; font-size: 32px; font-size: 3.2rem; line-height: normal; display: block !important; }
 .l-footer .block--ovpred-blocks-ovpred-social .ovpred-youtube:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
 .l-footer .block--ovpred-blocks-ovpred-social .ovpred-twitter:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
+.l-footer .block--ovpred-blocks-ovpred-social .ovpred-facebook:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
 .l-footer .block--ovpred-blocks-ovpred-thank .block__content a { padding: .3em 1em; background-color: #2476AE; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-weight: 700; text-decoration: none; font-size: 14px; font-size: 1.4rem; }
 .l-footer .block--ovpred-blocks-ovpred-thank .block__content a:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; margin-right: .3em; font-size: 20px; font-size: 2rem; position: relative; top: 2px; }
 
@@ -295,19 +296,6 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .pane-bundle-impact-grid .field--name-field-impact-articles > .field__items:after { content: ""; display: table; clear: both; }
 .pane-bundle-impact-grid .field--name-field-impact-articles > .field__items > .field__item { width: 31.91489%; clear: right; float: left; margin-left: 0; margin-right: 2.12766%; }
 .pane-bundle-impact-grid .field--name-field-impact-articles > .field__items > .field__item:nth-child(3n) { width: 31.91489%; clear: right; float: right; margin-right: 0; }
-
-.pane-ovpred-researchercompliance img { display: block; margin: 0 auto 1em; }
-.pane-ovpred-researchercompliance .description { display: block; margin-bottom: 1em; }
-.pane-ovpred-researchercompliance ul { margin: 0; padding: 0; }
-.pane-ovpred-researchercompliance ul li { display: block; list-style: none; }
-.pane-ovpred-researchercompliance ul li a { display: block; margin-bottom: .3em; padding-bottom: .3em; border-style: solid; border-width: 0; border-color: #eee; border-bottom-width: 1px; }
-@media (min-width: 600px) { .pane-ovpred-researchercompliance ul { -moz-column-count: 2; -webkit-column-count: 2; column-count: 2; -moz-column-gap: 2em; -webkit-column-gap: 2em; column-gap: 2em; } }
-@media (min-width: 950px) { .pane-ovpred-researchercompliance .l-container { *zoom: 1; }
-  .pane-ovpred-researchercompliance .l-container:after { content: ""; display: table; clear: both; }
-  .pane-ovpred-researchercompliance .pane-header { width: 47.82609%; float: left; margin-right: -100%; margin-left: 0; clear: none; }
-  .pane-ovpred-researchercompliance img { width: 47.82609%; float: right; margin-left: 0; margin-right: 0; clear: none; }
-  .pane-ovpred-researchercompliance .description { width: 47.82609%; float: left; margin-right: -100%; margin-left: 0; clear: left; }
-  .pane-ovpred-researchercompliance ul { width: 47.82609%; float: left; margin-right: -100%; margin-left: 0; clear: left; } }
 
 .block--ovpred-common-ovpred-business-services, .pane-ovpred-common-ovpred-business-services, .pane-ovpred-researcherlinks { padding-bottom: 1em !important; }
 .block--ovpred-common-ovpred-business-services .pane-title, .block--ovpred-common-ovpred-business-services .block__title, .pane-ovpred-common-ovpred-business-services .pane-title, .pane-ovpred-common-ovpred-business-services .block__title, .pane-ovpred-researcherlinks .pane-title, .pane-ovpred-researcherlinks .block__title { position: absolute; top: -9999px; left: -9999px; }

@@ -81,6 +81,9 @@
     .ovpred-twitter:before {
       @include icon($fa-var-twitter);
     }
+    .ovpred-facebook:before {
+      @include icon($fa-var-facebook);
+    }
   }
 
   .block--ovpred-blocks-ovpred-thank {
