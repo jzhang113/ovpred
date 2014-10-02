@@ -15,4 +15,7 @@ function ovpred_preprocess_node(&$variables) {
       $variables['classes_array'][] = 'person-photo';
     }
   }
+
+  // Add theme hook suggestion for the content type + view mode.
+  $variables['theme_hook_suggestions'][] = 'node__' . $variables['type'] . '__' . $variables['view_mode'];
 }
