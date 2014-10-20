@@ -149,8 +149,8 @@
       </div>
     <?php endif; ?>
   </div>
-
   <footer class="l-footer" role="contentinfo"><div class="l-container">
+    <?php print render($page['sub_footer']); ?>
     <?php print render($page['footer']); ?>
   </div></footer>
 </div>
