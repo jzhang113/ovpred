@@ -128,6 +128,9 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .l-main .l-container:after { content: ""; display: table; clear: both; }
 
 .block--ovpred-blocks-ovpred-units { overflow: hidden; *overflow: visible; *zoom: 1; }
+.block--ovpred-blocks-ovpred-units .ovpred-units-title { cursor: pointer; }
+.block--ovpred-blocks-ovpred-units .ovpred-units-title:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; margin-right: 5px; }
+.block--ovpred-blocks-ovpred-units .ovpred-units-title.collapsed:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
 .block--ovpred-blocks-ovpred-units h3 { font-size: 16px; font-size: 1.6rem; }
 .block--ovpred-blocks-ovpred-units a { text-decoration: none; }
 .block--ovpred-blocks-ovpred-units ul { list-style: none; padding-left: 0; }
