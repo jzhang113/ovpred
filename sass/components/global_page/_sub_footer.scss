@@ -2,6 +2,17 @@
 
   @include cf;
 
+  .ovpred-units-title {
+    cursor: pointer;
+    &:before {
+      @include icon($fa-var-caret-down);
+      margin-right: 5px;
+    }
+    &.collapsed:before {
+      @include icon($fa-var-caret-right);
+    }
+  }
+
   h3 {
     @include font-size(1.6);
   }
