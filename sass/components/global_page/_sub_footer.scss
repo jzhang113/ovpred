@@ -2,22 +2,36 @@
 
   @include cf;
 
-  .ovpred-units-title {
-    cursor: pointer;
-    &:before {
-      @include icon($fa-var-caret-down);
-      margin-right: 5px;
+  h2 {
+    @include font-size(1.6);
+
+    @include breakpoint($bp-mobile) {
+      @include font-size(2.2);
     }
-    &.collapsed:before {
-      @include icon($fa-var-caret-right);
+  }
+
+  .ovpred-units-title {
+    &:after {
+      @include icon($fa-var-minus-square);
+      margin-left: 5px;
+    }
+    &.collapsed:after {
+      @include icon($fa-var-plus-square);
     }
   }
 
   h3 {
     @include font-size(1.6);
   }
+
   a {
     text-decoration: none;
+  }
+
+  .ovpred-units-content {
+    a:focus, a:hover {
+      text-decoration: underline;
+    }
   }
 
   ul {
@@ -32,9 +46,7 @@
   }
 
   @include breakpoint($bp-tablet) {
-    //@include grid(5, ".block__content", ".unit-group");
     .block__content {
-      //@include pie-clearfix;
       @include add-gutter(1/5);
       width: 100%;
 

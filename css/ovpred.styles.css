@@ -146,11 +146,13 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
   .two_sidebars .l-main .l-container .l-region--sidebar-second { width: 23.40426%; float: right; margin-left: 0; margin-right: 0; clear: none; } }
 
 .block--ovpred-blocks-ovpred-units { overflow: hidden; *overflow: visible; *zoom: 1; }
-.block--ovpred-blocks-ovpred-units .ovpred-units-title { cursor: pointer; }
-.block--ovpred-blocks-ovpred-units .ovpred-units-title:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; margin-right: 5px; }
-.block--ovpred-blocks-ovpred-units .ovpred-units-title.collapsed:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
+.block--ovpred-blocks-ovpred-units h2 { font-size: 16px; font-size: 1.6rem; }
+@media (min-width: 500px) { .block--ovpred-blocks-ovpred-units h2 { font-size: 22px; font-size: 2.2rem; } }
+.block--ovpred-blocks-ovpred-units .ovpred-units-title:after { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; margin-left: 5px; }
+.block--ovpred-blocks-ovpred-units .ovpred-units-title.collapsed:after { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; }
 .block--ovpred-blocks-ovpred-units h3 { font-size: 16px; font-size: 1.6rem; }
 .block--ovpred-blocks-ovpred-units a { text-decoration: none; }
+.block--ovpred-blocks-ovpred-units .ovpred-units-content a:focus, .block--ovpred-blocks-ovpred-units .ovpred-units-content a:hover { text-decoration: underline; }
 .block--ovpred-blocks-ovpred-units ul { list-style: none; padding-left: 0; }
 .block--ovpred-blocks-ovpred-units li { font-size: 13px; font-size: 1.3rem; line-height: 1.3; padding-bottom: 8px; }
 @media (min-width: 750px) { .block--ovpred-blocks-ovpred-units .block__content { width: 100%; }
