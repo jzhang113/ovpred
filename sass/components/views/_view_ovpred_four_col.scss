@@ -1,0 +1,30 @@
+/*
+ * Layout of views rows in 4 columns.
+ * Because we are using flexbox, the flex wrapper has to be scoped to the
+ * view-grouping-content wrapper.
+ */
+
+@import "../../utilities/_flex.scss";
+
+.ovpred-four-column .view-grouping-content {
+  @include breakpoint($bp-tablet) {
+    @include pie-clearfix;
+    @include flexbox;
+    @include flex-wrap(wrap);
+
+    .views-row {
+      @include pie-clearfix;
+      @include flex(1 1 250px);
+      padding: 0 $spacer-unit;
+
+      .node--teaser {
+        border: none;
+      }
+    }
+
+    h3 {
+      width: 100%;
+      clear: both;
+    }
+  }
+}
