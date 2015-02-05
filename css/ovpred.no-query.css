@@ -356,6 +356,8 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .node--article--testimonial .node__content { padding: 1em; background: url('../images/rgbapng/ffffffb3-5.png?1411496071'); background: rgba(255, 255, 255, 0.7); border-style: solid; border-width: 0; border-color: #eee; border-width: 4px; border-top: none; *zoom: 1; }
 .node--article--testimonial .node__content:after { content: ""; display: table; clear: both; }
 
+.panel-display--ferrari .node--article--testimonial .field--type-image { float: none; margin-left: auto; margin-right: auto; max-width: 250px; }
+
 .node--featured-content--feature { max-height: auto; position: relative; }
 .node--featured-content--feature .l-container { position: relative; max-height: auto; }
 .node--featured-content--feature a { display: block; }
