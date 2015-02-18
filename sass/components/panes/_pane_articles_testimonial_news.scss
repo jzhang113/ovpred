@@ -14,6 +14,7 @@
       .views-row-2 {
         @include grid-span(1,2);
       }
+
     }
     .views-footer {
       clear:both;
@@ -32,6 +33,15 @@
 
     .node--article--testimonial .field--type-image {
       max-width:150px;
+    }
+  }
+  .view-display-id-article_pane_testimonial_news > .view-content h3 {
+    @include font-size(2.1);
+  }
+
+  .view-footer {
+    > p {
+      @include font-size(2.4);
     }
   }
 }
