@@ -1,5 +1,6 @@
 $bp-float-image: 850px;
-.node--article--teaser {
+.node--article--teaser,
+.node--ovpred-sub-article--ovpred-sub-article-teaser {
   @include pie-clearfix;
   @include teaser-base;
 
