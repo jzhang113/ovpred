@@ -409,6 +409,22 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
   .no-flexbox .ovpred-facts .facts .fact { width: 31.91489%; clear: right; float: left; margin-left: 0; margin-right: 2.12766%; }
   .no-flexbox .ovpred-facts .facts .fact:nth-child(3n) { width: 31.91489%; clear: right; float: right; margin-right: 0; } }
 
+.ovpred-impact-data { text-align: center; }
+.ovpred-impact-data .impact-data-list { margin-bottom: 1em; }
+.ovpred-impact-data .impact-data-item { padding: 1em; border-style: solid; border-width: 0; border-color: #eee; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; border-width: 4px; margin-bottom: .5em; background: url('../images/rgbapng/ffffffb3-5.png?1431094188'); background: rgba(255, 255, 255, 0.7); }
+.ovpred-impact-data .field--name-field-ovpred-id-data-prefix { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; font-size: 28px; font-size: 2.8rem; font-weight: 800; position: relative; top: -3px; right: 2px; }
+.ovpred-impact-data .field--name-field-ovpred-id-data-suffix { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; font-size: 28px; font-size: 2.8rem; font-weight: 800; position: relative; top: -3px; right: 2px; }
+.ovpred-impact-data .field--name-field-ovpred-id-data { display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; font-size: 55px; font-size: 5.5rem; font-weight: 800; margin-bottom: -10px; }
+.ovpred-impact-data .field--name-field-ovpred-id-caption { display: block; font-weight: 300; font-size: 30px; font-size: 3rem; }
+.ovpred-impact-data .field--name-field-ovpred-id-description { display: block; font-size: 14px; font-size: 1.4rem; margin-top: 5px; color: #717171; }
+@media (min-width: 950px) { .ovpred-impact-data .field--name-field-ovpred-id-description { max-width: 300px; margin: 5px auto 0; } }
+@media (min-width: 950px) { .flexbox .ovpred-impact-data .impact-data-list .view-content { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-box-align: stretch; -ms-flex-align: stretch; -webkit-align-items: stretch; -moz-align-items: stretch; align-items: stretch; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; -moz-justify-content: center; justify-content: center; }
+  .flexbox .ovpred-impact-data .impact-data-list .view-content .impact-data-item { margin-left: 5px; margin-right: 5px; -webkit-box-flex: 1; -webkit-flex: 1 1 300px; -moz-box-flex: 1; -moz-flex: 1 1 300px; -ms-flex: 1 1 300px; flex: 1 1 300px; }
+  .no-flexbox .ovpred-impact-data .impact-data-list { *zoom: 1; }
+  .no-flexbox .ovpred-impact-data .impact-data-list:after { content: ""; display: table; clear: both; }
+  .no-flexbox .ovpred-impact-data .impact-data-list .impact-data-item { width: 31.91489%; clear: right; float: left; margin-left: 0; margin-right: 2.12766%; }
+  .no-flexbox .ovpred-impact-data .impact-data-list .impact-data-item:nth-child(3n) { width: 31.91489%; clear: right; float: right; margin-right: 0; } }
+
 .pane-ovpred-researchercompliance img { display: block; margin: 0 auto 1em; }
 .pane-ovpred-researchercompliance .description { display: block; margin-bottom: 1em; }
 .pane-ovpred-researchercompliance ul { margin: 0; padding: 0; }
