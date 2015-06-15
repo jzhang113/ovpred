@@ -10,17 +10,21 @@
  */
 ?>
 
-<?php // Loops through each region, using the classes provided from the include
-      // file. See erives.inc
-?>
 <div<?php print $attributes ?>>
   <?php foreach($content as $name => $item): ?>
-    <?php if (!empty($item)): ?>
-        <div<?php print drupal_attributes($region_attributes_array[$name])?>>
-          <div class="wrapper-inner">
-            <?php print $item ?>
-          </div>
-        </div>
+
+    <?php if ($name == 'left'): ?>
+      <div class="l-three-col-wrapper"><div class="l-container">
+    <?php endif; ?>
+
+    <div<?php print drupal_attributes($region_attributes_array[$name])?>>
+      <div class="wrapper-inner">
+        <?php print $item ?>
+      </div>
+    </div>
+
+    <?php if ($name == 'right'): ?>
+      </div></div>
     <?php endif; ?>
   <?php endforeach; ?>
 </div>

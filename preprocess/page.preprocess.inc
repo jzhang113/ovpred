@@ -8,7 +8,7 @@ function ovpred_preprocess_page(&$variables) {
   // Pass the $needs_container variable to the page template
   $needs_container = true;
   // Array with full width layouts.
-  $full_width_layouts = array('magnum', 'blue_steel');
+  $full_width_layouts = array('magnum', 'blue_steel', 'orange_mocha');
 
   // Add the base page class into page template.
   $variables['classes_array'][] = "l-page";
