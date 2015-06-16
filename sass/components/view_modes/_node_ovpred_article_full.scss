@@ -1,4 +1,4 @@
-.node--ovpred-sub-article--full {
+.node--ovpred-article--full {
 
   .by-line {
     display: inline;
@@ -10,11 +10,11 @@
     display: inline;
   }
 
-  .field--name-field-ovpred-sub-article-by-line {
+  .field--name-field-ovpred-article-by-line {
     display: inline;
   }
 
-  .field--name-field-ovpred-sub-article-tags {
+  .field--name-field-ovpred-article-tags {
     @include font-size(1.5);
 
     .field__label {

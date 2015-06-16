@@ -394,11 +394,11 @@ body { font-family: "proxima-nova", sans-serif; font-size: 1.8em; color: #453D36
 .node--job--teaser { margin-bottom: 1em; padding-bottom: 1em; border-style: solid; border-width: 0; border-color: #eee; border-bottom-width: 4px; }
 .node--job--teaser .node-readmore a { padding: .3em 1em; background-color: #2476AE; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-weight: 700; text-decoration: none; font-size: 14px; font-size: 1.4rem; }
 
-.node--ovpred-sub-article--full .by-line { display: inline; padding-right: 20px; font-size: 15px; font-size: 1.5rem; }
-.node--ovpred-sub-article--full .post-date { display: inline; }
-.node--ovpred-sub-article--full .field--name-field-ovpred-sub-article-by-line { display: inline; }
-.node--ovpred-sub-article--full .field--name-field-ovpred-sub-article-tags { font-size: 15px; font-size: 1.5rem; }
-.node--ovpred-sub-article--full .field--name-field-ovpred-sub-article-tags .field__label:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; margin-right: 5px; }
+.node--ovpred-article--full .by-line { display: inline; padding-right: 20px; font-size: 15px; font-size: 1.5rem; }
+.node--ovpred-article--full .post-date { display: inline; }
+.node--ovpred-article--full .field--name-field-ovpred-article-by-line { display: inline; }
+.node--ovpred-article--full .field--name-field-ovpred-article-tags { font-size: 15px; font-size: 1.5rem; }
+.node--ovpred-article--full .field--name-field-ovpred-article-tags .field__label:before { font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; *margin-right: .3em; content: ""; margin-right: 5px; }
 
 .node--person--full .field--type-image, .node--person--full .node__content, .node--person--full .field--name-body { margin-bottom: 1em; }
 .node--person--full .field--type-image img { display: block; margin: 0 auto; }
