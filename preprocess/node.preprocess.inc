@@ -4,7 +4,7 @@
  * Implements hook_preprocess_node().
  */
 function ovpred_preprocess_node(&$variables) {
-  if($variables['type'] == 'article' || $variables['type'] == 'ovpred_sub_article') {
+  if($variables['type'] == 'article' || $variables['type'] == 'ovpred_article') {
     $variables['date'] = format_date($variables['created'], 'custom', 'F j, Y');
   }
   if($variables['type'] == 'featured_content') {
