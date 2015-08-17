@@ -77,7 +77,6 @@
  * @see template_preprocess_node()
  * @see template_process()
  */
-dpm($content);
 hide($content['field_ovpred_article_image']);
 ?>
 <article<?php print $attributes; ?>>
