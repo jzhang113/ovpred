@@ -6,7 +6,7 @@
 function ovpred_preprocess_html(&$variables) {
 
   // Include typkit assets
-  drupal_add_js('http://use.typekit.net/hfk5jun.js');
+  drupal_add_js('https://use.typekit.net/hfk5jun.js');
   drupal_add_js('try{Typekit.load();}catch(e){}', array('type' => 'inline'));
 
   // Add the term vocabulary as a body class for term pages
